@@ -17,6 +17,9 @@ REQUIRED = {
     "Spanish Vocab": ["Spanish", "English", "Gender / POS", "Example (ES)", "Example (EN)"],
     "Chinese Vocab": ["Simplified", "Traditional", "Pinyin", "English", "Example (Simplified)", "Example (Traditional)", "Example pinyin", "Example (EN)"],
 }
+# Word lists (tools/seed/frequency.py): no example sentences, and repeated words are kept on purpose.
+WORD_LISTS = {"spanish_mx_frequency.sctxt"}
+WORD_LIST_REQUIRED = ["Spanish", "English"]
 
 
 def parse(path):
@@ -62,14 +65,16 @@ def check(path, errors, warnings):
         if c > 1: errors.append(f"{name}: duplicate id {i}")
     for n in notes:
         f, where = n["fields"], f"{name}:{n['_line']} ({n['fields'].get('id')})"
-        for req in ["id"] + REQUIRED.get(n["_type"], []):
+        required = WORD_LIST_REQUIRED if name in WORD_LISTS else REQUIRED.get(n["_type"], [])
+        for req in ["id"] + required:
             if not f.get(req, "").strip(): errors.append(f"{where}: missing {req}")
         for t, target in links(f.get("links", "")):
             if t not in ALLOWED_LINKS: errors.append(f"{where}: link type '{t}' not allowed")
             if target not in ids: errors.append(f"{where}: link target {target} not found")
     head = "Spanish" if notes and notes[0]["_type"] == "Spanish Vocab" else "Simplified"
-    for w, c in Counter(n["fields"].get(head) for n in notes).items():
-        if c > 1: errors.append(f"{name}: duplicate headword {w}")
+    if name not in WORD_LISTS:
+        for w, c in Counter(n["fields"].get(head) for n in notes).items():
+            if c > 1: errors.append(f"{name}: duplicate headword {w}")
     if head == "Spanish": check_spanish(notes, name, errors, warnings)
     else: check_chinese(notes, name, errors, warnings)
     counts = Counter(n["_deck"] for n in notes)
@@ -80,6 +85,7 @@ def check_spanish(notes, name, errors, warnings):
     for n in notes:
         f, where = n["fields"], f"{name}:{n['_line']} ({n['fields'].get('id')})"
         ex = f.get("Example (ES)", "")
+        if name in WORD_LISTS and not ex: continue
         if len(re.findall(r"\{\{c1::", ex)) != 1: errors.append(f"{where}: Example (ES) needs exactly one {{{{c1::…}}}}")
     if not ES_DICT:
         warnings.append("Spanish spell check skipped (pass --es-dict)")

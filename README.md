@@ -51,6 +51,7 @@ Everything stays on the phone. There's no account, no cloud sync, and no analyti
 - **Reviews first:** a deck shows no new cards while it has reviews due today, or learning cards due now. New cards appear once those are done, in the same session. A new card's own short learning steps don't hold back the next new card.
 - **Study all due cards** from the home screen goes through every deck in one session. Each top-level deck keeps its own daily limits.
 - The study day rolls over at 4 am.
+- **Reset progress** (a deck's ⋮ menu, or the folder screen's ⋮ menu for every deck in the folder) starts over from scratch: every card becomes new again, in its original order. Notes, links and recordings stay; suspended cards stay suspended. Tick "Also delete review history" to clear those cards' stats too.
 
 ### Custom study (from a deck's ⋮ menu)
 - **Cram** a whole deck or one tag. Practice only; schedules don't change.
@@ -119,6 +120,7 @@ Everything stays on the phone. There's no account, no cloud sync, and no analyti
 
 ### Starter decks (required)
 - **Spanish folder** (Mexican Spanish): Supervivencia / Viaje, Tiro con arco, Gimnasio / Pesas, Gatos. 200 notes and 69 links.
+  - **Frecuencia** ("frequency"): two word lists from frequencylists.blogspot.com, each its own sub-deck, in list order: `1 · 1000 palabras más usadas` (the 1000 most used words, 985 once repeats are merged) and `2 · 2000 sustantivos más usados` (the 2000 most used nouns, 1784 once repeats are merged). A word repeated within a list is one note at its first rank, with the other meanings added; a word on both lists stays on both. Words used only in Spain are replaced with the Mexican word (patata → papa, nevera → refrigerador), with the list's word kept in Notes, and English meanings are written for how the word is used in Mexico. Every word has a Mexican Spanish example sentence (so a fill-in-the-sentence card too), and 1099 links connect synonyms, antonyms, gender pairs, word families and collocations. The sub-decks share Frecuencia's daily limits, so studying Frecuencia goes through all the words before the first noun. Built by `tools/seed/frequency.py` from the two pages plus `tools/seed/frequency_extras.json` (sentences and links).
 - **Chinese folder:** 旅行 Travel survival, 射箭 Archery, 健身 Gym & weightlifting, 猫 Cats. 203 notes and 77 links.
 - Each topic is its own top-level deck, filed into the **Spanish** or **Chinese** folder. Installs from before folders, which kept the topics under a `Spanish (Mexico)` or `中文 Chinese` parent deck, are moved to this layout on launch with progress kept. A starter deck left without a folder is put back in its folder at the next launch.
 - Installed on first launch. They can't be deleted, and they're reinstalled if they go missing (e.g. after restoring an older backup).
@@ -169,8 +171,8 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 | `core/scheduler` | Pure-Kotlin SM-2 scheduler, preset simulator, interval formatting. No Android dependencies. |
 | `core/data` | Room database, repositories (study queue, notes, links, media, stats), template renderer (cloze, `{{hanzi:…}}`, `{{pinyin:…}}`), importers (CSV, `.sctxt`, `.apkg`), backup/restore, starter-deck installer |
 | `app` | Jetpack Compose UI, audio (ExoPlayer, recorder, TTS), backup and reminder workers (WorkManager), widget, Quick Settings tile, quick-add activity |
-| `app/src/main/assets/seed` | The bundled starter decks (`spanish_mx.sctxt`, `chinese.sctxt`) |
-| `tools/seed` | `validate.py`, which checks the starter decks, and the review CSVs |
+| `app/src/main/assets/seed` | The bundled starter decks (`spanish_mx.sctxt`, `spanish_mx_frequency.sctxt`, `chinese.sctxt`) |
+| `tools/seed` | `validate.py`, which checks the starter decks, `frequency.py`, which builds the frequency-list deck, and the review CSVs |
 
 ### Checking the starter decks
 
