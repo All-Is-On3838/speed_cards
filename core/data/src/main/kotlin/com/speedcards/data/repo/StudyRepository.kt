@@ -215,6 +215,19 @@ class StudyRepository @Inject constructor(
         card.copy(state = CardState.NEW, due = 0, intervalDays = 0, ease = 0.0, stepIndex = 0, leech = false, buriedUntil = 0)
     )
 
+    /**
+     * Starts [deckId] over from scratch: every card in it and its sub-decks (every deck in the group for
+     * [ALL_DECKS] or a [folderScope]) becomes new again, in its original order. With [clearHistory] the
+     * cards' review history is deleted too, so stats and today's new-card count start fresh as well.
+     * Returns how many cards were reset.
+     */
+    suspend fun resetDeck(deckId: Long, clearHistory: Boolean): Int = db.withTransaction {
+        val ids = studyableIds(db.deckDao().getAll(), deckId)
+        if (ids.isEmpty()) return@withTransaction 0
+        if (clearHistory) db.reviewLogDao().deleteForDecks(ids)
+        db.cardDao().resetDecks(ids)
+    }
+
     suspend fun clearLeech(card: Card) = db.cardDao().update(card.copy(leech = false))
 
     /** Every unsuspended card of these notes, ready to show (used for cluster practice). */

@@ -278,6 +278,19 @@ interface CardDao {
     )
     suspend fun counts(deckIds: List<Long>, now: Long, endOfDay: Long): List<DeckCardCounts>
 
+    /**
+     * Puts every card in these decks back to new: no interval, ease, reps, lapses, leech flag or burying.
+     * Suspended cards stay suspended. Returns how many cards were reset.
+     */
+    @Query(
+        """
+        UPDATE card SET state = 0, due = 0, intervalDays = 0, ease = 0, reps = 0, lapses = 0,
+          stepIndex = 0, leech = 0, buriedUntil = 0
+        WHERE deckId IN (:deckIds)
+        """
+    )
+    suspend fun resetDecks(deckIds: List<Long>): Int
+
     /** Learning/relearning cards that are due right now (not later today). */
     @Query(
         """
@@ -294,6 +307,10 @@ interface ReviewLogDao {
 
     @Query("DELETE FROM review_log WHERE id = :id")
     suspend fun delete(id: Long)
+
+    /** Deletes the review history of every card in these decks. */
+    @Query("DELETE FROM review_log WHERE cardId IN (SELECT id FROM card WHERE deckId IN (:deckIds))")
+    suspend fun deleteForDecks(deckIds: List<Long>): Int
 
     /** New cards introduced since [since] in the given decks. */
     @Query(

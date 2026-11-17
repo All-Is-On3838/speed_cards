@@ -54,6 +54,10 @@ class StarterDecksTest {
     @After fun tearDown() = db.close()
 
     private val spanishTopics = setOf("Supervivencia / Viaje", "Tiro con arco", "Gimnasio / Pesas", "Gatos")
+    private val frequency = "Frecuencia"
+    /** Notes in spanish_mx.sctxt (200) plus the frequency lists (985 words + 1784 nouns once repeats are merged). */
+    private val frequencyNotes = 985 + 1784
+    private val spanishNotes = 200 + frequencyNotes
     private val chineseTopics = setOf("旅行 Travel survival", "射箭 Archery", "健身 Gym & weightlifting", "猫 Cats")
 
     private suspend fun folderId(name: String): Long = db.folderDao().findByName(name)!!.id
@@ -82,11 +86,11 @@ class StarterDecksTest {
 
     @Test fun installsTopicsAsTopLevelBuiltInDecksInLanguageFolders() = runTest {
         val added = starter.ensureInstalled()
-        assertEquals(403, added)
+        assertEquals(403 + frequencyNotes, added)
         assertEquals(listOf("Chinese", "Spanish"), db.folderDao().getAll().map { it.name })
-        assertEquals(spanishTopics, decksIn("Spanish"))
+        assertEquals(spanishTopics + frequency, decksIn("Spanish"))
         assertEquals(chineseTopics, decksIn("Chinese"))
-        assertEquals(200, countNotes("Spanish"))
+        assertEquals(spanishNotes, countNotes("Spanish"))
         assertEquals(203, countNotes("Chinese"))
         val decks = DeckRepository(db).all()
         val topics = decks.filter { it.name in spanishTopics + chineseTopics }
@@ -102,9 +106,9 @@ class StarterDecksTest {
         assertEquals(listOf(0, 1, 2), db.cardDao().forNote(barra.id).map { it.ord })
         val zh = db.noteDao().findByGuid("seed-zh-cats-001")!!
         assertEquals(listOf(0, 1, 2), db.cardDao().forNote(zh.id).map { it.ord })
-        // Links from the files were created (69 Spanish + 77 Chinese targets).
-        val allIds = db.noteDao().searchOnce("", 1000).map { it.id }
-        assertEquals(146, db.linkDao().touching(allIds).size)
+        // Links from the files were created (69 Spanish + 1099 frequency-list + 77 Chinese targets).
+        val allIds = db.noteDao().searchOnce("", 10_000).map { it.id }
+        assertEquals(69 + 1099 + 77, db.linkDao().touching(allIds).size)
     }
 
     @Test fun unfiledStarterDeckIsFiledAgainWithoutDuplicateFolders() = runTest {
@@ -128,8 +132,8 @@ class StarterDecksTest {
 
         assertEquals(0, starter.ensureInstalled())
         assertEquals(null, db.deckDao().get(root))
-        assertEquals(spanishTopics, decksIn("Spanish"))
-        assertEquals(200, countNotes("Spanish"))
+        assertEquals(spanishTopics + frequency, decksIn("Spanish"))
+        assertEquals(spanishNotes, countNotes("Spanish"))
         assertEquals(gatos.id, db.deckDao().get(mine)!!.parentId)
         // Same deck rows as before, so cards and review history are untouched.
         assertEquals(before, DeckRepository(db).all().filter { it.name in spanishTopics }.map { it.id }.toSet())
@@ -151,7 +155,7 @@ class StarterDecksTest {
         // Simulate restoring an old backup without the Spanish decks.
         DeckRepository(db).all().filter { it.name in spanishTopics }.forEach { db.deckDao().delete(it) }
         assertEquals(200, starter.ensureInstalled())
-        assertEquals(200, countNotes("Spanish"))
+        assertEquals(spanishNotes, countNotes("Spanish"))
     }
 
     @Test fun newerSeedVersionAddsOnlyNewNotesAndKeepsEdits() = runTest {
@@ -164,6 +168,37 @@ class StarterDecksTest {
         starter.source = SeedSource { listOf(SeedFile("test.sctxt", v2)) }
         assertEquals(1, starter.ensureInstalled())
         assertEquals("one (edited)", notes.get(t1.id)!!.note.fields[1])
+    }
+
+    @Test fun frequencyListsAreSubDecksStudiedInListOrder() = runTest {
+        starter.ensureInstalled()
+        val decks = DeckRepository(db).all()
+        val parent = decks.single { it.name == frequency && it.parentId == null }
+        val subs = decks.filter { it.parentId == parent.id }
+        assertEquals(listOf("1 · 1000 palabras más usadas", "2 · 2000 sustantivos más usados"), subs.map { it.name })
+        assertTrue((subs + parent).all { it.builtIn && it.languageFront == "es-MX" })
+        assertEquals(985, db.noteDao().countInDecks(listOf(subs[0].id)))
+        assertEquals(1784, db.noteDao().countInDecks(listOf(subs[1].id)))
+        // A word repeated within a list (ser is #8 and #188) is one note at its first rank, with both meanings.
+        val ser = db.noteDao().findByGuid("seed-es-top1000-0008")!!
+        assertEquals("ser", ser.fields[0])
+        assertTrue(ser.fields[1].contains("being"))
+        assertEquals(null, db.noteDao().findByGuid("seed-es-top1000-0188"))
+        // A word on both lists stays on both (tiempo: word #108, noun #1).
+        assertEquals("tiempo", db.noteDao().findByGuid("seed-es-top1000-0108")!!.fields[0])
+        assertEquals("tiempo", db.noteDao().findByGuid("seed-es-nouns2000-0001")!!.fields[0])
+        // Note ids follow list rank, and every noun comes after the last of the 1000 words.
+        val ranks = (1..1000).mapNotNull { db.noteDao().findByGuid("seed-es-top1000-%04d".format(it))?.id }
+        assertEquals(985, ranks.size)
+        assertEquals(ranks.sorted(), ranks)
+        assertTrue(db.noteDao().findByGuid("seed-es-nouns2000-0001")!!.id > ranks.last())
+        // Every word has an example sentence, so recognition, recall and fill-in-the-sentence cards.
+        val la = db.noteDao().findByGuid("seed-es-top1000-0001")!!
+        assertEquals(listOf(0, 1, 2), db.cardDao().forNote(la.id).map { it.ord })
+        // Studying the parent deck starts at #1.
+        val study = com.speedcards.data.repo.StudyRepository(db, com.speedcards.data.util.DayClock())
+        val next = study.next(parent.id) as com.speedcards.data.repo.QueueResult.Next
+        assertEquals(la.id, next.studyCard.card.noteId)
     }
 
     @Test fun chineseCardsRenderBothScriptsTonesAndListening() = runTest {

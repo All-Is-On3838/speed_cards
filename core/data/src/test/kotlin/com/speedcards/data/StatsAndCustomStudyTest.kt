@@ -63,6 +63,31 @@ class StatsAndCustomStudyTest {
         study.answer(c, rating, durationMs = 10_000)
     }
 
+    @Test fun resetDeckStartsOverFromScratchInOriginalOrder() = runTest {
+        val sub = db.deckDao().insert(com.speedcards.data.db.Deck(name = "Sub", parentId = deckId, presetId = db.deckDao().get(deckId)!!.presetId))
+        val first = add("uno"); add("dos")
+        val inSub = notes.addNote(notes.noteTypeByName(Defaults.NOTE_TYPE_BASIC)!!, sub, listOf("tres", "x"))
+        repeat(3) { answerNext(Rating.EASY) }
+        val suspended = db.cardDao().forNote(inSub).single()
+        db.cardDao().update(db.cardDao().get(suspended.id)!!.copy(suspended = true, leech = true, lapses = 8))
+        assertTrue(db.cardDao().forNote(first).single().state != CardState.NEW)
+
+        // Keeping history: cards are new, history (and today's new-card count) stays.
+        assertEquals(3, study.resetDeck(deckId, clearHistory = false))
+        val cards = listOf(first, inSub).map { db.cardDao().forNote(it).single() }
+        assertTrue(cards.all { it.state == CardState.NEW && it.reps == 0 && it.lapses == 0 && it.intervalDays == 0 && !it.leech })
+        assertTrue(cards.last().suspended) // suspension is the user's choice; it stays
+        assertEquals(3, stats.stats(null).reviewsToday)
+        // The first card added comes up first again.
+        assertEquals(first, (study.next(deckId) as QueueResult.Next).studyCard.card.noteId)
+
+        // Clearing history as well.
+        answerNext(Rating.EASY)
+        assertEquals(3, study.resetDeck(deckId, clearHistory = true))
+        assertEquals(0, stats.stats(null).reviewsToday)
+        assertEquals(first, (study.next(deckId) as QueueResult.Next).studyCard.card.noteId)
+    }
+
     @Test fun heatmapStreakTimeAndForecast() = runTest {
         repeat(5) { add("w$it") }
         // Day 1: two cards; day 2: one card; skip day 3; day 4 (today): one card.

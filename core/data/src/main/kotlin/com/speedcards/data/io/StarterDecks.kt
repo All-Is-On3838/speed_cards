@@ -21,7 +21,7 @@ fun interface SeedSource {
 }
 
 /**
- * Installs the required starter decks (Spanish, Chinese). Each topic (travel, archery, gym, cats) is a top-level deck.
+ * Installs the required starter decks (Spanish, the Spanish frequency lists, Chinese). Each topic (travel, archery, gym, cats) is a top-level deck.
  * - Missing decks (first launch, or after restoring a backup without them) are installed in full.
  * - A newer bundled version adds notes that aren't there yet; notes you already have, including your edits, are left alone.
  * - Notes whose front is Chinese characters are added with "read front aloud" off.
@@ -123,6 +123,7 @@ class StarterDecks @Inject constructor(
         /** Folder for each bundled seed file; a file not listed gets a folder named after its deck. */
         val FOLDERS = mapOf(
             "spanish_mx.sctxt" to "Spanish",
+            "spanish_mx_frequency.sctxt" to "Spanish",
             "chinese.sctxt" to "Chinese",
         )
 
