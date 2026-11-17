@@ -33,6 +33,10 @@ import dagger.hilt.components.SingletonComponent
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+import androidx.work.BackoffPolicy
+import androidx.work.Constraints
 import java.io.File
 import java.time.LocalDate
 import java.time.LocalDateTime
@@ -45,7 +49,8 @@ data class BackupOutcome(val success: Boolean, val message: String)
 
 /**
  * Snapshot to the phone, then upload pending snapshots and new media to the chosen folder.
- * Started only by you (Back up now / the reminder's button); there are no automatic retries.
+ * Started by you (Back up now / the reminder's button); there are no automatic retries.
+ * The daily automatic backup is [AutoBackupWorker].
  */
 @HiltWorker
 class BackupWorker @AssistedInject constructor(
@@ -88,6 +93,9 @@ class BackupWorker @AssistedInject constructor(
          * Writes a snapshot into the chosen folder and checks it arrived intact (size matches),
          * then copies any new media and prunes old backups. Success means the snapshot is in the folder.
          */
+        /** One backup at a time, so a manual and an automatic run never write the same file together. */
+        private val running = Mutex()
+
         suspend fun runBackup(
             context: Context,
             backups: BackupManager,
@@ -95,6 +103,15 @@ class BackupWorker @AssistedInject constructor(
             nas: NasFolder,
             prefs: UserPrefs,
             onProgress: suspend (String) -> Unit = {},
+        ): BackupOutcome = running.withLock { runBackupLocked(context, backups, media, nas, prefs, onProgress) }
+
+        private suspend fun runBackupLocked(
+            context: Context,
+            backups: BackupManager,
+            media: MediaRepository,
+            nas: NasFolder,
+            prefs: UserPrefs,
+            onProgress: suspend (String) -> Unit,
         ): BackupOutcome {
             val folder = prefs.backupStateNow().folderUri?.let(Uri::parse)
                 ?: return fail(prefs, "Choose a backup folder first (Backup & restore › Choose folder).")
@@ -136,6 +153,76 @@ class BackupWorker @AssistedInject constructor(
                 .build()
             // KEEP: tapping twice never starts two backups.
             WorkManager.getInstance(context).enqueueUniqueWork(UNIQUE_NAME, ExistingWorkPolicy.KEEP, request)
+        }
+    }
+}
+
+/** Decides whether the scheduled automatic backup has anything to do. */
+object AutoBackupLogic {
+    /** Attempts per day before giving up and notifying (the NAS may be asleep or off Wi-Fi). */
+    const val MAX_ATTEMPTS = 4
+
+    fun shouldRun(state: BackupState, lastChangeAt: Long): Boolean =
+        state.autoEnabled && state.folderUri != null && lastChangeAt > state.lastBackupAt
+}
+
+/**
+ * The daily automatic backup, at the time chosen in Backup & restore. Runs the same backup as
+ * Back up now, but only when something changed since the last backup. Quiet when it works; if the
+ * folder can't be reached it retries (30 min, then longer) and notifies only once it gives up.
+ */
+@HiltWorker
+class AutoBackupWorker @AssistedInject constructor(
+    @Assisted context: Context,
+    @Assisted params: WorkerParameters,
+    private val backups: BackupManager,
+    private val media: MediaRepository,
+    private val nas: NasFolder,
+    private val prefs: UserPrefs,
+) : CoroutineWorker(context, params) {
+
+    override suspend fun getForegroundInfo(): ForegroundInfo = foreground("Preparing…")
+
+    private fun foreground(text: String) = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+        ForegroundInfo(BackupNotifications.ID_PROGRESS, BackupNotifications.progress(applicationContext, text), ServiceInfo.FOREGROUND_SERVICE_TYPE_DATA_SYNC)
+    } else ForegroundInfo(BackupNotifications.ID_PROGRESS, BackupNotifications.progress(applicationContext, text))
+
+    override suspend fun doWork(): Result {
+        if (!AutoBackupLogic.shouldRun(prefs.backupStateNow(), backups.lastChangeAt())) return Result.success()
+        val outcome = BackupWorker.runBackup(
+            applicationContext, backups, media, nas, prefs,
+            // Android may not allow a foreground notification from the background; the backup runs either way.
+            onProgress = { runCatching { setForeground(foreground(it)) } },
+        )
+        BackupNotifications.cancel(applicationContext, BackupNotifications.ID_PROGRESS)
+        if (outcome.success) {
+            // Today's reminder isn't needed any more.
+            BackupNotifications.cancel(applicationContext, BackupNotifications.ID_REMINDER)
+            return Result.success()
+        }
+        if (runAttemptCount + 1 < AutoBackupLogic.MAX_ATTEMPTS) return Result.retry()
+        BackupNotifications.showResult(applicationContext, title = "Automatic backup failed", text = outcome.message, retry = true)
+        return Result.success()
+    }
+
+    companion object {
+        const val UNIQUE_DAILY = "auto-backup"
+
+        /**
+         * Schedules the daily backup at [minuteOfDay], or cancels it. [timeChanged] re-plans it from now;
+         * otherwise (e.g. at app start) an already scheduled run is left alone, so a backup in progress
+         * is never cancelled just because the app was opened.
+         */
+        fun schedule(context: Context, enabled: Boolean, minuteOfDay: Int, timeChanged: Boolean) {
+            val wm = WorkManager.getInstance(context)
+            if (!enabled) { wm.cancelUniqueWork(UNIQUE_DAILY); return }
+            val request = PeriodicWorkRequestBuilder<AutoBackupWorker>(24, TimeUnit.HOURS)
+                .setInitialDelay(ReminderLogic.delayUntil(minuteOfDay, LocalDateTime.now()), TimeUnit.MILLISECONDS)
+                .setBackoffCriteria(BackoffPolicy.EXPONENTIAL, 30, TimeUnit.MINUTES)
+                .setConstraints(Constraints.Builder().setRequiresBatteryNotLow(true).build())
+                .build()
+            val policy = if (timeChanged) ExistingPeriodicWorkPolicy.CANCEL_AND_REENQUEUE else ExistingPeriodicWorkPolicy.KEEP
+            wm.enqueueUniquePeriodicWork(UNIQUE_DAILY, policy, request)
         }
     }
 }
