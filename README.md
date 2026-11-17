@@ -103,6 +103,7 @@ Everything stays on the phone. There's no account, no cloud sync, and no analyti
 - A backup counts as successful only when the file arrives intact: it's written as `.part`, size-checked, then renamed.
 - New media files are copied into `media/`.
 - **Retention:** 7 daily, 4 weekly and 6 monthly backups.
+- **Automatic backup** (off by default): turn it on in Backup & restore and choose a time (03:00 to start). It runs once a day at about that time, only when something changed since the last backup, and stays quiet when it works. If the folder can't be reached it tries again (after 30 minutes, then longer) and notifies you only if it still fails. Android may run it a little late to save battery.
 - **Daily backup reminder** at a time you choose. It's skipped if you've already backed up today or changed nothing, and has Back up now, Snooze 1h and Skip today buttons.
 - **Status:** "Last backup" shows on the home screen and in Backup & restore, amber after 3 days and red after 7.
 - **Export full backup:** one file that includes all media.

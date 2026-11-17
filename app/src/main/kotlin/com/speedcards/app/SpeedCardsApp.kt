@@ -3,6 +3,7 @@ package com.speedcards.app
 import android.app.Application
 import androidx.hilt.work.HiltWorkerFactory
 import androidx.work.Configuration
+import com.speedcards.app.backup.AutoBackupWorker
 import com.speedcards.app.backup.BackupNotifications
 import com.speedcards.app.backup.ReminderWorker
 import com.speedcards.app.prefs.UserPrefs
@@ -39,6 +40,7 @@ class SpeedCardsApp : Application(), Configuration.Provider {
         CoroutineScope(SupervisorJob() + Dispatchers.Default).launch {
             val state = prefs.backupStateNow()
             ReminderWorker.schedule(this@SpeedCardsApp, state.reminderEnabled, state.reminderMinuteOfDay)
+            AutoBackupWorker.schedule(this@SpeedCardsApp, state.autoEnabled, state.autoMinuteOfDay, timeChanged = false)
             val study = prefs.studyReminder.first()
             StudyReminderWorker.schedule(this@SpeedCardsApp, study.enabled, study.minuteOfDay)
         }

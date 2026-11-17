@@ -39,6 +39,8 @@ class UserPrefs @Inject constructor(@ApplicationContext private val context: Con
         val reminderOn = booleanPreferencesKey("backup_reminder_on")
         val reminderMinute = intPreferencesKey("backup_reminder_minute")
         val skipDay = longPreferencesKey("backup_reminder_skip_day")
+        val autoBackupOn = booleanPreferencesKey("backup_auto_on")
+        val autoBackupMinute = intPreferencesKey("backup_auto_minute")
         val traditionalFirst = booleanPreferencesKey("display_traditional_first")
         val toneColors = booleanPreferencesKey("display_tone_colors")
         val studyReminderOn = booleanPreferencesKey("study_reminder_on")
@@ -83,6 +85,8 @@ class UserPrefs @Inject constructor(@ApplicationContext private val context: Con
             reminderEnabled = it[Keys.reminderOn] ?: true,
             reminderMinuteOfDay = it[Keys.reminderMinute] ?: (21 * 60),
             skippedEpochDay = it[Keys.skipDay] ?: -1L,
+            autoEnabled = it[Keys.autoBackupOn] ?: false,
+            autoMinuteOfDay = it[Keys.autoBackupMinute] ?: (3 * 60),
         )
     }
 
@@ -103,6 +107,11 @@ class UserPrefs @Inject constructor(@ApplicationContext private val context: Con
     suspend fun setReminder(enabled: Boolean, minuteOfDay: Int) = context.dataStore.edit {
         it[Keys.reminderOn] = enabled
         it[Keys.reminderMinute] = minuteOfDay
+    }
+
+    suspend fun setAutoBackup(enabled: Boolean, minuteOfDay: Int) = context.dataStore.edit {
+        it[Keys.autoBackupOn] = enabled
+        it[Keys.autoBackupMinute] = minuteOfDay
     }
 
     suspend fun skipReminderOn(epochDay: Long) = context.dataStore.edit { it[Keys.skipDay] = epochDay }
@@ -166,6 +175,9 @@ data class BackupState(
     val reminderEnabled: Boolean = true,
     val reminderMinuteOfDay: Int = 21 * 60,
     val skippedEpochDay: Long = -1L,
+    /** Back up by itself once a day at [autoMinuteOfDay] (minutes after midnight). */
+    val autoEnabled: Boolean = false,
+    val autoMinuteOfDay: Int = 3 * 60,
 )
 
 data class StudyReminderSettings(val enabled: Boolean = true, val minuteOfDay: Int = 19 * 60)

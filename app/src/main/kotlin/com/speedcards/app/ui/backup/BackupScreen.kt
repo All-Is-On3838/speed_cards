@@ -58,6 +58,7 @@ import androidx.lifecycle.viewModelScope
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import com.speedcards.app.BuildConfig
+import com.speedcards.app.backup.AutoBackupWorker
 import com.speedcards.app.backup.BackupWorker
 import com.speedcards.app.backup.NasFolder
 import com.speedcards.app.backup.ReminderWorker
@@ -141,6 +142,11 @@ class BackupViewModel @Inject constructor(
         ReminderWorker.schedule(context, enabled, minuteOfDay)
     }
 
+    fun setAutoBackup(enabled: Boolean, minuteOfDay: Int) = viewModelScope.launch {
+        prefs.setAutoBackup(enabled, minuteOfDay)
+        AutoBackupWorker.schedule(context, enabled, minuteOfDay, timeChanged = true)
+    }
+
     /** Full backup with all media, saved wherever you choose (e.g. Drive or Downloads) for keeping offline. */
     fun exportFull(dest: Uri) = viewModelScope.launch {
         ui.update { it.copy(exporting = true) }
@@ -206,6 +212,11 @@ fun backupAgeColor(lastBackupAt: Long, now: Long = System.currentTimeMillis()): 
 fun relative(at: Long): String =
     if (at == 0L) "never" else DateUtils.getRelativeTimeSpanString(at, System.currentTimeMillis(), DateUtils.MINUTE_IN_MILLIS).toString()
 
+/** Which time the time picker is setting. */
+private enum class TimeTarget { AUTO, REMINDER }
+
+private fun hhmm(minuteOfDay: Int) = "%02d:%02d".format(minuteOfDay / 60, minuteOfDay % 60)
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun BackupScreen(onBack: () -> Unit, vm: BackupViewModel = hiltViewModel()) {
@@ -213,7 +224,7 @@ fun BackupScreen(onBack: () -> Unit, vm: BackupViewModel = hiltViewModel()) {
     val running by vm.running.collectAsStateWithLifecycle()
     val ui by vm.ui.collectAsStateWithLifecycle()
     val context = LocalContext.current
-    var pickTime by remember { mutableStateOf(false) }
+    var pickTime by remember { mutableStateOf<TimeTarget?>(null) }
 
     val notifPermission = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) {}
     fun askNotifications() {
@@ -263,6 +274,32 @@ fun BackupScreen(onBack: () -> Unit, vm: BackupViewModel = hiltViewModel()) {
             )
             OutlinedButton(onClick = { folderPicker.launch(null) }) { Text(if (state.folderUri == null) "Choose folder" else "Change folder") }
 
+            // Automatic backup
+            HorizontalDivider()
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Column(Modifier.weight(1f)) {
+                    Text("Automatic backup", style = MaterialTheme.typography.titleMedium)
+                    Text(
+                        if (state.folderUri == null) "Choose a folder first."
+                        else "Backs up once a day when something changed. You're only notified if it fails.",
+                        style = MaterialTheme.typography.bodySmall,
+                    )
+                }
+                Switch(
+                    checked = state.autoEnabled,
+                    onCheckedChange = { on -> if (on) askNotifications(); vm.setAutoBackup(on, state.autoMinuteOfDay) },
+                    enabled = state.folderUri != null || state.autoEnabled,
+                )
+            }
+            if (state.autoEnabled) {
+                TextButton(onClick = { pickTime = TimeTarget.AUTO }) { Text("Back up at ${hhmm(state.autoMinuteOfDay)}") }
+                Text(
+                    "Android may run it a little later to save battery, and waits if the battery is low.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.outline,
+                )
+            }
+
             // Reminder
             HorizontalDivider()
             Row(verticalAlignment = Alignment.CenterVertically) {
@@ -273,9 +310,7 @@ fun BackupScreen(onBack: () -> Unit, vm: BackupViewModel = hiltViewModel()) {
                 Switch(state.reminderEnabled, { on -> if (on) askNotifications(); vm.setReminder(on, state.reminderMinuteOfDay) })
             }
             if (state.reminderEnabled) {
-                TextButton(onClick = { pickTime = true }) {
-                    Text("Remind me at %02d:%02d".format(state.reminderMinuteOfDay / 60, state.reminderMinuteOfDay % 60))
-                }
+                TextButton(onClick = { pickTime = TimeTarget.REMINDER }) { Text("Remind me at ${hhmm(state.reminderMinuteOfDay)}") }
             }
 
             // Export / restore
@@ -309,14 +344,21 @@ fun BackupScreen(onBack: () -> Unit, vm: BackupViewModel = hiltViewModel()) {
         }
     }
 
-    if (pickTime) {
-        val t = rememberTimePickerState(state.reminderMinuteOfDay / 60, state.reminderMinuteOfDay % 60)
+    pickTime?.let { target ->
+        val initial = if (target == TimeTarget.AUTO) state.autoMinuteOfDay else state.reminderMinuteOfDay
+        val t = rememberTimePickerState(initial / 60, initial % 60)
         AlertDialog(
-            onDismissRequest = { pickTime = false },
-            title = { Text("Reminder time") },
+            onDismissRequest = { pickTime = null },
+            title = { Text(if (target == TimeTarget.AUTO) "Automatic backup time" else "Reminder time") },
             text = { TimePicker(t) },
-            confirmButton = { TextButton(onClick = { vm.setReminder(true, t.hour * 60 + t.minute); pickTime = false }) { Text("OK") } },
-            dismissButton = { TextButton(onClick = { pickTime = false }) { Text("Cancel") } },
+            confirmButton = {
+                TextButton(onClick = {
+                    val minute = t.hour * 60 + t.minute
+                    if (target == TimeTarget.AUTO) vm.setAutoBackup(true, minute) else vm.setReminder(true, minute)
+                    pickTime = null
+                }) { Text("OK") }
+            },
+            dismissButton = { TextButton(onClick = { pickTime = null }) { Text("Cancel") } },
         )
     }
     ui.confirmRestore?.let { source ->
