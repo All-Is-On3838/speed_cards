@@ -1,0 +1,1638 @@
+# Speed Cards starter deck: Spanish (Mexico). seed-version: 1
+
+# ===== Topic 1: Travel survival =====
+@deck Supervivencia / Viaje
+@type Spanish Vocab
+@tags travel
+@languages es-MX en-US
+
+id: seed-es-travel-001
+Spanish: el baño
+English: bathroom, restroom
+Gender / POS: m. noun
+Example (ES): Disculpe, ¿dónde está el {{c1::baño}}?
+Example (EN): Excuse me, where is the bathroom?
+Notes: Also "el sanitario". In Spain often "el servicio" or "el aseo". Doors may say "Damas / Caballeros".
+
+id: seed-es-travel-002
+Spanish: hola
+English: hello, hi
+Gender / POS: interjection
+Example (ES): {{c1::Hola}}, ¿cómo estás?
+Example (EN): Hi, how are you?
+Notes: The h is silent.
+
+id: seed-es-travel-003
+Spanish: buenos días
+English: good morning
+Gender / POS: phrase
+Example (ES): {{c1::Buenos días}}, señor. ¿Cómo está?
+Example (EN): Good morning, sir. How are you?
+Notes: Used until about noon, then "buenas tardes". "Buen día" is also heard in Mexico.
+
+id: seed-es-travel-004
+Spanish: buenas noches
+English: good evening, good night
+Gender / POS: phrase
+Example (ES): {{c1::Buenas noches}}, ¿tienen una mesa para dos?
+Example (EN): Good evening, do you have a table for two?
+Notes: Used both as a greeting after dark and when saying goodbye.
+
+id: seed-es-travel-005
+Spanish: por favor
+English: please
+Gender / POS: phrase
+Example (ES): Un café, {{c1::por favor}}.
+Example (EN): A coffee, please.
+
+id: seed-es-travel-006
+Spanish: gracias
+English: thank you, thanks
+Gender / POS: interjection
+Example (ES): Muchas {{c1::gracias}} por su ayuda.
+Example (EN): Thank you very much for your help.
+links: collocation [[seed-es-travel-007]]
+
+id: seed-es-travel-007
+Spanish: de nada
+English: you're welcome
+Gender / POS: phrase
+Example (ES): —Gracias. —{{c1::De nada}}.
+Example (EN): "Thanks." "You're welcome."
+Notes: Also "por nada". Very common in Mexico: "a sus órdenes" or "para servirle".
+
+id: seed-es-travel-008
+Spanish: disculpe
+English: excuse me, sorry (formal)
+Gender / POS: phrase
+Example (ES): {{c1::Disculpe}}, ¿habla inglés?
+Example (EN): Excuse me, do you speak English?
+Notes: Formal (usted). Informal: "disculpa". "Perdón" is also common.
+
+id: seed-es-travel-009
+Spanish: con permiso
+English: excuse me (to get past or to leave)
+Gender / POS: phrase
+Example (ES): {{c1::Con permiso}}, aquí me bajo.
+Example (EN): Excuse me, I'm getting off here.
+Notes: Said when squeezing past people or leaving a table. Typical Mexican reply: "Propio" or "Adelante".
+
+id: seed-es-travel-010
+Spanish: mucho gusto
+English: nice to meet you
+Gender / POS: phrase
+Example (ES): {{c1::Mucho gusto}}, me llamo Ana.
+Example (EN): Nice to meet you, my name is Ana.
+Notes: Reply: "Igualmente" or "El gusto es mío".
+
+id: seed-es-travel-011
+Spanish: ¿Cuánto cuesta?
+English: How much does it cost?
+Gender / POS: phrase
+Example (ES): Disculpe, ¿{{c1::cuánto cuesta}} esta playera?
+Example (EN): Excuse me, how much is this T-shirt?
+Notes: Plural: "¿Cuánto cuestan?". "¿Cuánto es?" for the total. "La playera" = T-shirt in Mexico (Spain: "la camiseta").
+
+id: seed-es-travel-012
+Spanish: la cuenta
+English: check, bill
+Gender / POS: f. noun
+Example (ES): ¿Nos trae la {{c1::cuenta}}, por favor?
+Example (EN): Could you bring us the check, please?
+Notes: Waiters usually won't bring it until you ask.
+links: collocation [[seed-es-travel-013]]
+
+id: seed-es-travel-013
+Spanish: la propina
+English: tip, gratuity
+Gender / POS: f. noun
+Example (ES): En México se deja de 10 a 15 % de {{c1::propina}}.
+Example (EN): In Mexico you leave a 10 to 15% tip.
+Notes: Usually not included in the bill. "¿Incluye el servicio?" = Is service included?
+
+id: seed-es-travel-014
+Spanish: el efectivo
+English: cash
+Gender / POS: m. noun
+Example (ES): ¿Puedo pagar en {{c1::efectivo}}?
+Example (EN): Can I pay in cash?
+Notes: Many small shops and street stalls only take cash.
+links: collocation [[seed-es-travel-016]]
+
+id: seed-es-travel-015
+Spanish: la tarjeta
+English: card (credit/debit)
+Gender / POS: f. noun
+Example (ES): ¿Aceptan {{c1::tarjeta}}?
+Example (EN): Do you take cards?
+Notes: "Tarjeta de crédito / de débito".
+links: collocation [[seed-es-travel-016]]
+
+id: seed-es-travel-016
+Spanish: pagar
+English: to pay
+Gender / POS: verb
+Example (ES): ¿Dónde {{c1::pago}}?
+Example (EN): Where do I pay?
+Notes: Preterite: yo pagué (spelling change g → gu).
+
+id: seed-es-travel-017
+Spanish: el cambio
+English: change (money), exchange
+Gender / POS: m. noun
+Example (ES): Quédese con el {{c1::cambio}}.
+Example (EN): Keep the change.
+Notes: "La casa de cambio" = currency exchange office. Mexican slang for small change: "la feria".
+
+id: seed-es-travel-018
+Spanish: cien
+English: one hundred
+Gender / POS: number
+Example (ES): Son {{c1::cien}} pesos, por favor.
+Example (EN): That's one hundred pesos, please.
+Notes: "Cien" alone or before a noun; "ciento" in compounds: ciento veinte (120). 500 = quinientos, 1,000 = mil.
+
+id: seed-es-travel-019
+Spanish: barato
+English: cheap, inexpensive
+Gender / POS: adj.
+Example (ES): Este mercado es muy {{c1::barato}}.
+Example (EN): This market is very cheap.
+links: antonym [[seed-es-travel-020]]
+
+id: seed-es-travel-020
+Spanish: caro
+English: expensive
+Gender / POS: adj.
+Example (ES): La comida en el aeropuerto es muy {{c1::cara}}.
+Example (EN): The food at the airport is very expensive.
+Notes: Agrees in gender and number: caro, cara, caros, caras.
+
+id: seed-es-travel-021
+Spanish: ¿Dónde está…?
+English: Where is…?
+Gender / POS: phrase
+Example (ES): ¿{{c1::Dónde está}} la estación del metro?
+Example (EN): Where is the subway station?
+Notes: Plural: "¿Dónde están…?". "¿Dónde queda…?" is also very common in Mexico.
+
+id: seed-es-travel-022
+Spanish: a la derecha
+English: to the right, on the right
+Gender / POS: phrase
+Example (ES): El hotel está {{c1::a la derecha}}.
+Example (EN): The hotel is on the right.
+links: antonym [[seed-es-travel-023]]
+
+id: seed-es-travel-023
+Spanish: a la izquierda
+English: to the left, on the left
+Gender / POS: phrase
+Example (ES): Dé vuelta {{c1::a la izquierda}} en el semáforo.
+Example (EN): Turn left at the traffic light.
+Notes: Mexico: "dar vuelta" or "voltear"; Spain: "girar".
+
+id: seed-es-travel-024
+Spanish: derecho
+English: straight ahead
+Gender / POS: adv.
+Example (ES): Siga todo {{c1::derecho}} dos cuadras.
+Example (EN): Go straight ahead for two blocks.
+Notes: Spain prefers "recto". Don't confuse with "a la derecha" (to the right).
+links: same root [[seed-es-travel-022]]
+
+id: seed-es-travel-025
+Spanish: la cuadra
+English: block (city block)
+Gender / POS: f. noun
+Example (ES): La farmacia está a tres {{c1::cuadras}}.
+Example (EN): The pharmacy is three blocks away.
+Notes: Spain: "la manzana".
+links: collocation [[seed-es-travel-026]]
+
+id: seed-es-travel-026
+Spanish: la esquina
+English: corner (street)
+Gender / POS: f. noun
+Example (ES): Nos vemos en la {{c1::esquina}}.
+Example (EN): See you at the corner.
+Notes: An inside corner of a room is "el rincón".
+
+id: seed-es-travel-027
+Spanish: el camión
+English: bus
+Gender / POS: m. noun
+Example (ES): Tomamos el {{c1::camión}} al centro.
+Example (EN): We take the bus downtown.
+Notes: Everyday Mexican word for a city bus (also means truck). Spain: "el autobús". Plural: los camiones.
+links: collocation [[seed-es-travel-030]]
+
+id: seed-es-travel-028
+Spanish: el metro
+English: subway, metro
+Gender / POS: m. noun
+Example (ES): El {{c1::metro}} de la Ciudad de México es muy barato.
+Example (EN): The Mexico City subway is very cheap.
+
+id: seed-es-travel-029
+Spanish: el boleto
+English: ticket
+Gender / POS: m. noun
+Example (ES): Necesito un {{c1::boleto}} para Oaxaca.
+Example (EN): I need a ticket to Oaxaca.
+Notes: Spain: "el billete" (which in Mexico means a banknote).
+
+id: seed-es-travel-030
+Spanish: la parada
+English: stop (bus stop)
+Gender / POS: f. noun
+Example (ES): ¿En qué {{c1::parada}} me bajo?
+Example (EN): Which stop do I get off at?
+Notes: "Bajarse" = to get off; "subirse" = to get on.
+
+id: seed-es-travel-031
+Spanish: el aeropuerto
+English: airport
+Gender / POS: m. noun
+Example (ES): ¿Cuánto cuesta un taxi al {{c1::aeropuerto}}?
+Example (EN): How much is a taxi to the airport?
+Notes: "al" = a + el.
+
+id: seed-es-travel-032
+Spanish: la maleta
+English: suitcase
+Gender / POS: f. noun
+Example (ES): Perdí mi {{c1::maleta}}.
+Example (EN): I lost my suitcase.
+Notes: "El equipaje" = luggage. "La valija" is used in some other countries.
+links: collocation [[seed-es-travel-031]]
+
+id: seed-es-travel-033
+Spanish: el carro
+English: car
+Gender / POS: m. noun
+Example (ES): Rentamos un {{c1::carro}} para ir a la playa.
+Example (EN): We rented a car to go to the beach.
+Notes: Mexico: "carro" or "coche"; Spain: "coche". "Rentar" is Mexican (Spain: "alquilar").
+
+id: seed-es-travel-034
+Spanish: ¿Me da…?
+English: Can I have…?, Could you give me…?
+Gender / POS: phrase
+Example (ES): ¿{{c1::Me da}} dos tacos al pastor, por favor?
+Example (EN): Can I have two al pastor tacos, please?
+Notes: Polite standard way to order or buy (usted). Informal: "¿Me das…?".
+links: synonym [[seed-es-travel-035]]
+
+id: seed-es-travel-035
+Spanish: ¿Me regalas…?
+English: Could I have…? (lit. "will you gift me…?")
+Gender / POS: phrase
+Example (ES): ¿{{c1::Me regalas}} un vaso de agua?
+Example (EN): Could I have a glass of water?
+Notes: Friendly, very common way to ask for something in Mexico; you still pay. Formal: "¿Me regala…?".
+
+id: seed-es-travel-036
+Spanish: el agua
+English: water
+Gender / POS: f. noun
+Example (ES): Una botella de {{c1::agua}}, por favor.
+Example (EN): A bottle of water, please.
+Notes: Feminine but takes "el" (stressed a): el agua fría, las aguas. Tap water: "agua de la llave" (Spain: "del grifo"); drink "agua purificada". "¡Aguas!" = Watch out! (Mexican slang).
+
+id: seed-es-travel-037
+Spanish: el menú
+English: menu
+Gender / POS: m. noun
+Example (ES): ¿Me puede traer el {{c1::menú}}?
+Example (EN): Can you bring me the menu?
+Notes: "La carta" is also used. A cheap set lunch is "la comida corrida" or "el menú del día".
+
+id: seed-es-travel-038
+Spanish: picante
+English: spicy, hot
+Gender / POS: adj.
+Example (ES): ¿Esta salsa es muy {{c1::picante}}?
+Example (EN): Is this salsa very spicy?
+Notes: Common question: "¿Pica?" (Is it spicy?). Ask for "sin chile" if needed.
+
+id: seed-es-travel-039
+Spanish: el desayuno
+English: breakfast
+Gender / POS: m. noun
+Example (ES): ¿El {{c1::desayuno}} está incluido?
+Example (EN): Is breakfast included?
+Notes: Verb: "desayunar". Dinner: "la cena".
+
+id: seed-es-travel-040
+Spanish: la comida
+English: food, lunch (main midday meal)
+Gender / POS: f. noun
+Example (ES): La {{c1::comida}} mexicana es deliciosa.
+Example (EN): Mexican food is delicious.
+Notes: In Mexico also the main afternoon meal (about 2–4 p.m.); in Spain that meal is often "el almuerzo".
+
+id: seed-es-travel-041
+Spanish: el hotel
+English: hotel
+Gender / POS: m. noun
+Example (ES): Nuestro {{c1::hotel}} está cerca del centro.
+Example (EN): Our hotel is near downtown.
+Notes: The h is silent.
+
+id: seed-es-travel-042
+Spanish: la habitación
+English: room (hotel room)
+Gender / POS: f. noun
+Example (ES): Quisiera una {{c1::habitación}} doble.
+Example (EN): I'd like a double room.
+Notes: "El cuarto" is very common in Mexico.
+links: collocation [[seed-es-travel-041]]
+
+id: seed-es-travel-043
+Spanish: la reservación
+English: reservation, booking
+Gender / POS: f. noun
+Example (ES): Tengo una {{c1::reservación}} a nombre de Smith.
+Example (EN): I have a reservation under the name Smith.
+Notes: Mexico: "reservación"; Spain: "reserva".
+links: collocation [[seed-es-travel-042]]
+
+id: seed-es-travel-044
+Spanish: ¡Ayuda!
+English: Help!
+Gender / POS: interjection
+Example (ES): ¡{{c1::Ayuda}}! ¡Llamen a una ambulancia!
+Example (EN): Help! Call an ambulance!
+Notes: Also "¡Auxilio!". Emergency number in Mexico: 911.
+
+id: seed-es-travel-045
+Spanish: el hospital
+English: hospital
+Gender / POS: m. noun
+Example (ES): ¿Dónde está el {{c1::hospital}} más cercano?
+Example (EN): Where is the nearest hospital?
+Notes: The h is silent.
+
+id: seed-es-travel-046
+Spanish: la farmacia
+English: pharmacy, drugstore
+Gender / POS: f. noun
+Example (ES): Hay una {{c1::farmacia}} en la esquina.
+Example (EN): There's a pharmacy on the corner.
+
+id: seed-es-travel-047
+Spanish: la policía
+English: police
+Gender / POS: f. noun
+Example (ES): Hay que llamar a la {{c1::policía}}.
+Example (EN): We need to call the police.
+Notes: "La policía" = the police force; "el/la policía" = a police officer.
+
+id: seed-es-travel-048
+Spanish: enfermo
+English: sick, ill
+Gender / POS: adj.
+Example (ES): Mi amigo está {{c1::enfermo}}.
+Example (EN): My friend is sick.
+Notes: Use with "estar": estoy enfermo / enferma. "Me siento mal" = I feel sick.
+links: collocation [[seed-es-travel-045]]
+
+id: seed-es-travel-049
+Spanish: ¿Qué hora es?
+English: What time is it?
+Gender / POS: phrase
+Example (ES): Disculpe, ¿{{c1::qué hora es}}?
+Example (EN): Excuse me, what time is it?
+Notes: Answers: "Es la una", "Son las tres".
+
+id: seed-es-travel-050
+Spanish: ahorita
+English: right now, in a little while
+Gender / POS: adv.
+Example (ES): {{c1::Ahorita}} vengo.
+Example (EN): I'll be right back.
+Notes: Very Mexican and flexible: can mean "right now" or "later, eventually"; context and tone decide.
+
+# ===== Topic 2: Archery =====
+@deck Tiro con arco
+@type Spanish Vocab
+@tags archery
+@languages es-MX en-US
+
+id: seed-es-archery-001
+Spanish: el tiro con arco
+English: archery
+Gender / POS: m. noun
+Example (ES): Practico {{c1::tiro con arco}} los sábados.
+Example (EN): I practice archery on Saturdays.
+Notes: "La arquería" is also heard in Mexico.
+
+id: seed-es-archery-002
+Spanish: el arquero
+English: archer (male)
+Gender / POS: m. noun
+Example (ES): El {{c1::arquero}} apunta al centro.
+Example (EN): The archer aims at the center.
+Notes: In soccer "arquero" can mean goalkeeper (Mexico usually says "portero").
+links: gender pair [[seed-es-archery-003]]; same root [[seed-es-archery-004]]
+
+id: seed-es-archery-003
+Spanish: la arquera
+English: archer (female)
+Gender / POS: f. noun
+Example (ES): La {{c1::arquera}} ganó la medalla de oro.
+Example (EN): The archer won the gold medal.
+
+id: seed-es-archery-004
+Spanish: el arco
+English: bow
+Gender / POS: m. noun
+Example (ES): Mi {{c1::arco}} es de 30 libras.
+Example (EN): My bow is 30 pounds.
+Notes: Also means "arch".
+
+id: seed-es-archery-005
+Spanish: la flecha
+English: arrow
+Gender / POS: f. noun
+Example (ES): Saqué la {{c1::flecha}} de la diana.
+Example (EN): I pulled the arrow out of the target.
+links: collocation [[seed-es-archery-006]]
+
+id: seed-es-archery-006
+Spanish: el carcaj
+English: quiver
+Gender / POS: m. noun
+Example (ES): Guarda las flechas en el {{c1::carcaj}}.
+Example (EN): Keep the arrows in the quiver.
+Notes: Plural: los carcajes. Also "la aljaba".
+
+id: seed-es-archery-007
+Spanish: la cuerda
+English: bowstring, string, rope
+Gender / POS: f. noun
+Example (ES): La {{c1::cuerda}} del arco está muy gastada.
+Example (EN): The bowstring is very worn.
+
+id: seed-es-archery-008
+Spanish: el emplumado
+English: fletching
+Gender / POS: m. noun
+Example (ES): El {{c1::emplumado}} estabiliza la flecha en el aire.
+Example (EN): The fletching stabilizes the arrow in flight.
+Notes: Individual vanes are "las plumas" (feathers) or "las aletas" (plastic vanes). Verb: "emplumar".
+links: collocation [[seed-es-archery-005]]
+
+id: seed-es-archery-009
+Spanish: la punta
+English: point, arrowhead, tip
+Gender / POS: f. noun
+Example (ES): La {{c1::punta}} de la flecha se dobló.
+Example (EN): The arrow point bent.
+
+id: seed-es-archery-010
+Spanish: el culatín
+English: nock
+Gender / POS: m. noun
+Example (ES): Coloca el {{c1::culatín}} en la cuerda.
+Example (EN): Put the nock on the string.
+Notes: Also just "el nock" in archery shops. Plural: los culatines.
+links: collocation [[seed-es-archery-007]]
+
+id: seed-es-archery-011
+Spanish: la mira
+English: sight
+Gender / POS: f. noun
+Example (ES): Ajusta la {{c1::mira}} un poco hacia arriba.
+Example (EN): Move the sight up a little.
+links: collocation [[seed-es-archery-033]]
+
+id: seed-es-archery-012
+Spanish: el estabilizador
+English: stabilizer
+Gender / POS: m. noun
+Example (ES): El {{c1::estabilizador}} reduce la vibración del arco.
+Example (EN): The stabilizer reduces the bow's vibration.
+
+id: seed-es-archery-013
+Spanish: la dactilera
+English: finger tab
+Gender / POS: f. noun
+Example (ES): Uso una {{c1::dactilera}} de cuero.
+Example (EN): I use a leather finger tab.
+Notes: Also "el protector de dedos".
+
+id: seed-es-archery-014
+Spanish: el brazal
+English: arm guard
+Gender / POS: m. noun
+Example (ES): Ponte el {{c1::brazal}} para que la cuerda no te pegue.
+Example (EN): Put on your arm guard so the string doesn't hit you.
+Notes: Also "el protector de antebrazo".
+links: same root [[seed-es-gym-041]]
+
+id: seed-es-archery-015
+Spanish: la diana
+English: target face, target
+Gender / POS: f. noun
+Example (ES): La {{c1::diana}} tiene diez anillos.
+Example (EN): The target face has ten rings.
+Notes: In Mexico "el blanco" is also very common.
+links: synonym [[seed-es-archery-016]]
+
+id: seed-es-archery-016
+Spanish: el blanco
+English: target, bullseye
+Gender / POS: m. noun
+Example (ES): Le di al {{c1::blanco}}.
+Example (EN): I hit the target.
+Notes: Also the adjective "white". "Dar en el blanco" = to hit the mark.
+
+id: seed-es-archery-017
+Spanish: la paja
+English: straw (target butt)
+Gender / POS: f. noun
+Example (ES): Las flechas se quedan clavadas en la {{c1::paja}}.
+Example (EN): The arrows stick in the straw.
+Notes: The target butt is also called "el parapeto" or "la paca"; many ranges use foam ("espuma").
+links: collocation [[seed-es-archery-015]]
+
+id: seed-es-archery-018
+Spanish: la distancia
+English: distance
+Gender / POS: f. noun
+Example (ES): Hoy tiramos a una {{c1::distancia}} de 18 metros.
+Example (EN): Today we're shooting at a distance of 18 meters.
+
+id: seed-es-archery-019
+Spanish: la línea de tiro
+English: shooting line
+Gender / POS: f. noun
+Example (ES): Todos detrás de la {{c1::línea de tiro}}.
+Example (EN): Everyone behind the shooting line.
+Notes: "Tirar" = to shoot (in archery).
+links: same root [[seed-es-archery-001]]
+
+id: seed-es-archery-020
+Spanish: el centro
+English: center, bullseye
+Gender / POS: m. noun
+Example (ES): Mi flecha quedó en el {{c1::centro}}.
+Example (EN): My arrow landed in the center.
+Notes: The ten ring is "el diez". In a city "el centro" means downtown.
+
+id: seed-es-archery-021
+Spanish: la puntuación
+English: score
+Gender / POS: f. noun
+Example (ES): ¿Cuál fue tu {{c1::puntuación}}?
+Example (EN): What was your score?
+Notes: "El puntaje" is also common in Latin America. "Los puntos" = points.
+
+id: seed-es-archery-022
+Spanish: la ronda
+English: round (of a competition)
+Gender / POS: f. noun
+Example (ES): Pasé a la segunda {{c1::ronda}}.
+Example (EN): I advanced to the second round.
+links: collocation [[seed-es-archery-023]]
+
+id: seed-es-archery-023
+Spanish: la competencia
+English: competition, tournament
+Gender / POS: f. noun
+Example (ES): Mañana tengo una {{c1::competencia}} de tiro con arco.
+Example (EN): Tomorrow I have an archery competition.
+Notes: Mexico: "competencia"; Spain: "competición". Also means "the competitors / rivals".
+
+id: seed-es-archery-024
+Spanish: el campo de tiro
+English: shooting range
+Gender / POS: m. noun
+Example (ES): El {{c1::campo de tiro}} abre a las ocho.
+Example (EN): The range opens at eight.
+links: same root [[seed-es-archery-019]]
+
+id: seed-es-archery-025
+Spanish: el arco recurvo
+English: recurve bow
+Gender / POS: m. noun
+Example (ES): El {{c1::arco recurvo}} es el que se usa en los Juegos Olímpicos.
+Example (EN): The recurve bow is the one used in the Olympic Games.
+
+id: seed-es-archery-026
+Spanish: el arco compuesto
+English: compound bow
+Gender / POS: m. noun
+Example (ES): El {{c1::arco compuesto}} tiene poleas.
+Example (EN): The compound bow has cams.
+Notes: "Las poleas" = cams / pulleys.
+
+id: seed-es-archery-027
+Spanish: el disparador
+English: release aid
+Gender / POS: m. noun
+Example (ES): Con el arco compuesto se usa un {{c1::disparador}}.
+Example (EN): With a compound bow you use a release aid.
+links: collocation [[seed-es-archery-026]]; same root [[seed-es-archery-035]]
+
+id: seed-es-archery-028
+Spanish: el reposaflechas
+English: arrow rest
+Gender / POS: m. noun
+Example (ES): La flecha se apoya en el {{c1::reposaflechas}}.
+Example (EN): The arrow sits on the arrow rest.
+Notes: Same form in the plural: los reposaflechas. Also "el apoyaflechas".
+
+id: seed-es-archery-029
+Spanish: las palas
+English: limbs (of a bow)
+Gender / POS: f. pl. noun
+Example (ES): Las {{c1::palas}} del arco se doblan al tensar.
+Example (EN): The bow's limbs bend when you draw.
+Notes: Also "las ramas" or "los brazos". Singular "la pala" also means shovel.
+
+id: seed-es-archery-030
+Spanish: la empuñadura
+English: grip, handle
+Gender / POS: f. noun
+Example (ES): No aprietes la {{c1::empuñadura}}.
+Example (EN): Don't squeeze the grip.
+Notes: The middle section of the bow is "el cuerpo" or "el riser".
+
+id: seed-es-archery-031
+Spanish: tensar
+English: to draw (a bow), to tighten
+Gender / POS: verb
+Example (ES): {{c1::Tensa}} el arco despacio.
+Example (EN): Draw the bow slowly.
+Notes: Also "abrir el arco".
+links: same root [[seed-es-archery-032]]; collocation [[seed-es-archery-007]]
+
+id: seed-es-archery-032
+Spanish: tenso
+English: tense, taut
+Gender / POS: adj.
+Example (ES): Tus hombros están muy {{c1::tensos}}.
+Example (EN): Your shoulders are very tense.
+
+id: seed-es-archery-033
+Spanish: apuntar
+English: to aim
+Gender / POS: verb
+Example (ES): {{c1::Apunta}} al centro de la diana.
+Example (EN): Aim at the center of the target.
+Notes: Also means "to write down".
+
+id: seed-es-archery-034
+Spanish: soltar
+English: to release, to let go
+Gender / POS: verb
+Example (ES): {{c1::Suelta}} la cuerda suavemente.
+Example (EN): Release the string smoothly.
+Notes: Stem-changing (o → ue): suelto, sueltas. Noun: "la suelta" = the release.
+
+id: seed-es-archery-035
+Spanish: disparar
+English: to shoot
+Gender / POS: verb
+Example (ES): Esperen el silbato antes de {{c1::disparar}}.
+Example (EN): Wait for the whistle before shooting.
+Notes: In archery "tirar" is also very common: "¿A qué distancia tiras?".
+
+id: seed-es-archery-036
+Spanish: anclar
+English: to anchor
+Gender / POS: verb
+Example (ES): {{c1::Ancla}} la mano debajo de la barbilla.
+Example (EN): Anchor your hand under your chin.
+links: same root [[seed-es-archery-037]]
+
+id: seed-es-archery-037
+Spanish: el anclaje
+English: anchor point
+Gender / POS: m. noun
+Example (ES): Busca siempre el mismo {{c1::anclaje}}.
+Example (EN): Always find the same anchor point.
+Notes: Also "el punto de anclaje".
+
+id: seed-es-archery-038
+Spanish: la postura
+English: stance, posture
+Gender / POS: f. noun
+Example (ES): Una buena {{c1::postura}} mejora la precisión.
+Example (EN): A good stance improves accuracy.
+
+id: seed-es-archery-039
+Spanish: recoger
+English: to collect, to pick up
+Gender / POS: verb
+Example (ES): Vamos a {{c1::recoger}} las flechas.
+Example (EN): Let's go collect the arrows.
+Notes: Spelling change: yo recojo. Also "ir por las flechas".
+
+id: seed-es-archery-040
+Spanish: fallar
+English: to miss
+Gender / POS: verb
+Example (ES): {{c1::Fallé}} el último tiro.
+Example (EN): I missed the last shot.
+links: antonym [[seed-es-archery-041]]
+
+id: seed-es-archery-041
+Spanish: acertar
+English: to hit (the target), to get right
+Gender / POS: verb
+Example (ES): Hoy {{c1::acerté}} casi todas mis flechas.
+Example (EN): Today almost all my arrows hit the target.
+Notes: Stem-changing (e → ie): acierto, aciertas.
+
+id: seed-es-archery-042
+Spanish: el libraje
+English: draw weight
+Gender / POS: m. noun
+Example (ES): Empieza con un {{c1::libraje}} bajo.
+Example (EN): Start with a low draw weight.
+Notes: Measured in pounds ("libras"). Also "la potencia del arco".
+
+id: seed-es-archery-043
+Spanish: ¡Alto!
+English: Stop!, Hold!
+Gender / POS: interjection
+Example (ES): ¡{{c1::Alto}}! Hay alguien en el campo.
+Example (EN): Stop! There's someone on the range.
+Notes: Safety call: everyone stops shooting immediately. Also the word on Mexican stop signs.
+
+id: seed-es-archery-044
+Spanish: ¡Cuidado!
+English: Careful!, Watch out!
+Gender / POS: interjection
+Example (ES): ¡{{c1::Cuidado}}! No camines frente a la línea.
+Example (EN): Watch out! Don't walk in front of the line.
+Notes: Informal Mexican alternative: "¡Aguas!".
+
+id: seed-es-archery-045
+Spanish: la seguridad
+English: safety, security
+Gender / POS: f. noun
+Example (ES): La {{c1::seguridad}} es lo más importante en el campo de tiro.
+Example (EN): Safety is the most important thing at the range.
+
+id: seed-es-archery-046
+Spanish: el silbato
+English: whistle
+Gender / POS: m. noun
+Example (ES): Tres toques de {{c1::silbato}}: pueden ir a recoger las flechas.
+Example (EN): Three whistle blasts: you may go collect your arrows.
+Notes: Usual range signals: 2 = go to the line, 1 = start shooting, 3 = collect arrows, 4 or more = stop immediately.
+
+id: seed-es-archery-047
+Spanish: la tanda
+English: end (a set of arrows shot)
+Gender / POS: f. noun
+Example (ES): Cada {{c1::tanda}} es de seis flechas.
+Example (EN): Each end is six arrows.
+Notes: Some ranges say "la serie".
+
+id: seed-es-archery-048
+Spanish: el juez
+English: judge, referee
+Gender / POS: m. noun
+Example (ES): El {{c1::juez}} revisa las flechas dudosas.
+Example (EN): The judge checks the borderline arrows.
+Notes: Plural: los jueces. Female: la jueza (or la juez).
+
+id: seed-es-archery-049
+Spanish: el viento
+English: wind
+Gender / POS: m. noun
+Example (ES): Hoy hay mucho {{c1::viento}}; apunta un poco a la izquierda.
+Example (EN): It's very windy today; aim a little to the left.
+
+id: seed-es-archery-050
+Spanish: el ojo dominante
+English: dominant eye
+Gender / POS: m. noun
+Example (ES): Mi {{c1::ojo dominante}} es el derecho.
+Example (EN): My dominant eye is the right one.
+
+# ===== Topic 3: Gym & weightlifting =====
+@deck Gimnasio / Pesas
+@type Spanish Vocab
+@tags gym
+@languages es-MX en-US
+
+id: seed-es-gym-001
+Spanish: el gimnasio
+English: gym
+Gender / POS: m. noun
+Example (ES): Voy al {{c1::gimnasio}} cuatro veces por semana.
+Example (EN): I go to the gym four times a week.
+Notes: Colloquial in Mexico: "el gym" (pronounced "yim").
+
+id: seed-es-gym-002
+Spanish: las pesas
+English: weights
+Gender / POS: f. pl. noun
+Example (ES): Me gusta levantar {{c1::pesas}}.
+Example (EN): I like lifting weights.
+Notes: "Hacer pesas" = to lift weights. Singular: la pesa.
+links: same root [[seed-es-gym-024]]
+
+id: seed-es-gym-003
+Spanish: la barra
+English: barbell, bar
+Gender / POS: f. noun
+Example (ES): Pon más discos en la {{c1::barra}}.
+Example (EN): Put more plates on the bar.
+Notes: "La barra olímpica" = Olympic barbell. "La barra fija" = pull-up bar.
+links: collocation [[seed-es-gym-005]]
+
+id: seed-es-gym-004
+Spanish: las mancuernas
+English: dumbbells
+Gender / POS: f. pl. noun
+Example (ES): Usa {{c1::mancuernas}} de diez kilos.
+Example (EN): Use ten-kilo dumbbells.
+Notes: Singular: la mancuerna. Also simply called "pesas".
+
+id: seed-es-gym-005
+Spanish: los discos
+English: plates (weight plates)
+Gender / POS: m. pl. noun
+Example (ES): Guarda los {{c1::discos}} cuando termines.
+Example (EN): Put the plates away when you're done.
+Notes: Singular: el disco.
+
+id: seed-es-gym-006
+Spanish: el banco
+English: bench
+Gender / POS: m. noun
+Example (ES): Ajusta el {{c1::banco}} a 30 grados.
+Example (EN): Set the bench to 30 degrees.
+Notes: Also means "bank".
+
+id: seed-es-gym-007
+Spanish: el rack
+English: squat rack, power rack
+Gender / POS: m. noun
+Example (ES): ¿Me prestas el {{c1::rack}} cuando termines?
+Example (EN): Can I use the rack when you're done?
+Notes: English loanword used in Mexican gyms. A power cage is also "la jaula".
+
+id: seed-es-gym-008
+Spanish: las rodilleras
+English: knee sleeves, knee pads
+Gender / POS: f. pl. noun
+Example (ES): Me pongo las {{c1::rodilleras}} para hacer sentadillas.
+Example (EN): I put on my knee sleeves to do squats.
+links: same root [[seed-es-gym-043]]
+
+id: seed-es-gym-009
+Spanish: el cinturón
+English: lifting belt, belt
+Gender / POS: m. noun
+Example (ES): Usa el {{c1::cinturón}} en las series pesadas.
+Example (EN): Use the belt on heavy sets.
+Notes: Plural: los cinturones. In Mexico a support belt is also "la faja".
+
+id: seed-es-gym-010
+Spanish: la máquina
+English: machine
+Gender / POS: f. noun
+Example (ES): Esta {{c1::máquina}} es para las piernas.
+Example (EN): This machine is for the legs.
+
+id: seed-es-gym-011
+Spanish: la sentadilla
+English: squat
+Gender / POS: f. noun
+Example (ES): Hoy hago cinco series de {{c1::sentadillas}}.
+Example (EN): Today I'm doing five sets of squats.
+Notes: "Sentadilla frontal" = front squat; "sentadilla búlgara" = Bulgarian split squat.
+links: collocation [[seed-es-gym-008]]
+
+id: seed-es-gym-012
+Spanish: el peso muerto
+English: deadlift
+Gender / POS: m. noun
+Example (ES): El {{c1::peso muerto}} trabaja toda la espalda.
+Example (EN): The deadlift works your whole back.
+Notes: Literally "dead weight". "Peso muerto rumano" = Romanian deadlift.
+links: collocation [[seed-es-gym-003]]
+
+id: seed-es-gym-013
+Spanish: el press de banca
+English: bench press
+Gender / POS: m. noun
+Example (ES): Mi récord en {{c1::press de banca}} es de 80 kilos.
+Example (EN): My bench press record is 80 kilos.
+Notes: Also "press de pecho" or "press plano".
+links: collocation [[seed-es-gym-006]]
+
+id: seed-es-gym-014
+Spanish: el press militar
+English: overhead press, military press
+Gender / POS: m. noun
+Example (ES): El {{c1::press militar}} fortalece los hombros.
+Example (EN): The overhead press strengthens the shoulders.
+links: collocation [[seed-es-gym-040]]
+
+id: seed-es-gym-015
+Spanish: las dominadas
+English: pull-ups, chin-ups
+Gender / POS: f. pl. noun
+Example (ES): Todavía no puedo hacer {{c1::dominadas}}.
+Example (EN): I still can't do pull-ups.
+Notes: Related Mexican gym term: "jalón al pecho" = lat pulldown (from "jalar", to pull; Spain: "tirar").
+
+id: seed-es-gym-016
+Spanish: el remo
+English: row (exercise)
+Gender / POS: m. noun
+Example (ES): Haz el {{c1::remo}} con la espalda recta.
+Example (EN): Do the row with a straight back.
+Notes: Also means "oar" or "rowing". "Remo con barra" = barbell row.
+
+id: seed-es-gym-017
+Spanish: las zancadas
+English: lunges
+Gender / POS: f. pl. noun
+Example (ES): Hice tres series de {{c1::zancadas}}.
+Example (EN): I did three sets of lunges.
+Notes: In Mexico also "los desplantes".
+
+id: seed-es-gym-018
+Spanish: los abdominales
+English: abs, ab exercises, crunches
+Gender / POS: m. pl. noun
+Example (ES): Termino cada rutina con {{c1::abdominales}}.
+Example (EN): I finish every workout with ab exercises.
+Notes: Refers to both the muscles and the exercises.
+links: same root [[seed-es-gym-046]]
+
+id: seed-es-gym-019
+Spanish: las lagartijas
+English: push-ups
+Gender / POS: f. pl. noun
+Example (ES): Haz veinte {{c1::lagartijas}}.
+Example (EN): Do twenty push-ups.
+Notes: Mexican usage (literally "little lizards"). Spain: "las flexiones".
+
+id: seed-es-gym-020
+Spanish: la serie
+English: set
+Gender / POS: f. noun
+Example (ES): Me falta una {{c1::serie}} más.
+Example (EN): I have one more set left.
+Notes: Also means "TV series".
+links: collocation [[seed-es-gym-021]]
+
+id: seed-es-gym-021
+Spanish: la repetición
+English: rep, repetition
+Gender / POS: f. noun
+Example (ES): Haz diez {{c1::repeticiones}} por serie.
+Example (EN): Do ten reps per set.
+Notes: Colloquial: "las reps".
+
+id: seed-es-gym-022
+Spanish: el descanso
+English: rest, break
+Gender / POS: m. noun
+Example (ES): Toma un {{c1::descanso}} de dos minutos entre series.
+Example (EN): Take a two-minute rest between sets.
+links: same root [[seed-es-gym-023]]
+
+id: seed-es-gym-023
+Spanish: descansar
+English: to rest
+Gender / POS: verb
+Example (ES): Los músculos crecen cuando {{c1::descansas}}.
+Example (EN): Your muscles grow when you rest.
+
+id: seed-es-gym-024
+Spanish: el peso
+English: weight
+Gender / POS: m. noun
+Example (ES): ¿Cuánto {{c1::peso}} le pusiste a la barra?
+Example (EN): How much weight did you put on the bar?
+Notes: Also the Mexican currency (el peso mexicano).
+links: same root [[seed-es-gym-025]]
+
+id: seed-es-gym-025
+Spanish: pesado
+English: heavy
+Gender / POS: adj.
+Example (ES): Esta barra está muy {{c1::pesada}}.
+Example (EN): This bar is very heavy.
+Notes: Said of a person, it means "annoying": "¡Qué pesado!".
+links: antonym [[seed-es-gym-026]]
+
+id: seed-es-gym-026
+Spanish: ligero
+English: light (in weight)
+Gender / POS: adj.
+Example (ES): Empieza con un peso {{c1::ligero}}.
+Example (EN): Start with a light weight.
+Notes: Also "liviano".
+
+id: seed-es-gym-027
+Spanish: levantar
+English: to lift, to raise
+Gender / POS: verb
+Example (ES): {{c1::Levanto}} pesas los lunes, miércoles y viernes.
+Example (EN): I lift weights on Mondays, Wednesdays, and Fridays.
+Notes: "Levantarse" = to get up.
+links: collocation [[seed-es-gym-002]]
+
+id: seed-es-gym-028
+Spanish: entrenar
+English: to train, to work out
+Gender / POS: verb
+Example (ES): ¿A qué hora {{c1::entrenas}}?
+Example (EN): What time do you work out?
+Notes: Also "hacer ejercicio".
+links: same root [[seed-es-gym-029]]
+
+id: seed-es-gym-029
+Spanish: el entrenador
+English: trainer, coach (male)
+Gender / POS: m. noun
+Example (ES): Mi {{c1::entrenador}} me corrige la técnica.
+Example (EN): My trainer corrects my form.
+Notes: "Entrenador personal" = personal trainer. Also "el coach".
+links: gender pair [[seed-es-gym-030]]
+
+id: seed-es-gym-030
+Spanish: la entrenadora
+English: trainer, coach (female)
+Gender / POS: f. noun
+Example (ES): La {{c1::entrenadora}} nos dio una rutina nueva.
+Example (EN): The trainer gave us a new routine.
+
+id: seed-es-gym-031
+Spanish: calentar
+English: to warm up
+Gender / POS: verb
+Example (ES): Siempre {{c1::caliento}} antes de levantar.
+Example (EN): I always warm up before lifting.
+Notes: Stem-changing (e → ie): caliento, calientas.
+links: same root [[seed-es-gym-032]]
+
+id: seed-es-gym-032
+Spanish: el calentamiento
+English: warm-up
+Gender / POS: m. noun
+Example (ES): El {{c1::calentamiento}} dura diez minutos.
+Example (EN): The warm-up lasts ten minutes.
+
+id: seed-es-gym-033
+Spanish: estirar
+English: to stretch
+Gender / POS: verb
+Example (ES): Hay que {{c1::estirar}} después de entrenar.
+Example (EN): You should stretch after working out.
+Notes: Noun: "el estiramiento" (stretch).
+
+id: seed-es-gym-034
+Spanish: la fuerza
+English: strength, force
+Gender / POS: f. noun
+Example (ES): Quiero ganar {{c1::fuerza}}.
+Example (EN): I want to get stronger.
+links: same root [[seed-es-gym-035]]
+
+id: seed-es-gym-035
+Spanish: fuerte
+English: strong
+Gender / POS: adj.
+Example (ES): Estás muy {{c1::fuerte}}.
+Example (EN): You're very strong.
+Notes: Also "loud". Informal Mexican slang for very muscular: "mamado".
+
+id: seed-es-gym-036
+Spanish: el músculo
+English: muscle
+Gender / POS: m. noun
+Example (ES): Me duele este {{c1::músculo}}.
+Example (EN): This muscle hurts.
+Notes: "Ganar músculo" = to build muscle.
+
+id: seed-es-gym-037
+Spanish: la espalda
+English: back
+Gender / POS: f. noun
+Example (ES): Hoy toca {{c1::espalda}} y bíceps.
+Example (EN): Today is back and biceps.
+Notes: "Hoy toca…" = today it's time for…
+
+id: seed-es-gym-038
+Spanish: el pecho
+English: chest
+Gender / POS: m. noun
+Example (ES): El press de banca trabaja el {{c1::pecho}}.
+Example (EN): The bench press works the chest.
+
+id: seed-es-gym-039
+Spanish: la pierna
+English: leg
+Gender / POS: f. noun
+Example (ES): Nunca te saltes el día de {{c1::pierna}}.
+Example (EN): Never skip leg day.
+Notes: Gym talk uses the singular: "día de pierna".
+
+id: seed-es-gym-040
+Spanish: el hombro
+English: shoulder
+Gender / POS: m. noun
+Example (ES): Me duele el {{c1::hombro}} derecho.
+Example (EN): My right shoulder hurts.
+
+id: seed-es-gym-041
+Spanish: el brazo
+English: arm
+Gender / POS: m. noun
+Example (ES): Estira bien los {{c1::brazos}}.
+Example (EN): Fully extend your arms.
+
+id: seed-es-gym-042
+Spanish: los glúteos
+English: glutes
+Gender / POS: m. pl. noun
+Example (ES): Las sentadillas trabajan los {{c1::glúteos}}.
+Example (EN): Squats work the glutes.
+Notes: Singular: el glúteo.
+
+id: seed-es-gym-043
+Spanish: la rodilla
+English: knee
+Gender / POS: f. noun
+Example (ES): No dejes que la {{c1::rodilla}} se vaya hacia adentro.
+Example (EN): Don't let your knee cave in.
+
+id: seed-es-gym-044
+Spanish: la cadera
+English: hip, hips
+Gender / POS: f. noun
+Example (ES): Empuja la {{c1::cadera}} hacia atrás.
+Example (EN): Push your hips back.
+
+id: seed-es-gym-045
+Spanish: ¡Espalda recta!
+English: Keep your back straight!
+Gender / POS: phrase
+Example (ES): ¡{{c1::Espalda recta}}! No te encorves.
+Example (EN): Keep your back straight! Don't hunch over.
+links: collocation [[seed-es-gym-037]]
+
+id: seed-es-gym-046
+Spanish: ¡Aprieta el abdomen!
+English: Brace your core!, Tighten your abs!
+Gender / POS: phrase
+Example (ES): Antes de bajar, ¡{{c1::aprieta el abdomen}}!
+Example (EN): Before you go down, brace your core!
+Notes: "Apretar" is stem-changing (e → ie); "aprieta" is the tú command. Also "¡Activa el core!".
+
+id: seed-es-gym-047
+Spanish: el agarre
+English: grip
+Gender / POS: m. noun
+Example (ES): Usa un {{c1::agarre}} más abierto.
+Example (EN): Use a wider grip.
+Notes: Verb: "agarrar" (to grab, to take), the everyday verb in Mexico. Avoid Spain's "coger": it is vulgar in Mexico.
+
+id: seed-es-gym-048
+Spanish: adolorido
+English: sore, aching
+Gender / POS: adj.
+Example (ES): Estoy {{c1::adolorido}} por el entrenamiento de ayer.
+Example (EN): I'm sore from yesterday's workout.
+Notes: Spain: "dolorido", or "tener agujetas" for muscle soreness.
+
+id: seed-es-gym-049
+Spanish: la proteína
+English: protein
+Gender / POS: f. noun
+Example (ES): Me tomo un licuado de {{c1::proteína}} después de entrenar.
+Example (EN): I have a protein shake after working out.
+Notes: Mexico: "el licuado" = shake or smoothie (Spain: "el batido").
+
+id: seed-es-gym-050
+Spanish: sudar
+English: to sweat
+Gender / POS: verb
+Example (ES): {{c1::Sudé}} muchísimo en la clase.
+Example (EN): I sweated a ton in class.
+Notes: Noun: "el sudor".
+
+# ===== Topic 4: Cats =====
+@deck Gatos
+@type Spanish Vocab
+@tags cats
+@languages es-MX en-US
+
+id: seed-es-cats-001
+Spanish: el gato
+English: cat, male cat
+Gender / POS: m. noun
+Example (ES): Mi {{c1::gato}} duerme todo el día.
+Example (EN): My cat sleeps all day.
+Notes: In Mexico "el gato" is also tic-tac-toe, the # sign, and a car jack.
+links: gender pair [[seed-es-cats-002]]; same root [[seed-es-cats-003]]; synonym [[seed-es-cats-005]]
+
+id: seed-es-cats-002
+Spanish: la gata
+English: cat (female)
+Gender / POS: f. noun
+Example (ES): La {{c1::gata}} tuvo cuatro gatitos.
+Example (EN): The cat had four kittens.
+Notes: Careful: in Mexico "gata" is also a derogatory slang word for a maid; with cats it's perfectly normal.
+
+id: seed-es-cats-003
+Spanish: el gatito
+English: kitten, kitty
+Gender / POS: m. noun
+Example (ES): El {{c1::gatito}} juega con una pelota.
+Example (EN): The kitten is playing with a ball.
+Notes: Diminutive of "gato" (-ito).
+links: gender pair [[seed-es-cats-004]]
+
+id: seed-es-cats-004
+Spanish: la gatita
+English: kitten (female), kitty
+Gender / POS: f. noun
+Example (ES): Adoptamos una {{c1::gatita}} blanca.
+Example (EN): We adopted a white kitten.
+
+id: seed-es-cats-005
+Spanish: el michi
+English: kitty, cat (colloquial)
+Gender / POS: m. noun
+Example (ES): ¡Mira ese {{c1::michi}} tan bonito!
+Example (EN): Look at that cute kitty!
+Notes: Very common in Mexico and online; also "michito". To call a cat people say "mish, mish" or "michi, michi".
+
+id: seed-es-cats-006
+Spanish: los bigotes
+English: whiskers
+Gender / POS: m. pl. noun
+Example (ES): Nunca le cortes los {{c1::bigotes}} a un gato.
+Example (EN): Never cut a cat's whiskers.
+Notes: Singular "el bigote" also means mustache.
+
+id: seed-es-cats-007
+Spanish: la cola
+English: tail
+Gender / POS: f. noun
+Example (ES): El gato mueve la {{c1::cola}} cuando está molesto.
+Example (EN): The cat swishes its tail when it's annoyed.
+Notes: In Spain "la cola" is also a line of people; Mexico usually says "la fila".
+
+id: seed-es-cats-008
+Spanish: las garras
+English: claws
+Gender / POS: f. pl. noun
+Example (ES): El gato sacó las {{c1::garras}}.
+Example (EN): The cat put its claws out.
+Notes: "Las uñas" (nails) is also common: "cortarle las uñas al gato".
+
+id: seed-es-cats-009
+Spanish: las almohadillas
+English: paw pads, toe beans
+Gender / POS: f. pl. noun
+Example (ES): Mi gato tiene las {{c1::almohadillas}} rosadas.
+Example (EN): My cat has pink paw pads.
+Notes: "La almohada" = pillow. "Las patitas" = little paws.
+
+id: seed-es-cats-010
+Spanish: el pelaje
+English: fur, coat
+Gender / POS: m. noun
+Example (ES): Tu gata tiene un {{c1::pelaje}} muy suave.
+Example (EN): Your cat has very soft fur.
+Notes: Everyday word: "el pelo".
+links: same root [[seed-es-cats-046]]
+
+id: seed-es-cats-011
+Spanish: la oreja
+English: ear
+Gender / POS: f. noun
+Example (ES): El gato echó las {{c1::orejas}} hacia atrás.
+Example (EN): The cat flattened its ears back.
+Notes: "La oreja" = outer ear; "el oído" = inner ear, hearing.
+
+id: seed-es-cats-012
+Spanish: la lengua
+English: tongue
+Gender / POS: f. noun
+Example (ES): La {{c1::lengua}} del gato es muy áspera.
+Example (EN): A cat's tongue is very rough.
+Notes: Also means "language".
+
+id: seed-es-cats-013
+Spanish: ronronear
+English: to purr
+Gender / POS: verb
+Example (ES): Mi gata {{c1::ronronea}} cuando la acaricio.
+Example (EN): My cat purrs when I pet her.
+links: same root [[seed-es-cats-014]]
+
+id: seed-es-cats-014
+Spanish: el ronroneo
+English: purr, purring
+Gender / POS: m. noun
+Example (ES): Me encanta el {{c1::ronroneo}} de mi gato.
+Example (EN): I love my cat's purring.
+
+id: seed-es-cats-015
+Spanish: maullar
+English: to meow
+Gender / POS: verb
+Example (ES): El gato {{c1::maúlla}} en la puerta.
+Example (EN): The cat is meowing at the door.
+Notes: Written accent on the stressed u: maúllo, maúllas, maúlla.
+links: same root [[seed-es-cats-016]]
+
+id: seed-es-cats-016
+Spanish: el maullido
+English: meow
+Gender / POS: m. noun
+Example (ES): Escuché un {{c1::maullido}} afuera.
+Example (EN): I heard a meow outside.
+Notes: The sound itself is written "miau".
+
+id: seed-es-cats-017
+Spanish: arañar
+English: to scratch (with claws)
+Gender / POS: verb
+Example (ES): El gato {{c1::arañó}} el sillón.
+Example (EN): The cat scratched the armchair.
+Notes: Noun: "el arañazo".
+links: synonym [[seed-es-cats-018]]; collocation [[seed-es-cats-032]]
+
+id: seed-es-cats-018
+Spanish: rasguñar
+English: to scratch
+Gender / POS: verb
+Example (ES): Cuidado, mi gato {{c1::rasguña}}.
+Example (EN): Careful, my cat scratches.
+Notes: Very common in Mexico; noun: "el rasguño". For scratching an itch use "rascarse".
+
+id: seed-es-cats-019
+Spanish: bufar
+English: to hiss
+Gender / POS: verb
+Example (ES): La gata {{c1::bufó}} cuando vio al perro.
+Example (EN): The cat hissed when she saw the dog.
+Notes: Noun: "el bufido".
+
+id: seed-es-cats-020
+Spanish: acicalarse
+English: to groom oneself
+Gender / POS: reflexive verb
+Example (ES): Los gatos {{c1::se acicalan}} varias horas al día.
+Example (EN): Cats groom themselves several hours a day.
+Notes: Also "lamerse" or "asearse".
+
+id: seed-es-cats-021
+Spanish: lamer
+English: to lick
+Gender / POS: verb
+Example (ES): Mi gato me {{c1::lame}} la mano.
+Example (EN): My cat licks my hand.
+links: collocation [[seed-es-cats-012]]
+
+id: seed-es-cats-022
+Spanish: dormir
+English: to sleep
+Gender / POS: verb
+Example (ES): Los gatos {{c1::duermen}} hasta 16 horas al día.
+Example (EN): Cats sleep up to 16 hours a day.
+Notes: Stem-changing (o → ue). "Tomar una siesta" = to take a nap.
+
+id: seed-es-cats-023
+Spanish: saltar
+English: to jump
+Gender / POS: verb
+Example (ES): La gatita {{c1::saltó}} a la mesa.
+Example (EN): The kitten jumped onto the table.
+
+id: seed-es-cats-024
+Spanish: cazar
+English: to hunt
+Gender / POS: verb
+Example (ES): A mi gato le gusta {{c1::cazar}} moscas.
+Example (EN): My cat likes to hunt flies.
+Notes: Spelling change: yo cacé.
+links: collocation [[seed-es-cats-049]]
+
+id: seed-es-cats-025
+Spanish: esconderse
+English: to hide
+Gender / POS: reflexive verb
+Example (ES): El gato {{c1::se esconde}} debajo de la cama.
+Example (EN): The cat hides under the bed.
+
+id: seed-es-cats-026
+Spanish: estirarse
+English: to stretch (oneself)
+Gender / POS: reflexive verb
+Example (ES): Mi gata {{c1::se estira}} al despertar.
+Example (EN): My cat stretches when she wakes up.
+links: same root [[seed-es-gym-033]]
+
+id: seed-es-cats-027
+Spanish: amasar
+English: to knead
+Gender / POS: verb
+Example (ES): Mi gato {{c1::amasa}} la cobija antes de dormir.
+Example (EN): My cat kneads the blanket before sleeping.
+Notes: Literally "to knead dough"; people also say the cat is "haciendo pan". "La cobija" = blanket (Mexico; Spain: "la manta").
+
+id: seed-es-cats-028
+Spanish: el arenero
+English: litter box
+Gender / POS: m. noun
+Example (ES): Hay que limpiar el {{c1::arenero}} todos los días.
+Example (EN): You have to clean the litter box every day.
+Notes: Also "la caja de arena".
+links: same root [[seed-es-cats-029]]
+
+id: seed-es-cats-029
+Spanish: la arena
+English: cat litter, sand
+Gender / POS: f. noun
+Example (ES): Compré {{c1::arena}} para gato.
+Example (EN): I bought cat litter.
+Notes: "Arena aglomerante" = clumping litter.
+
+id: seed-es-cats-030
+Spanish: las croquetas
+English: dry cat food, kibble
+Gender / POS: f. pl. noun
+Example (ES): Le doy {{c1::croquetas}} en la mañana.
+Example (EN): I give him kibble in the morning.
+Notes: Mexico: "croquetas"; Spain: "pienso". Wet food: "comida húmeda" or "latas" / "sobres".
+
+id: seed-es-cats-031
+Spanish: el bebedero
+English: water bowl, water fountain
+Gender / POS: m. noun
+Example (ES): Cambia el agua del {{c1::bebedero}} todos los días.
+Example (EN): Change the water in the water bowl every day.
+Notes: The food bowl is "el plato" or "el comedero".
+links: collocation [[seed-es-travel-036]]
+
+id: seed-es-cats-032
+Spanish: el rascador
+English: scratching post
+Gender / POS: m. noun
+Example (ES): Le compramos un {{c1::rascador}} para que no arañe los muebles.
+Example (EN): We bought him a scratching post so he won't scratch the furniture.
+Notes: From "rascar" (to scratch an itch).
+
+id: seed-es-cats-033
+Spanish: el veterinario
+English: vet, veterinarian
+Gender / POS: m. noun
+Example (ES): Llevé a mi gata al {{c1::veterinario}}.
+Example (EN): I took my cat to the vet.
+Notes: Female: "la veterinaria", which also means the vet clinic. Colloquial: "el vete".
+links: collocation [[seed-es-cats-034]]
+
+id: seed-es-cats-034
+Spanish: la vacuna
+English: vaccine, shot
+Gender / POS: f. noun
+Example (ES): Ya le toca su {{c1::vacuna}} contra la rabia.
+Example (EN): He's due for his rabies shot.
+
+id: seed-es-cats-035
+Spanish: esterilizar
+English: to spay, to neuter
+Gender / POS: verb
+Example (ES): Es importante {{c1::esterilizar}} a los gatos.
+Example (EN): It's important to spay and neuter cats.
+Notes: "Castrar" is also used for males. Many Mexican cities run low-cost "campañas de esterilización".
+links: collocation [[seed-es-cats-033]]
+
+id: seed-es-cats-036
+Spanish: desparasitar
+English: to deworm
+Gender / POS: verb
+Example (ES): Hay que {{c1::desparasitar}} al gatito cada tres meses.
+Example (EN): You need to deworm the kitten every three months.
+Notes: "Los parásitos" = parasites.
+
+id: seed-es-cats-037
+Spanish: la pulga
+English: flea
+Gender / POS: f. noun
+Example (ES): Mi gato tiene {{c1::pulgas}}.
+Example (EN): My cat has fleas.
+Notes: "La pipeta" = spot-on flea treatment.
+
+id: seed-es-cats-038
+Spanish: el collar
+English: collar
+Gender / POS: m. noun
+Example (ES): El {{c1::collar}} tiene una placa con su nombre.
+Example (EN): The collar has a tag with his name.
+Notes: Also means "necklace".
+
+id: seed-es-cats-039
+Spanish: el juguete
+English: toy
+Gender / POS: m. noun
+Example (ES): Su {{c1::juguete}} favorito es una pluma.
+Example (EN): His favorite toy is a feather.
+links: same root [[seed-es-cats-044]]
+
+id: seed-es-cats-040
+Spanish: la bola de pelo
+English: hairball
+Gender / POS: f. noun
+Example (ES): El gato vomitó una {{c1::bola de pelo}}.
+Example (EN): The cat threw up a hairball.
+
+id: seed-es-cats-041
+Spanish: la transportadora
+English: pet carrier
+Gender / POS: f. noun
+Example (ES): Mete al gato en la {{c1::transportadora}}.
+Example (EN): Put the cat in the carrier.
+Notes: Mexico: "la transportadora"; Spain: "el transportín".
+
+id: seed-es-cats-042
+Spanish: adoptar
+English: to adopt
+Gender / POS: verb
+Example (ES): {{c1::Adoptamos}} a nuestro gato en un refugio.
+Example (EN): We adopted our cat from a shelter.
+Notes: Popular slogan: "Adopta, no compres" (Adopt, don't shop).
+
+id: seed-es-cats-043
+Spanish: atigrado
+English: tabby, striped
+Gender / POS: adj.
+Example (ES): Tengo un gato {{c1::atigrado}} gris.
+Example (EN): I have a gray tabby cat.
+Notes: From "el tigre". Other coats: "carey" (tortoiseshell), "tricolor" (calico), "naranja" (orange).
+
+id: seed-es-cats-044
+Spanish: juguetón
+English: playful
+Gender / POS: adj.
+Example (ES): La gatita es muy {{c1::juguetona}}.
+Example (EN): The kitten is very playful.
+Notes: Forms: juguetón, juguetona, juguetones, juguetonas.
+
+id: seed-es-cats-045
+Spanish: cariñoso
+English: affectionate, cuddly
+Gender / POS: adj.
+Example (ES): Mi gato es muy {{c1::cariñoso}}.
+Example (EN): My cat is very affectionate.
+links: antonym [[seed-es-cats-047]]
+
+id: seed-es-cats-046
+Spanish: peludo
+English: furry, hairy, fluffy
+Gender / POS: adj.
+Example (ES): Los gatos {{c1::peludos}} sueltan mucho pelo.
+Example (EN): Fluffy cats shed a lot of hair.
+
+id: seed-es-cats-047
+Spanish: arisco
+English: skittish, standoffish
+Gender / POS: adj.
+Example (ES): El gato de la calle es un poco {{c1::arisco}}.
+Example (EN): The street cat is a little skittish.
+Notes: Not aggressive; it just keeps its distance and doesn't like being touched.
+
+id: seed-es-cats-048
+Spanish: callejero
+English: stray (cat or dog)
+Gender / POS: adj.
+Example (ES): Le doy de comer a un gato {{c1::callejero}}.
+Example (EN): I feed a stray cat.
+Notes: From "la calle" (street).
+
+id: seed-es-cats-049
+Spanish: el ratón
+English: mouse
+Gender / POS: m. noun
+Example (ES): El gato trajo un {{c1::ratón}} a la casa.
+Example (EN): The cat brought a mouse into the house.
+Notes: Plural: los ratones. Also a computer mouse.
+
+id: seed-es-cats-050
+Spanish: la hierba gatera
+English: catnip
+Gender / POS: f. noun
+Example (ES): A mi gata le encanta la {{c1::hierba gatera}}.
+Example (EN): My cat loves catnip.
+Notes: Many people in Mexico just say "catnip".
+links: same root [[seed-es-cats-001]]

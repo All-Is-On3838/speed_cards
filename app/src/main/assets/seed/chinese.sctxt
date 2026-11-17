@@ -1,0 +1,2262 @@
+# Speed Cards starter deck: Mandarin Chinese. seed-version: 1
+
+@deck 旅行 Travel survival
+@type Chinese Vocab
+@tags travel
+@languages zh-CN en-US
+
+id: seed-zh-travel-001
+Simplified: 厕所
+Traditional: 廁所
+Pinyin: cèsuǒ
+English: toilet, restroom
+Measure word: 个 (gè)
+Example (Simplified): 请问，厕所在哪儿？
+Example (Traditional): 請問，廁所在哪兒？
+Example pinyin: Qǐngwèn, cèsuǒ zài nǎr?
+Example (EN): Excuse me, where is the restroom?
+Notes: 洗手间 (xǐshǒujiān) is more polite.
+links: synonym [[seed-zh-travel-002]]
+
+id: seed-zh-travel-002
+Simplified: 洗手间
+Traditional: 洗手間
+Pinyin: xǐshǒujiān
+English: restroom, washroom
+Measure word: 个 (gè)
+Example (Simplified): 洗手间在二楼。
+Example (Traditional): 洗手間在二樓。
+Example pinyin: Xǐshǒujiān zài èr lóu.
+Example (EN): The restroom is on the second floor.
+
+id: seed-zh-travel-003
+Simplified: 你好
+Traditional: 你好
+Pinyin: nǐ hǎo
+English: hello
+Example (Simplified): 你好，我叫安娜。
+Example (Traditional): 你好，我叫安娜。
+Example pinyin: Nǐ hǎo, wǒ jiào Ānnà.
+Example (EN): Hello, my name is Anna.
+Notes: Pronounced ní hǎo in speech (third-tone sandhi). 您好 (nín hǎo) is more polite.
+
+id: seed-zh-travel-004
+Simplified: 谢谢
+Traditional: 謝謝
+Pinyin: xièxie
+English: thank you
+Example (Simplified): 谢谢你的帮助。
+Example (Traditional): 謝謝你的幫助。
+Example pinyin: Xièxie nǐ de bāngzhù.
+Example (EN): Thank you for your help.
+
+id: seed-zh-travel-005
+Simplified: 不客气
+Traditional: 不客氣
+Pinyin: bù kèqi
+English: you're welcome
+Example (Simplified): 不客气，这是我应该做的。
+Example (Traditional): 不客氣，這是我應該做的。
+Example pinyin: Bù kèqi, zhè shì wǒ yīnggāi zuò de.
+Example (EN): You're welcome, it was the least I could do.
+Notes: 不 is pronounced bú before a fourth tone.
+links: collocation [[seed-zh-travel-004]]
+
+id: seed-zh-travel-006
+Simplified: 对不起
+Traditional: 對不起
+Pinyin: duìbuqǐ
+English: sorry, excuse me
+Example (Simplified): 对不起，我来晚了。
+Example (Traditional): 對不起，我來晚了。
+Example pinyin: Duìbuqǐ, wǒ lái wǎn le.
+Example (EN): Sorry, I'm late.
+
+id: seed-zh-travel-007
+Simplified: 没关系
+Traditional: 沒關係
+Pinyin: méi guānxi
+English: it doesn't matter, no problem
+Example (Simplified): 没关系，别担心。
+Example (Traditional): 沒關係，別擔心。
+Example pinyin: Méi guānxi, bié dānxīn.
+Example (EN): It's fine, don't worry.
+Notes: The usual reply to 对不起.
+links: collocation [[seed-zh-travel-006]]
+
+id: seed-zh-travel-008
+Simplified: 请问
+Traditional: 請問
+Pinyin: qǐngwèn
+English: excuse me, may I ask
+Example (Simplified): 请问，地铁站怎么走？
+Example (Traditional): 請問，地鐵站怎麼走？
+Example pinyin: Qǐngwèn, dìtiězhàn zěnme zǒu?
+Example (EN): Excuse me, how do I get to the subway station?
+Notes: Polite way to start a question to a stranger.
+
+id: seed-zh-travel-009
+Simplified: 多少钱
+Traditional: 多少錢
+Pinyin: duōshao qián
+English: how much (does it cost)?
+Example (Simplified): 这个多少钱？
+Example (Traditional): 這個多少錢？
+Example pinyin: Zhège duōshao qián?
+Example (EN): How much is this?
+
+id: seed-zh-travel-010
+Simplified: 太贵了
+Traditional: 太貴了
+Pinyin: tài guì le
+English: too expensive
+Example (Simplified): 太贵了，便宜一点吧。
+Example (Traditional): 太貴了，便宜一點吧。
+Example pinyin: Tài guì le, piányi yīdiǎn ba.
+Example (EN): That's too expensive, can you make it a bit cheaper?
+Notes: Useful for bargaining at markets.
+links: antonym [[seed-zh-travel-011]]
+
+id: seed-zh-travel-011
+Simplified: 便宜
+Traditional: 便宜
+Pinyin: piányi
+English: cheap, inexpensive
+Example (Simplified): 这家饭馆很便宜。
+Example (Traditional): 這家飯館很便宜。
+Example pinyin: Zhè jiā fànguǎn hěn piányi.
+Example (EN): This restaurant is cheap.
+
+id: seed-zh-travel-012
+Simplified: 块
+Traditional: 塊
+Pinyin: kuài
+English: yuan (colloquial unit of money)
+Example (Simplified): 一瓶水三块钱。
+Example (Traditional): 一瓶水三塊錢。
+Example pinyin: Yī píng shuǐ sān kuài qián.
+Example (EN): A bottle of water costs three yuan.
+Notes: 元 (yuán) is the written/formal form; 块 is also a measure word for pieces.
+links: collocation [[seed-zh-travel-009]]
+
+id: seed-zh-travel-013
+Simplified: 我听不懂
+Traditional: 我聽不懂
+Pinyin: wǒ tīng bu dǒng
+English: I don't understand (what I hear)
+Example (Simplified): 对不起，我听不懂中文。
+Example (Traditional): 對不起，我聽不懂中文。
+Example pinyin: Duìbuqǐ, wǒ tīng bu dǒng Zhōngwén.
+Example (EN): Sorry, I don't understand spoken Chinese.
+Notes: 看不懂 (kàn bu dǒng) = can't understand something written.
+
+id: seed-zh-travel-014
+Simplified: 请说慢一点
+Traditional: 請說慢一點
+Pinyin: qǐng shuō màn yīdiǎn
+English: please speak more slowly
+Example (Simplified): 请说慢一点，我是外国人。
+Example (Traditional): 請說慢一點，我是外國人。
+Example pinyin: Qǐng shuō màn yīdiǎn, wǒ shì wàiguórén.
+Example (EN): Please speak more slowly, I'm a foreigner.
+links: collocation [[seed-zh-travel-013]]
+
+id: seed-zh-travel-015
+Simplified: 救命
+Traditional: 救命
+Pinyin: jiùmìng
+English: help! (emergency)
+Example (Simplified): 救命！有人掉进水里了！
+Example (Traditional): 救命！有人掉進水裡了！
+Example pinyin: Jiùmìng! Yǒu rén diào jìn shuǐ li le!
+Example (EN): Help! Someone has fallen into the water!
+Notes: Only for real emergencies.
+
+id: seed-zh-travel-016
+Simplified: 哪儿
+Traditional: 哪兒
+Pinyin: nǎr
+English: where
+Example (Simplified): 你住在哪儿？
+Example (Traditional): 你住在哪兒？
+Example pinyin: Nǐ zhù zài nǎr?
+Example (EN): Where are you staying?
+Notes: Northern usage; 哪里 (nǎlǐ) is common in the south and Taiwan.
+
+id: seed-zh-travel-017
+Simplified: 左
+Traditional: 左
+Pinyin: zuǒ
+English: left
+Example (Simplified): 前面路口往左拐。
+Example (Traditional): 前面路口往左拐。
+Example pinyin: Qiánmiàn lùkǒu wǎng zuǒ guǎi.
+Example (EN): Turn left at the intersection ahead.
+
+id: seed-zh-travel-018
+Simplified: 右
+Traditional: 右
+Pinyin: yòu
+English: right
+Example (Simplified): 银行在右边。
+Example (Traditional): 銀行在右邊。
+Example pinyin: Yínháng zài yòubian.
+Example (EN): The bank is on the right.
+links: antonym [[seed-zh-travel-017]]
+
+id: seed-zh-travel-019
+Simplified: 一直走
+Traditional: 一直走
+Pinyin: yīzhí zǒu
+English: go straight ahead
+Example (Simplified): 一直走，然后往右拐。
+Example (Traditional): 一直走，然後往右拐。
+Example pinyin: Yīzhí zǒu, ránhòu wǎng yòu guǎi.
+Example (EN): Go straight, then turn right.
+
+id: seed-zh-travel-020
+Simplified: 地铁
+Traditional: 地鐵
+Pinyin: dìtiě
+English: subway, metro
+Example (Simplified): 我们坐地铁去吧。
+Example (Traditional): 我們坐地鐵去吧。
+Example pinyin: Wǒmen zuò dìtiě qù ba.
+Example (EN): Let's take the subway.
+Notes: In Taiwan the metro is called 捷运 (jiéyùn).
+
+id: seed-zh-travel-021
+Simplified: 出租车
+Traditional: 出租車
+Pinyin: chūzūchē
+English: taxi
+Measure word: 辆 (liàng)
+Example (Simplified): 请帮我叫一辆出租车。
+Example (Traditional): 請幫我叫一輛出租車。
+Example pinyin: Qǐng bāng wǒ jiào yī liàng chūzūchē.
+Example (EN): Please call a taxi for me.
+Notes: 打车 (dǎchē) = to take a taxi. Taiwan: 计程车 (jìchéngchē).
+
+id: seed-zh-travel-022
+Simplified: 火车站
+Traditional: 火車站
+Pinyin: huǒchēzhàn
+English: train station
+Measure word: 个 (gè)
+Example (Simplified): 火车站离这儿远吗？
+Example (Traditional): 火車站離這兒遠嗎？
+Example pinyin: Huǒchēzhàn lí zhèr yuǎn ma?
+Example (EN): Is the train station far from here?
+
+id: seed-zh-travel-023
+Simplified: 机场
+Traditional: 機場
+Pinyin: jīchǎng
+English: airport
+Measure word: 个 (gè)
+Example (Simplified): 我要去机场。
+Example (Traditional): 我要去機場。
+Example pinyin: Wǒ yào qù jīchǎng.
+Example (EN): I need to go to the airport.
+
+id: seed-zh-travel-024
+Simplified: 票
+Traditional: 票
+Pinyin: piào
+English: ticket
+Measure word: 张 (zhāng)
+Example (Simplified): 我想买两张票。
+Example (Traditional): 我想買兩張票。
+Example pinyin: Wǒ xiǎng mǎi liǎng zhāng piào.
+Example (EN): I'd like to buy two tickets.
+links: collocation [[seed-zh-travel-022]]
+
+id: seed-zh-travel-025
+Simplified: 公交车
+Traditional: 公交車
+Pinyin: gōngjiāochē
+English: bus
+Measure word: 辆 (liàng)
+Example (Simplified): 这辆公交车去火车站吗？
+Example (Traditional): 這輛公交車去火車站嗎？
+Example pinyin: Zhè liàng gōngjiāochē qù huǒchēzhàn ma?
+Example (EN): Does this bus go to the train station?
+Notes: Taiwan: 公车 (gōngchē).
+links: same measure word [[seed-zh-travel-021]]
+
+id: seed-zh-travel-026
+Simplified: 菜单
+Traditional: 菜單
+Pinyin: càidān
+English: menu
+Measure word: 份 (fèn)
+Example (Simplified): 服务员，请给我菜单。
+Example (Traditional): 服務員，請給我菜單。
+Example pinyin: Fúwùyuán, qǐng gěi wǒ càidān.
+Example (EN): Waiter, could I have the menu, please?
+
+id: seed-zh-travel-027
+Simplified: 买单
+Traditional: 買單
+Pinyin: mǎidān
+English: the bill, please; to pay the bill
+Example (Simplified): 服务员，买单！
+Example (Traditional): 服務員，買單！
+Example pinyin: Fúwùyuán, mǎidān!
+Example (EN): Waiter, the bill please!
+Notes: 结账 (jiézhàng) is also common.
+links: same root [[seed-zh-travel-026]]
+
+id: seed-zh-travel-028
+Simplified: 不要辣
+Traditional: 不要辣
+Pinyin: bùyào là
+English: not spicy, please (no chili)
+Example (Simplified): 这个菜不要辣，谢谢。
+Example (Traditional): 這個菜不要辣，謝謝。
+Example pinyin: Zhège cài bùyào là, xièxie.
+Example (EN): No chili in this dish, please.
+Notes: 微辣 (wēilà) = mildly spicy.
+
+id: seed-zh-travel-029
+Simplified: 水
+Traditional: 水
+Pinyin: shuǐ
+English: water
+Example (Simplified): 请给我一杯水。
+Example (Traditional): 請給我一杯水。
+Example pinyin: Qǐng gěi wǒ yī bēi shuǐ.
+Example (EN): Please give me a glass of water.
+Notes: 热水 (rèshuǐ) = hot water; 冰水 (bīngshuǐ) = iced water.
+
+id: seed-zh-travel-030
+Simplified: 好吃
+Traditional: 好吃
+Pinyin: hǎochī
+English: delicious, tasty
+Example (Simplified): 这个饺子很好吃。
+Example (Traditional): 這個餃子很好吃。
+Example pinyin: Zhège jiǎozi hěn hǎochī.
+Example (EN): These dumplings are delicious.
+
+id: seed-zh-travel-031
+Simplified: 我要这个
+Traditional: 我要這個
+Pinyin: wǒ yào zhège
+English: I'll have this one
+Example (Simplified): 我要这个，再要一碗米饭。
+Example (Traditional): 我要這個，再要一碗米飯。
+Example pinyin: Wǒ yào zhège, zài yào yī wǎn mǐfàn.
+Example (EN): I'll have this, and a bowl of rice as well.
+Notes: Handy when pointing at a menu picture.
+
+id: seed-zh-travel-032
+Simplified: 酒店
+Traditional: 酒店
+Pinyin: jiǔdiàn
+English: hotel
+Measure word: 家 (jiā)
+Example (Simplified): 这家酒店很干净。
+Example (Traditional): 這家酒店很乾淨。
+Example pinyin: Zhè jiā jiǔdiàn hěn gānjìng.
+Example (EN): This hotel is very clean.
+Notes: Also 宾馆 (bīnguǎn); in Taiwan often 饭店 (fàndiàn).
+
+id: seed-zh-travel-033
+Simplified: 房间
+Traditional: 房間
+Pinyin: fángjiān
+English: room
+Measure word: 个 (gè)
+Example (Simplified): 我订了一个房间。
+Example (Traditional): 我訂了一個房間。
+Example pinyin: Wǒ dìngle yī gè fángjiān.
+Example (EN): I booked a room.
+
+id: seed-zh-travel-034
+Simplified: 护照
+Traditional: 護照
+Pinyin: hùzhào
+English: passport
+Measure word: 本 (běn)
+Example (Simplified): 请出示您的护照。
+Example (Traditional): 請出示您的護照。
+Example pinyin: Qǐng chūshì nín de hùzhào.
+Example (EN): Please show your passport.
+
+id: seed-zh-travel-035
+Simplified: 预订
+Traditional: 預訂
+Pinyin: yùdìng
+English: to book, to reserve; booking
+Example (Simplified): 我在网上预订了房间。
+Example (Traditional): 我在網上預訂了房間。
+Example pinyin: Wǒ zài wǎngshang yùdìngle fángjiān.
+Example (EN): I booked the room online.
+links: collocation [[seed-zh-travel-033]]
+
+id: seed-zh-travel-036
+Simplified: 钥匙
+Traditional: 鑰匙
+Pinyin: yàoshi
+English: key
+Measure word: 把 (bǎ)
+Example (Simplified): 我的房间钥匙丢了。
+Example (Traditional): 我的房間鑰匙丟了。
+Example pinyin: Wǒ de fángjiān yàoshi diū le.
+Example (EN): I've lost my room key.
+Notes: Hotels often use a key card: 房卡 (fángkǎ).
+links: collocation [[seed-zh-travel-033]]
+
+id: seed-zh-travel-037
+Simplified: 医院
+Traditional: 醫院
+Pinyin: yīyuàn
+English: hospital
+Measure word: 家 (jiā)
+Example (Simplified): 最近的医院在哪儿？
+Example (Traditional): 最近的醫院在哪兒？
+Example pinyin: Zuìjìn de yīyuàn zài nǎr?
+Example (EN): Where is the nearest hospital?
+Notes: Mainland emergency ambulance number: 120.
+
+id: seed-zh-travel-038
+Simplified: 药
+Traditional: 藥
+Pinyin: yào
+English: medicine, drug
+Example (Simplified): 这个药一天吃三次。
+Example (Traditional): 這個藥一天吃三次。
+Example pinyin: Zhège yào yī tiān chī sān cì.
+Example (EN): Take this medicine three times a day.
+Notes: 药店 (yàodiàn) = pharmacy. Chinese "eats" medicine (吃药).
+
+id: seed-zh-travel-039
+Simplified: 警察
+Traditional: 警察
+Pinyin: jǐngchá
+English: police, police officer
+Measure word: 个 (gè)
+Example (Simplified): 快叫警察！
+Example (Traditional): 快叫警察！
+Example pinyin: Kuài jiào jǐngchá!
+Example (EN): Call the police, quick!
+Notes: Mainland police number: 110.
+
+id: seed-zh-travel-040
+Simplified: 生病
+Traditional: 生病
+Pinyin: shēngbìng
+English: to get sick, to be ill
+Example (Simplified): 我生病了，要去医院。
+Example (Traditional): 我生病了，要去醫院。
+Example pinyin: Wǒ shēngbìng le, yào qù yīyuàn.
+Example (EN): I'm sick and need to go to the hospital.
+links: collocation [[seed-zh-travel-037]]
+
+id: seed-zh-travel-041
+Simplified: 疼
+Traditional: 疼
+Pinyin: téng
+English: to hurt, painful
+Example (Simplified): 我肚子很疼。
+Example (Traditional): 我肚子很疼。
+Example pinyin: Wǒ dùzi hěn téng.
+Example (EN): My stomach really hurts.
+Notes: 痛 (tòng) is a common alternative.
+
+id: seed-zh-travel-042
+Simplified: 帮忙
+Traditional: 幫忙
+Pinyin: bāngmáng
+English: to help, to do a favour
+Example (Simplified): 谢谢你帮忙！
+Example (Traditional): 謝謝你幫忙！
+Example pinyin: Xièxie nǐ bāngmáng!
+Example (EN): Thanks for helping!
+Notes: Separable verb: 帮个忙 (bāng gè máng) = do me a favour.
+
+id: seed-zh-travel-043
+Simplified: 现在
+Traditional: 現在
+Pinyin: xiànzài
+English: now
+Example (Simplified): 现在几点？
+Example (Traditional): 現在幾點？
+Example pinyin: Xiànzài jǐ diǎn?
+Example (EN): What time is it now?
+
+id: seed-zh-travel-044
+Simplified: 点
+Traditional: 點
+Pinyin: diǎn
+English: o'clock
+Example (Simplified): 火车早上八点开。
+Example (Traditional): 火車早上八點開。
+Example pinyin: Huǒchē zǎoshang bā diǎn kāi.
+Example (EN): The train leaves at eight in the morning.
+Notes: 8:30 = 八点半 (bā diǎn bàn).
+links: collocation [[seed-zh-travel-043]]
+
+id: seed-zh-travel-045
+Simplified: 今天
+Traditional: 今天
+Pinyin: jīntiān
+English: today
+Example (Simplified): 今天我们去长城。
+Example (Traditional): 今天我們去長城。
+Example pinyin: Jīntiān wǒmen qù Chángchéng.
+Example (EN): Today we're going to the Great Wall.
+
+id: seed-zh-travel-046
+Simplified: 明天
+Traditional: 明天
+Pinyin: míngtiān
+English: tomorrow
+Example (Simplified): 明天见！
+Example (Traditional): 明天見！
+Example pinyin: Míngtiān jiàn!
+Example (EN): See you tomorrow!
+links: same root [[seed-zh-travel-045]]
+
+id: seed-zh-travel-047
+Simplified: 两
+Traditional: 兩
+Pinyin: liǎng
+English: two (before measure words)
+Example (Simplified): 我要两瓶啤酒。
+Example (Traditional): 我要兩瓶啤酒。
+Example pinyin: Wǒ yào liǎng píng píjiǔ.
+Example (EN): I'd like two bottles of beer.
+Notes: Use 两 before a measure word; use 二 (èr) when counting or in numbers like 十二.
+
+id: seed-zh-travel-048
+Simplified: 百
+Traditional: 百
+Pinyin: bǎi
+English: hundred
+Example (Simplified): 这件衣服两百块。
+Example (Traditional): 這件衣服兩百塊。
+Example pinyin: Zhè jiàn yīfu liǎng bǎi kuài.
+Example (EN): This item of clothing is 200 yuan.
+links: collocation [[seed-zh-travel-012]]
+
+id: seed-zh-travel-049
+Simplified: 刷卡
+Traditional: 刷卡
+Pinyin: shuākǎ
+English: to pay by card, swipe a card
+Example (Simplified): 可以刷卡吗？
+Example (Traditional): 可以刷卡嗎？
+Example pinyin: Kěyǐ shuākǎ ma?
+Example (EN): Can I pay by card?
+Notes: In mainland China mobile payment (扫码 sǎomǎ, scanning a QR code) is far more common.
+
+id: seed-zh-travel-050
+Simplified: 再见
+Traditional: 再見
+Pinyin: zàijiàn
+English: goodbye
+Example (Simplified): 再见，路上小心！
+Example (Traditional): 再見，路上小心！
+Example pinyin: Zàijiàn, lùshang xiǎoxīn!
+Example (EN): Goodbye, take care on the way!
+links: antonym [[seed-zh-travel-003]]
+
+id: seed-zh-travel-051
+Simplified: 迷路
+Traditional: 迷路
+Pinyin: mílù
+English: to get lost
+Example (Simplified): 我迷路了，你能帮我吗？
+Example (Traditional): 我迷路了，你能幫我嗎？
+Example pinyin: Wǒ mílù le, nǐ néng bāng wǒ ma?
+Example (EN): I'm lost, can you help me?
+
+
+@deck 射箭 Archery
+@type Chinese Vocab
+@tags archery
+@languages zh-CN en-US
+
+id: seed-zh-archery-001
+Simplified: 射箭
+Traditional: 射箭
+Pinyin: shèjiàn
+English: archery; to shoot arrows
+Example (Simplified): 我每个周末都去射箭。
+Example (Traditional): 我每個週末都去射箭。
+Example pinyin: Wǒ měi gè zhōumò dōu qù shèjiàn.
+Example (EN): I go to archery every weekend.
+
+id: seed-zh-archery-002
+Simplified: 弓
+Traditional: 弓
+Pinyin: gōng
+English: bow
+Measure word: 张 (zhāng)
+Example (Simplified): 这张弓很轻。
+Example (Traditional): 這張弓很輕。
+Example pinyin: Zhè zhāng gōng hěn qīng.
+Example (EN): This bow is very light.
+Notes: 把 (bǎ) is also used as the measure word.
+
+id: seed-zh-archery-003
+Simplified: 箭
+Traditional: 箭
+Pinyin: jiàn
+English: arrow
+Measure word: 支 (zhī)
+Example (Simplified): 他射了六支箭。
+Example (Traditional): 他射了六支箭。
+Example pinyin: Tā shèle liù zhī jiàn.
+Example (EN): He shot six arrows.
+
+id: seed-zh-archery-004
+Simplified: 弓箭
+Traditional: 弓箭
+Pinyin: gōngjiàn
+English: bow and arrow
+Example (Simplified): 古代人用弓箭打猎。
+Example (Traditional): 古代人用弓箭打獵。
+Example pinyin: Gǔdài rén yòng gōngjiàn dǎliè.
+Example (EN): In ancient times people hunted with bows and arrows.
+links: same root [[seed-zh-archery-002]] [[seed-zh-archery-003]]
+
+id: seed-zh-archery-005
+Simplified: 箭袋
+Traditional: 箭袋
+Pinyin: jiàndài
+English: quiver
+Measure word: 个 (gè)
+Example (Simplified): 把箭放回箭袋里。
+Example (Traditional): 把箭放回箭袋裡。
+Example pinyin: Bǎ jiàn fàng huí jiàndài li.
+Example (EN): Put the arrows back in the quiver.
+links: same root [[seed-zh-archery-003]]
+
+id: seed-zh-archery-006
+Simplified: 弓弦
+Traditional: 弓弦
+Pinyin: gōngxián
+English: bowstring
+Measure word: 根 (gēn)
+Example (Simplified): 弓弦断了，要换一根新的。
+Example (Traditional): 弓弦斷了，要換一根新的。
+Example pinyin: Gōngxián duàn le, yào huàn yī gēn xīn de.
+Example (EN): The bowstring broke, so I need a new one.
+
+id: seed-zh-archery-007
+Simplified: 箭靶
+Traditional: 箭靶
+Pinyin: jiànbǎ
+English: archery target
+Measure word: 个 (gè)
+Example (Simplified): 箭靶离我们七十米。
+Example (Traditional): 箭靶離我們七十米。
+Example pinyin: Jiànbǎ lí wǒmen qīshí mǐ.
+Example (EN): The target is 70 metres away from us.
+Notes: Colloquially 靶子 (bǎzi).
+
+id: seed-zh-archery-008
+Simplified: 靶心
+Traditional: 靶心
+Pinyin: bǎxīn
+English: bullseye, centre of the target
+Example (Simplified): 他第一箭就射中了靶心。
+Example (Traditional): 他第一箭就射中了靶心。
+Example pinyin: Tā dì yī jiàn jiù shèzhòngle bǎxīn.
+Example (EN): He hit the bullseye with his very first arrow.
+links: same root [[seed-zh-archery-007]]
+
+id: seed-zh-archery-009
+Simplified: 瞄准器
+Traditional: 瞄準器
+Pinyin: miáozhǔnqì
+English: bow sight
+Measure word: 个 (gè)
+Example (Simplified): 我调了一下瞄准器。
+Example (Traditional): 我調了一下瞄準器。
+Example pinyin: Wǒ tiáole yīxià miáozhǔnqì.
+Example (EN): I adjusted the sight a little.
+
+id: seed-zh-archery-010
+Simplified: 护臂
+Traditional: 護臂
+Pinyin: hùbì
+English: arm guard
+Measure word: 个 (gè)
+Example (Simplified): 射箭时要戴护臂。
+Example (Traditional): 射箭時要戴護臂。
+Example pinyin: Shèjiàn shí yào dài hùbì.
+Example (EN): Wear an arm guard when you shoot.
+
+id: seed-zh-archery-011
+Simplified: 护指
+Traditional: 護指
+Pinyin: hùzhǐ
+English: finger tab
+Measure word: 个 (gè)
+Example (Simplified): 护指可以保护你的手指。
+Example (Traditional): 護指可以保護你的手指。
+Example pinyin: Hùzhǐ kěyǐ bǎohù nǐ de shǒuzhǐ.
+Example (EN): A finger tab protects your fingers.
+Notes: Also called 指护 (zhǐhù). A thumb ring for traditional archery is 扳指 (bānzhǐ).
+links: same root [[seed-zh-archery-010]]
+
+id: seed-zh-archery-012
+Simplified: 箭头
+Traditional: 箭頭
+Pinyin: jiàntóu
+English: arrowhead, arrow point; arrow sign
+Example (Simplified): 箭头插在靶子上。
+Example (Traditional): 箭頭插在靶子上。
+Example pinyin: Jiàntóu chā zài bǎzi shang.
+Example (EN): The arrowhead is stuck in the target.
+
+id: seed-zh-archery-013
+Simplified: 箭羽
+Traditional: 箭羽
+Pinyin: jiànyǔ
+English: fletching (arrow feathers or vanes)
+Example (Simplified): 这支箭的箭羽坏了。
+Example (Traditional): 這支箭的箭羽壞了。
+Example pinyin: Zhè zhī jiàn de jiànyǔ huài le.
+Example (EN): The fletching on this arrow is damaged.
+
+id: seed-zh-archery-014
+Simplified: 箭杆
+Traditional: 箭桿
+Pinyin: jiàngǎn
+English: arrow shaft
+Measure word: 根 (gēn)
+Example (Simplified): 碳素箭杆又轻又直。
+Example (Traditional): 碳素箭桿又輕又直。
+Example pinyin: Tànsù jiàngǎn yòu qīng yòu zhí.
+Example (EN): Carbon arrow shafts are light and straight.
+
+id: seed-zh-archery-015
+Simplified: 反曲弓
+Traditional: 反曲弓
+Pinyin: fǎnqūgōng
+English: recurve bow
+Measure word: 张 (zhāng)
+Example (Simplified): 奥运会比赛用的是反曲弓。
+Example (Traditional): 奧運會比賽用的是反曲弓。
+Example pinyin: Àoyùnhuì bǐsài yòng de shì fǎnqūgōng.
+Example (EN): The recurve bow is used in Olympic competition.
+links: same root [[seed-zh-archery-002]]
+
+id: seed-zh-archery-016
+Simplified: 复合弓
+Traditional: 複合弓
+Pinyin: fùhégōng
+English: compound bow
+Measure word: 张 (zhāng)
+Example (Simplified): 复合弓有滑轮，拉起来比较省力。
+Example (Traditional): 複合弓有滑輪，拉起來比較省力。
+Example pinyin: Fùhégōng yǒu huálún, lā qǐlai bǐjiào shěnglì.
+Example (EN): A compound bow has cams, so it takes less effort to draw.
+links: same root [[seed-zh-archery-002]]
+
+id: seed-zh-archery-017
+Simplified: 传统弓
+Traditional: 傳統弓
+Pinyin: chuántǒnggōng
+English: traditional bow
+Measure word: 张 (zhāng)
+Example (Simplified): 我更喜欢传统弓。
+Example (Traditional): 我更喜歡傳統弓。
+Example pinyin: Wǒ gèng xǐhuan chuántǒnggōng.
+Example (EN): I prefer traditional bows.
+Notes: Usually shot without a sight.
+
+id: seed-zh-archery-018
+Simplified: 拉弓
+Traditional: 拉弓
+Pinyin: lāgōng
+English: to draw the bow
+Example (Simplified): 拉弓的时候背要用力。
+Example (Traditional): 拉弓的時候背要用力。
+Example pinyin: Lāgōng de shíhou bèi yào yònglì.
+Example (EN): Use your back muscles when you draw the bow.
+links: collocation [[seed-zh-archery-002]]
+
+id: seed-zh-archery-019
+Simplified: 瞄准
+Traditional: 瞄準
+Pinyin: miáozhǔn
+English: to aim
+Example (Simplified): 瞄准靶心，别着急。
+Example (Traditional): 瞄準靶心，別著急。
+Example pinyin: Miáozhǔn bǎxīn, bié zháojí.
+Example (EN): Aim at the bullseye and don't rush.
+links: same root [[seed-zh-archery-009]]
+
+id: seed-zh-archery-020
+Simplified: 撒放
+Traditional: 撒放
+Pinyin: sāfàng
+English: release (technical term)
+Example (Simplified): 撒放要干净，手指放松。
+Example (Traditional): 撒放要乾淨，手指放鬆。
+Example pinyin: Sāfàng yào gānjìng, shǒuzhǐ fàngsōng.
+Example (EN): Make a clean release; relax your fingers.
+Notes: Coaching term; in everyday speech people say 放箭.
+links: synonym [[seed-zh-archery-021]]
+
+id: seed-zh-archery-021
+Simplified: 放箭
+Traditional: 放箭
+Pinyin: fàngjiàn
+English: to loose an arrow, to shoot
+Example (Simplified): 听到口令再放箭。
+Example (Traditional): 聽到口令再放箭。
+Example pinyin: Tīngdào kǒulìng zài fàngjiàn.
+Example (EN): Don't shoot until you hear the command.
+
+id: seed-zh-archery-022
+Simplified: 射
+Traditional: 射
+Pinyin: shè
+English: to shoot
+Example (Simplified): 你射得真准！
+Example (Traditional): 你射得真準！
+Example pinyin: Nǐ shè de zhēn zhǔn!
+Example (EN): You shoot really accurately!
+
+id: seed-zh-archery-023
+Simplified: 射中
+Traditional: 射中
+Pinyin: shèzhòng
+English: to hit (the target)
+Example (Simplified): 这一箭没射中。
+Example (Traditional): 這一箭沒射中。
+Example pinyin: Zhè yī jiàn méi shèzhòng.
+Example (EN): This arrow missed.
+Notes: 中 is read zhòng (fourth tone) here, meaning "to hit".
+links: same root [[seed-zh-archery-022]]
+
+id: seed-zh-archery-024
+Simplified: 脱靶
+Traditional: 脫靶
+Pinyin: tuōbǎ
+English: to miss the target
+Example (Simplified): 风太大，我脱靶了两次。
+Example (Traditional): 風太大，我脫靶了兩次。
+Example pinyin: Fēng tài dà, wǒ tuōbǎle liǎng cì.
+Example (EN): It was too windy, and I missed the target twice.
+links: antonym [[seed-zh-archery-023]]
+
+id: seed-zh-archery-025
+Simplified: 拔箭
+Traditional: 拔箭
+Pinyin: bájiàn
+English: to pull arrows (from the target)
+Example (Simplified): 大家一起去拔箭吧。
+Example (Traditional): 大家一起去拔箭吧。
+Example pinyin: Dàjiā yīqǐ qù bájiàn ba.
+Example (EN): Let's all go and pull our arrows.
+
+id: seed-zh-archery-026
+Simplified: 搭箭
+Traditional: 搭箭
+Pinyin: dājiàn
+English: to nock an arrow
+Example (Simplified): 先搭箭，再拉弓。
+Example (Traditional): 先搭箭，再拉弓。
+Example pinyin: Xiān dājiàn, zài lāgōng.
+Example (EN): Nock the arrow first, then draw the bow.
+
+id: seed-zh-archery-027
+Simplified: 站姿
+Traditional: 站姿
+Pinyin: zhànzī
+English: stance, standing posture
+Example (Simplified): 你的站姿很稳。
+Example (Traditional): 你的站姿很穩。
+Example pinyin: Nǐ de zhànzī hěn wěn.
+Example (EN): Your stance is very stable.
+
+id: seed-zh-archery-028
+Simplified: 靠位
+Traditional: 靠位
+Pinyin: kàowèi
+English: anchor (point)
+Example (Simplified): 每次靠位都要在同一个地方。
+Example (Traditional): 每次靠位都要在同一個地方。
+Example pinyin: Měi cì kàowèi dōu yào zài tóng yī gè dìfang.
+Example (EN): Your anchor should be in the same place every time.
+Notes: Coaching term for where the drawing hand rests on the face.
+
+id: seed-zh-archery-029
+Simplified: 射箭场
+Traditional: 射箭場
+Pinyin: shèjiànchǎng
+English: archery range
+Measure word: 个 (gè)
+Example (Simplified): 这个射箭场有十个靶位。
+Example (Traditional): 這個射箭場有十個靶位。
+Example pinyin: Zhège shèjiànchǎng yǒu shí gè bǎwèi.
+Example (EN): This archery range has ten target lanes.
+links: same root [[seed-zh-archery-001]]
+
+id: seed-zh-archery-030
+Simplified: 射箭馆
+Traditional: 射箭館
+Pinyin: shèjiànguǎn
+English: archery club, indoor range
+Measure word: 家 (jiā)
+Example (Simplified): 我家附近开了一家射箭馆。
+Example (Traditional): 我家附近開了一家射箭館。
+Example pinyin: Wǒ jiā fùjìn kāile yī jiā shèjiànguǎn.
+Example (EN): An archery club has opened near my home.
+links: same root [[seed-zh-archery-001]]
+
+id: seed-zh-archery-031
+Simplified: 环
+Traditional: 環
+Pinyin: huán
+English: ring (scoring zone); point
+Example (Simplified): 这一箭是十环！
+Example (Traditional): 這一箭是十環！
+Example pinyin: Zhè yī jiàn shì shí huán!
+Example (EN): That arrow is a ten!
+Notes: In archery and shooting, scores are counted in rings: 十环 = a ten.
+
+id: seed-zh-archery-032
+Simplified: 分
+Traditional: 分
+Pinyin: fēn
+English: point, score
+Example (Simplified): 他比我多三分。
+Example (Traditional): 他比我多三分。
+Example pinyin: Tā bǐ wǒ duō sān fēn.
+Example (EN): He has three points more than me.
+
+id: seed-zh-archery-033
+Simplified: 比赛
+Traditional: 比賽
+Pinyin: bǐsài
+English: competition, match
+Measure word: 场 (chǎng)
+Example (Simplified): 下个月我要参加射箭比赛。
+Example (Traditional): 下個月我要參加射箭比賽。
+Example pinyin: Xià gè yuè wǒ yào cānjiā shèjiàn bǐsài.
+Example (EN): Next month I'm taking part in an archery competition.
+
+id: seed-zh-archery-034
+Simplified: 距离
+Traditional: 距離
+Pinyin: jùlí
+English: distance
+Example (Simplified): 室内比赛的距离是十八米。
+Example (Traditional): 室內比賽的距離是十八米。
+Example pinyin: Shìnèi bǐsài de jùlí shì shíbā mǐ.
+Example (EN): The distance for indoor competitions is 18 metres.
+
+id: seed-zh-archery-035
+Simplified: 米
+Traditional: 米
+Pinyin: mǐ
+English: metre
+Example (Simplified): 我现在能射三十米了。
+Example (Traditional): 我現在能射三十米了。
+Example pinyin: Wǒ xiànzài néng shè sānshí mǐ le.
+Example (EN): I can shoot at 30 metres now.
+Notes: Also means "rice (uncooked)".
+links: collocation [[seed-zh-archery-034]]
+
+id: seed-zh-archery-036
+Simplified: 射手
+Traditional: 射手
+Pinyin: shèshǒu
+English: archer, shooter
+Measure word: 名 (míng)
+Example (Simplified): 她是一名优秀的射手。
+Example (Traditional): 她是一名優秀的射手。
+Example pinyin: Tā shì yī míng yōuxiù de shèshǒu.
+Example (EN): She is an excellent archer.
+Notes: 弓箭手 (gōngjiànshǒu) is used for archers in history and games.
+links: same root [[seed-zh-archery-022]]
+
+id: seed-zh-archery-037
+Simplified: 教练
+Traditional: 教練
+Pinyin: jiàoliàn
+English: coach, instructor
+Measure word: 位 (wèi)
+Example (Simplified): 教练帮我纠正了动作。
+Example (Traditional): 教練幫我糾正了動作。
+Example pinyin: Jiàoliàn bāng wǒ jiūzhèngle dòngzuò.
+Example (EN): The coach helped me correct my technique.
+
+id: seed-zh-archery-038
+Simplified: 安全
+Traditional: 安全
+Pinyin: ānquán
+English: safety; safe
+Example (Simplified): 射箭时安全第一。
+Example (Traditional): 射箭時安全第一。
+Example pinyin: Shèjiàn shí ānquán dì yī.
+Example (EN): In archery, safety comes first.
+
+id: seed-zh-archery-039
+Simplified: 起射线
+Traditional: 起射線
+Pinyin: qǐshèxiàn
+English: shooting line
+Measure word: 条 (tiáo)
+Example (Simplified): 请站在起射线后面。
+Example (Traditional): 請站在起射線後面。
+Example pinyin: Qǐng zhàn zài qǐshèxiàn hòumiàn.
+Example (EN): Please stand behind the shooting line.
+Notes: Also called 射击线 (shèjīxiàn) or 发射线 (fāshèxiàn).
+
+id: seed-zh-archery-040
+Simplified: 等候线
+Traditional: 等候線
+Pinyin: děnghòuxiàn
+English: waiting line
+Measure word: 条 (tiáo)
+Example (Simplified): 不射箭的人留在等候线后。
+Example (Traditional): 不射箭的人留在等候線後。
+Example pinyin: Bù shèjiàn de rén liú zài děnghòuxiàn hòu.
+Example (EN): People who aren't shooting stay behind the waiting line.
+links: same measure word [[seed-zh-archery-039]]
+
+id: seed-zh-archery-041
+Simplified: 空放
+Traditional: 空放
+Pinyin: kōngfàng
+English: to dry-fire (release without an arrow)
+Example (Simplified): 千万不要空放，会弄坏弓。
+Example (Traditional): 千萬不要空放，會弄壞弓。
+Example pinyin: Qiānwàn bùyào kōngfàng, huì nònghuài gōng.
+Example (EN): Never dry-fire: it can break the bow.
+
+id: seed-zh-archery-042
+Simplified: 停止
+Traditional: 停止
+Pinyin: tíngzhǐ
+English: to stop
+Example (Simplified): 听到哨声，马上停止射箭。
+Example (Traditional): 聽到哨聲，馬上停止射箭。
+Example pinyin: Tīngdào shàoshēng, mǎshàng tíngzhǐ shèjiàn.
+Example (EN): When you hear the whistle, stop shooting immediately.
+
+id: seed-zh-archery-043
+Simplified: 裁判
+Traditional: 裁判
+Pinyin: cáipàn
+English: judge, referee
+Measure word: 名 (míng)
+Example (Simplified): 裁判正在计分。
+Example (Traditional): 裁判正在計分。
+Example pinyin: Cáipàn zhèngzài jìfēn.
+Example (EN): The judge is recording the scores.
+links: collocation [[seed-zh-archery-033]]
+
+id: seed-zh-archery-044
+Simplified: 拉力
+Traditional: 拉力
+Pinyin: lālì
+English: draw weight
+Example (Simplified): 新手应该用拉力小的弓。
+Example (Traditional): 新手應該用拉力小的弓。
+Example pinyin: Xīnshǒu yīnggāi yòng lālì xiǎo de gōng.
+Example (EN): Beginners should use a bow with a light draw weight.
+Notes: Usually measured in 磅 (bàng, pounds).
+
+id: seed-zh-archery-045
+Simplified: 磅
+Traditional: 磅
+Pinyin: bàng
+English: pound (unit of weight)
+Example (Simplified): 我的弓是二十八磅的。
+Example (Traditional): 我的弓是二十八磅的。
+Example pinyin: Wǒ de gōng shì èrshíbā bàng de.
+Example (EN): My bow is 28 pounds.
+links: collocation [[seed-zh-archery-044]]
+
+id: seed-zh-archery-046
+Simplified: 准
+Traditional: 準
+Pinyin: zhǔn
+English: accurate, precise
+Example (Simplified): 他的箭越来越准了。
+Example (Traditional): 他的箭越來越準了。
+Example pinyin: Tā de jiàn yuè lái yuè zhǔn le.
+Example (EN): His shooting is getting more and more accurate.
+links: same root [[seed-zh-archery-019]]
+
+id: seed-zh-archery-047
+Simplified: 新手
+Traditional: 新手
+Pinyin: xīnshǒu
+English: beginner, novice
+Measure word: 个 (gè)
+Example (Simplified): 我是新手，请多指教。
+Example (Traditional): 我是新手，請多指教。
+Example pinyin: Wǒ shì xīnshǒu, qǐng duō zhǐjiào.
+Example (EN): I'm a beginner, so please give me lots of advice.
+
+id: seed-zh-archery-048
+Simplified: 弓臂
+Traditional: 弓臂
+Pinyin: gōngbì
+English: bow limb
+Example (Simplified): 反曲弓的弓臂可以拆下来。
+Example (Traditional): 反曲弓的弓臂可以拆下來。
+Example pinyin: Fǎnqūgōng de gōngbì kěyǐ chāi xiàlai.
+Example (EN): The limbs of a recurve bow can be taken off.
+links: same root [[seed-zh-archery-002]]
+
+id: seed-zh-archery-049
+Simplified: 弓把
+Traditional: 弓把
+Pinyin: gōngbǎ
+English: bow grip, handle (riser)
+Example (Simplified): 握弓把的时候不要太紧。
+Example (Traditional): 握弓把的時候不要太緊。
+Example pinyin: Wò gōngbǎ de shíhou bùyào tài jǐn.
+Example (EN): Don't grip the bow handle too tightly.
+Notes: The riser is also called 弓身 (gōngshēn).
+
+id: seed-zh-archery-050
+Simplified: 稳定
+Traditional: 穩定
+Pinyin: wěndìng
+English: stable, steady; consistency
+Example (Simplified): 射箭最重要的是稳定。
+Example (Traditional): 射箭最重要的是穩定。
+Example pinyin: Shèjiàn zuì zhòngyào de shì wěndìng.
+Example (EN): The most important thing in archery is consistency.
+
+
+@deck 健身 Gym & weightlifting
+@type Chinese Vocab
+@tags gym
+@languages zh-CN en-US
+
+id: seed-zh-gym-001
+Simplified: 健身
+Traditional: 健身
+Pinyin: jiànshēn
+English: to work out; fitness
+Example (Simplified): 我一周健身三次。
+Example (Traditional): 我一週健身三次。
+Example pinyin: Wǒ yī zhōu jiànshēn sān cì.
+Example (EN): I work out three times a week.
+
+id: seed-zh-gym-002
+Simplified: 健身房
+Traditional: 健身房
+Pinyin: jiànshēnfáng
+English: gym
+Measure word: 家 (jiā)
+Example (Simplified): 这家健身房二十四小时开门。
+Example (Traditional): 這家健身房二十四小時開門。
+Example pinyin: Zhè jiā jiànshēnfáng èrshísì xiǎoshí kāimén.
+Example (EN): This gym is open 24 hours.
+links: same root [[seed-zh-gym-001]]
+
+id: seed-zh-gym-003
+Simplified: 杠铃
+Traditional: 槓鈴
+Pinyin: gànglíng
+English: barbell
+Measure word: 根 (gēn)
+Example (Simplified): 他把杠铃放回架子上。
+Example (Traditional): 他把槓鈴放回架子上。
+Example pinyin: Tā bǎ gànglíng fàng huí jiàzi shang.
+Example (EN): He put the barbell back on the rack.
+Notes: The bar by itself is 杠铃杆 (gànglínggǎn) or just 杠 (gàng).
+
+id: seed-zh-gym-004
+Simplified: 哑铃
+Traditional: 啞鈴
+Pinyin: yǎlíng
+English: dumbbell
+Measure word: 个 (gè)
+Example (Simplified): 我需要一对十公斤的哑铃。
+Example (Traditional): 我需要一對十公斤的啞鈴。
+Example pinyin: Wǒ xūyào yī duì shí gōngjīn de yǎlíng.
+Example (EN): I need a pair of 10 kg dumbbells.
+Notes: 一对 (yī duì) = a pair.
+links: same root [[seed-zh-gym-003]]
+
+id: seed-zh-gym-005
+Simplified: 杠铃片
+Traditional: 槓鈴片
+Pinyin: gànglíngpiàn
+English: weight plate
+Measure word: 片 (piàn)
+Example (Simplified): 两边各加一片二十公斤的杠铃片。
+Example (Traditional): 兩邊各加一片二十公斤的槓鈴片。
+Example pinyin: Liǎngbiān gè jiā yī piàn èrshí gōngjīn de gànglíngpiàn.
+Example (EN): Add a 20 kg plate to each side.
+links: same root [[seed-zh-gym-003]]
+
+id: seed-zh-gym-006
+Simplified: 卧推凳
+Traditional: 臥推凳
+Pinyin: wòtuīdèng
+English: weight bench
+Measure word: 张 (zhāng)
+Example (Simplified): 卧推凳上没人，你用吧。
+Example (Traditional): 臥推凳上沒人，你用吧。
+Example pinyin: Wòtuīdèng shang méi rén, nǐ yòng ba.
+Example (EN): Nobody's on the bench, go ahead and use it.
+links: same root [[seed-zh-gym-013]]
+
+id: seed-zh-gym-007
+Simplified: 深蹲架
+Traditional: 深蹲架
+Pinyin: shēndūnjià
+English: squat rack
+Measure word: 个 (gè)
+Example (Simplified): 深蹲架都有人在用。
+Example (Traditional): 深蹲架都有人在用。
+Example pinyin: Shēndūnjià dōu yǒu rén zài yòng.
+Example (EN): All the squat racks are in use.
+links: same root [[seed-zh-gym-011]]
+
+id: seed-zh-gym-008
+Simplified: 壶铃
+Traditional: 壺鈴
+Pinyin: húlíng
+English: kettlebell
+Measure word: 个 (gè)
+Example (Simplified): 壶铃摆动练的是臀部。
+Example (Traditional): 壺鈴擺動練的是臀部。
+Example pinyin: Húlíng bǎidòng liàn de shì túnbù.
+Example (EN): Kettlebell swings work the glutes.
+
+id: seed-zh-gym-009
+Simplified: 跑步机
+Traditional: 跑步機
+Pinyin: pǎobùjī
+English: treadmill
+Measure word: 台 (tái)
+Example (Simplified): 我先在跑步机上跑十分钟。
+Example (Traditional): 我先在跑步機上跑十分鐘。
+Example pinyin: Wǒ xiān zài pǎobùjī shang pǎo shí fēnzhōng.
+Example (EN): First I'll run on the treadmill for ten minutes.
+
+id: seed-zh-gym-010
+Simplified: 器械
+Traditional: 器械
+Pinyin: qìxiè
+English: equipment, machines
+Example (Simplified): 用完器械请放回原处。
+Example (Traditional): 用完器械請放回原處。
+Example pinyin: Yòngwán qìxiè qǐng fàng huí yuánchù.
+Example (EN): Please put equipment back where it belongs after use.
+
+id: seed-zh-gym-011
+Simplified: 深蹲
+Traditional: 深蹲
+Pinyin: shēndūn
+English: squat
+Example (Simplified): 今天练腿，先做深蹲。
+Example (Traditional): 今天練腿，先做深蹲。
+Example pinyin: Jīntiān liàn tuǐ, xiān zuò shēndūn.
+Example (EN): Today is leg day, so squats first.
+
+id: seed-zh-gym-012
+Simplified: 硬拉
+Traditional: 硬拉
+Pinyin: yìnglā
+English: deadlift
+Example (Simplified): 他硬拉能拉两百公斤。
+Example (Traditional): 他硬拉能拉兩百公斤。
+Example pinyin: Tā yìnglā néng lā liǎng bǎi gōngjīn.
+Example (EN): He can deadlift 200 kg.
+
+id: seed-zh-gym-013
+Simplified: 卧推
+Traditional: 臥推
+Pinyin: wòtuī
+English: bench press
+Example (Simplified): 卧推的时候，脚要踩稳地面。
+Example (Traditional): 臥推的時候，腳要踩穩地面。
+Example pinyin: Wòtuī de shíhou, jiǎo yào cǎi wěn dìmiàn.
+Example (EN): When you bench press, keep your feet planted on the floor.
+links: collocation [[seed-zh-gym-003]]
+
+id: seed-zh-gym-014
+Simplified: 推举
+Traditional: 推舉
+Pinyin: tuījǔ
+English: overhead press, shoulder press
+Example (Simplified): 推举可以练肩膀。
+Example (Traditional): 推舉可以練肩膀。
+Example pinyin: Tuījǔ kěyǐ liàn jiānbǎng.
+Example (EN): The overhead press works your shoulders.
+Notes: Also called 肩推 (jiāntuī).
+links: collocation [[seed-zh-gym-033]]
+
+id: seed-zh-gym-015
+Simplified: 引体向上
+Traditional: 引體向上
+Pinyin: yǐntǐ xiàngshàng
+English: pull-up, chin-up
+Example (Simplified): 我现在能做五个引体向上。
+Example (Traditional): 我現在能做五個引體向上。
+Example pinyin: Wǒ xiànzài néng zuò wǔ gè yǐntǐ xiàngshàng.
+Example (EN): I can now do five pull-ups.
+
+id: seed-zh-gym-016
+Simplified: 划船
+Traditional: 划船
+Pinyin: huáchuán
+English: row (exercise); to row a boat
+Example (Simplified): 杠铃划船练的是背。
+Example (Traditional): 槓鈴划船練的是背。
+Example pinyin: Gànglíng huáchuán liàn de shì bèi.
+Example (EN): Barbell rows work the back.
+links: collocation [[seed-zh-gym-032]]
+
+id: seed-zh-gym-017
+Simplified: 弓步
+Traditional: 弓步
+Pinyin: gōngbù
+English: lunge
+Example (Simplified): 我们做三组弓步。
+Example (Traditional): 我們做三組弓步。
+Example pinyin: Wǒmen zuò sān zǔ gōngbù.
+Example (EN): Let's do three sets of lunges.
+Notes: Literally "bow step", from the martial-arts bow stance.
+links: same root [[seed-zh-archery-002]]
+
+id: seed-zh-gym-018
+Simplified: 卷腹
+Traditional: 捲腹
+Pinyin: juǎnfù
+English: crunch
+Example (Simplified): 卷腹比仰卧起坐对腰更友好。
+Example (Traditional): 捲腹比仰臥起坐對腰更友好。
+Example pinyin: Juǎnfù bǐ yǎngwò qǐzuò duì yāo gèng yǒuhǎo.
+Example (EN): Crunches are easier on your lower back than sit-ups.
+
+id: seed-zh-gym-019
+Simplified: 仰卧起坐
+Traditional: 仰臥起坐
+Pinyin: yǎngwò qǐzuò
+English: sit-up
+Example (Simplified): 他每天早上做五十个仰卧起坐。
+Example (Traditional): 他每天早上做五十個仰臥起坐。
+Example pinyin: Tā měitiān zǎoshang zuò wǔshí gè yǎngwò qǐzuò.
+Example (EN): He does 50 sit-ups every morning.
+
+id: seed-zh-gym-020
+Simplified: 俯卧撑
+Traditional: 俯臥撐
+Pinyin: fǔwòchēng
+English: push-up
+Example (Simplified): 我做了三十个俯卧撑。
+Example (Traditional): 我做了三十個俯臥撐。
+Example pinyin: Wǒ zuòle sānshí gè fǔwòchēng.
+Example (EN): I did 30 push-ups.
+Notes: Taiwan: 伏地挺身 (fúdì tǐngshēn).
+
+id: seed-zh-gym-021
+Simplified: 平板支撑
+Traditional: 平板支撐
+Pinyin: píngbǎn zhīchēng
+English: plank
+Example (Simplified): 平板支撑坚持一分钟。
+Example (Traditional): 平板支撐堅持一分鐘。
+Example pinyin: Píngbǎn zhīchēng jiānchí yī fēnzhōng.
+Example (EN): Hold the plank for one minute.
+
+id: seed-zh-gym-022
+Simplified: 组
+Traditional: 組
+Pinyin: zǔ
+English: set (of an exercise)
+Example (Simplified): 每个动作做四组。
+Example (Traditional): 每個動作做四組。
+Example pinyin: Měi gè dòngzuò zuò sì zǔ.
+Example (EN): Do four sets of each exercise.
+
+id: seed-zh-gym-023
+Simplified: 次
+Traditional: 次
+Pinyin: cì
+English: rep; time, occurrence
+Example (Simplified): 每组做十次。
+Example (Traditional): 每組做十次。
+Example pinyin: Měi zǔ zuò shí cì.
+Example (EN): Do ten reps per set.
+Notes: 个 (gè) is also used to count reps.
+links: collocation [[seed-zh-gym-022]]
+
+id: seed-zh-gym-024
+Simplified: 休息
+Traditional: 休息
+Pinyin: xiūxi
+English: to rest; rest
+Example (Simplified): 组间休息两分钟。
+Example (Traditional): 組間休息兩分鐘。
+Example pinyin: Zǔ jiān xiūxi liǎng fēnzhōng.
+Example (EN): Rest for two minutes between sets.
+
+id: seed-zh-gym-025
+Simplified: 热身
+Traditional: 熱身
+Pinyin: rèshēn
+English: to warm up; warm-up
+Example (Simplified): 训练前一定要热身。
+Example (Traditional): 訓練前一定要熱身。
+Example pinyin: Xùnliàn qián yīdìng yào rèshēn.
+Example (EN): Always warm up before training.
+
+id: seed-zh-gym-026
+Simplified: 拉伸
+Traditional: 拉伸
+Pinyin: lāshēn
+English: to stretch; stretching
+Example (Simplified): 练完以后记得拉伸。
+Example (Traditional): 練完以後記得拉伸。
+Example pinyin: Liànwán yǐhòu jìde lāshēn.
+Example (EN): Remember to stretch after your workout.
+Notes: Taiwan often says 伸展 (shēnzhǎn).
+
+id: seed-zh-gym-027
+Simplified: 训练
+Traditional: 訓練
+Pinyin: xùnliàn
+English: to train; training
+Example (Simplified): 他每天训练一个小时。
+Example (Traditional): 他每天訓練一個小時。
+Example pinyin: Tā měitiān xùnliàn yī gè xiǎoshí.
+Example (EN): He trains for an hour every day.
+
+id: seed-zh-gym-028
+Simplified: 重量
+Traditional: 重量
+Pinyin: zhòngliàng
+English: weight, load
+Example (Simplified): 下一组加点重量。
+Example (Traditional): 下一組加點重量。
+Example pinyin: Xià yī zǔ jiā diǎn zhòngliàng.
+Example (EN): Add a bit more weight for the next set.
+
+id: seed-zh-gym-029
+Simplified: 公斤
+Traditional: 公斤
+Pinyin: gōngjīn
+English: kilogram
+Example (Simplified): 我卧推六十公斤。
+Example (Traditional): 我臥推六十公斤。
+Example pinyin: Wǒ wòtuī liùshí gōngjīn.
+Example (EN): I bench 60 kg.
+Notes: 斤 (jīn) = half a kilogram, used when shopping for food.
+links: collocation [[seed-zh-gym-028]]
+
+id: seed-zh-gym-030
+Simplified: 肌肉
+Traditional: 肌肉
+Pinyin: jīròu
+English: muscle
+Measure word: 块 (kuài)
+Example (Simplified): 他的肌肉很发达。
+Example (Traditional): 他的肌肉很發達。
+Example pinyin: Tā de jīròu hěn fādá.
+Example (EN): He's very muscular.
+
+id: seed-zh-gym-031
+Simplified: 腿
+Traditional: 腿
+Pinyin: tuǐ
+English: leg
+Measure word: 条 (tiáo)
+Example (Simplified): 昨天练腿，今天腿很酸。
+Example (Traditional): 昨天練腿，今天腿很痠。
+Example pinyin: Zuótiān liàn tuǐ, jīntiān tuǐ hěn suān.
+Example (EN): I trained legs yesterday, and today they're sore.
+Notes: 练腿 (liàn tuǐ) = leg day.
+links: same measure word [[seed-zh-cats-005]]
+
+id: seed-zh-gym-032
+Simplified: 背
+Traditional: 背
+Pinyin: bèi
+English: back (of the body)
+Example (Simplified): 硬拉的时候背要挺直。
+Example (Traditional): 硬拉的時候背要挺直。
+Example pinyin: Yìnglā de shíhou bèi yào tǐngzhí.
+Example (EN): Keep your back straight when you deadlift.
+links: collocation [[seed-zh-gym-012]]
+
+id: seed-zh-gym-033
+Simplified: 肩膀
+Traditional: 肩膀
+Pinyin: jiānbǎng
+English: shoulder
+Example (Simplified): 我的肩膀有点疼。
+Example (Traditional): 我的肩膀有點疼。
+Example pinyin: Wǒ de jiānbǎng yǒudiǎn téng.
+Example (EN): My shoulder hurts a bit.
+
+id: seed-zh-gym-034
+Simplified: 胸
+Traditional: 胸
+Pinyin: xiōng
+English: chest
+Example (Simplified): 卧推主要练胸。
+Example (Traditional): 臥推主要練胸。
+Example pinyin: Wòtuī zhǔyào liàn xiōng.
+Example (EN): The bench press mainly works the chest.
+links: collocation [[seed-zh-gym-013]]
+
+id: seed-zh-gym-035
+Simplified: 手臂
+Traditional: 手臂
+Pinyin: shǒubì
+English: arm
+Example (Simplified): 他的手臂很粗。
+Example (Traditional): 他的手臂很粗。
+Example pinyin: Tā de shǒubì hěn cū.
+Example (EN): His arms are really big.
+Notes: 胳膊 (gēbo) is the everyday word.
+
+id: seed-zh-gym-036
+Simplified: 腹肌
+Traditional: 腹肌
+Pinyin: fùjī
+English: abs, abdominal muscles
+Example (Simplified): 练腹肌也要控制饮食。
+Example (Traditional): 練腹肌也要控制飲食。
+Example pinyin: Liàn fùjī yě yào kòngzhì yǐnshí.
+Example (EN): To get abs, you also need to watch your diet.
+
+id: seed-zh-gym-037
+Simplified: 臀部
+Traditional: 臀部
+Pinyin: túnbù
+English: glutes, buttocks
+Example (Simplified): 深蹲能练臀部和大腿。
+Example (Traditional): 深蹲能練臀部和大腿。
+Example pinyin: Shēndūn néng liàn túnbù hé dàtuǐ.
+Example (EN): Squats work your glutes and thighs.
+
+id: seed-zh-gym-038
+Simplified: 膝盖
+Traditional: 膝蓋
+Pinyin: xīgài
+English: knee
+Example (Simplified): 深蹲时膝盖朝着脚尖的方向。
+Example (Traditional): 深蹲時膝蓋朝著腳尖的方向。
+Example pinyin: Shēndūn shí xīgài cháozhe jiǎojiān de fāngxiàng.
+Example (EN): When squatting, keep your knees pointing the same way as your toes.
+links: collocation [[seed-zh-gym-011]]
+
+id: seed-zh-gym-039
+Simplified: 核心
+Traditional: 核心
+Pinyin: héxīn
+English: core (muscles)
+Example (Simplified): 收紧核心，不要塌腰。
+Example (Traditional): 收緊核心，不要塌腰。
+Example pinyin: Shōujǐn héxīn, bùyào tā yāo.
+Example (EN): Brace your core and don't let your lower back sag.
+
+id: seed-zh-gym-040
+Simplified: 挺胸
+Traditional: 挺胸
+Pinyin: tǐngxiōng
+English: chest up (form cue)
+Example (Simplified): 挺胸，肩膀向后收。
+Example (Traditional): 挺胸，肩膀向後收。
+Example pinyin: Tǐngxiōng, jiānbǎng xiàng hòu shōu.
+Example (EN): Chest up, pull your shoulders back.
+links: same root [[seed-zh-gym-034]]
+
+id: seed-zh-gym-041
+Simplified: 动作
+Traditional: 動作
+Pinyin: dòngzuò
+English: movement; form, technique
+Measure word: 个 (gè)
+Example (Simplified): 动作要标准，别贪重量。
+Example (Traditional): 動作要標準，別貪重量。
+Example pinyin: Dòngzuò yào biāozhǔn, bié tān zhòngliàng.
+Example (EN): Keep your form strict; don't chase heavy weights.
+
+id: seed-zh-gym-042
+Simplified: 慢慢来
+Traditional: 慢慢來
+Pinyin: mànmàn lái
+English: take your time, take it slow
+Example (Simplified): 别着急，慢慢来。
+Example (Traditional): 別著急，慢慢來。
+Example pinyin: Bié zháojí, mànmàn lái.
+Example (EN): Don't rush, take it slow.
+
+id: seed-zh-gym-043
+Simplified: 保护
+Traditional: 保護
+Pinyin: bǎohù
+English: to spot (someone); to protect
+Example (Simplified): 你能帮我保护一下吗？
+Example (Traditional): 你能幫我保護一下嗎？
+Example pinyin: Nǐ néng bāng wǒ bǎohù yīxià ma?
+Example (EN): Could you spot me?
+Notes: In the gym 保护 means "to spot".
+
+id: seed-zh-gym-044
+Simplified: 力量
+Traditional: 力量
+Pinyin: lìliang
+English: strength, power
+Example (Simplified): 我想提高力量。
+Example (Traditional): 我想提高力量。
+Example pinyin: Wǒ xiǎng tígāo lìliang.
+Example (EN): I want to get stronger.
+Notes: 力量训练 (lìliang xùnliàn) = strength training.
+
+id: seed-zh-gym-045
+Simplified: 有氧
+Traditional: 有氧
+Pinyin: yǒuyǎng
+English: cardio, aerobic exercise
+Example (Simplified): 练完力量再做二十分钟有氧。
+Example (Traditional): 練完力量再做二十分鐘有氧。
+Example pinyin: Liànwán lìliang zài zuò èrshí fēnzhōng yǒuyǎng.
+Example (EN): After strength training, do 20 minutes of cardio.
+links: collocation [[seed-zh-gym-044]]
+
+id: seed-zh-gym-046
+Simplified: 蛋白粉
+Traditional: 蛋白粉
+Pinyin: dànbáifěn
+English: protein powder
+Example (Simplified): 训练后我喝一杯蛋白粉。
+Example (Traditional): 訓練後我喝一杯蛋白粉。
+Example pinyin: Xùnliàn hòu wǒ hē yī bēi dànbáifěn.
+Example (EN): I have a protein shake after training.
+
+id: seed-zh-gym-047
+Simplified: 增肌
+Traditional: 增肌
+Pinyin: zēngjī
+English: to build muscle, to bulk
+Example (Simplified): 增肌要多吃蛋白质。
+Example (Traditional): 增肌要多吃蛋白質。
+Example pinyin: Zēngjī yào duō chī dànbáizhì.
+Example (EN): To build muscle, eat plenty of protein.
+
+id: seed-zh-gym-048
+Simplified: 减脂
+Traditional: 減脂
+Pinyin: jiǎnzhī
+English: to cut, to lose fat
+Example (Simplified): 我这个月在减脂。
+Example (Traditional): 我這個月在減脂。
+Example pinyin: Wǒ zhège yuè zài jiǎnzhī.
+Example (EN): I'm cutting this month.
+links: antonym [[seed-zh-gym-047]]
+
+id: seed-zh-gym-049
+Simplified: 酸痛
+Traditional: 痠痛
+Pinyin: suāntòng
+English: sore, aching (muscles)
+Example (Simplified): 第一次练完，全身酸痛。
+Example (Traditional): 第一次練完，全身痠痛。
+Example pinyin: Dì yī cì liànwán, quánshēn suāntòng.
+Example (EN): After my first workout, my whole body ached.
+Notes: Traditional often writes 痠 for muscle soreness.
+
+id: seed-zh-gym-050
+Simplified: 握
+Traditional: 握
+Pinyin: wò
+English: to grip, to hold
+Example (Simplified): 双手握杠比肩宽一点。
+Example (Traditional): 雙手握槓比肩寬一點。
+Example pinyin: Shuāngshǒu wò gàng bǐ jiān kuān yīdiǎn.
+Example (EN): Grip the bar a little wider than shoulder width.
+
+id: seed-zh-gym-051
+Simplified: 私教
+Traditional: 私教
+Pinyin: sījiào
+English: personal trainer
+Measure word: 个 (gè)
+Example (Simplified): 我请了一个私教。
+Example (Traditional): 我請了一個私教。
+Example pinyin: Wǒ qǐngle yī gè sījiào.
+Example (EN): I've hired a personal trainer.
+Notes: Short for 私人教练 (sīrén jiàoliàn).
+links: same root [[seed-zh-archery-037]]
+
+
+@deck 猫 Cats
+@type Chinese Vocab
+@tags cats
+@languages zh-CN en-US
+
+id: seed-zh-cats-001
+Simplified: 猫
+Traditional: 貓
+Pinyin: māo
+English: cat
+Measure word: 只 (zhī)
+Example (Simplified): 我家有两只猫。
+Example (Traditional): 我家有兩隻貓。
+Example pinyin: Wǒ jiā yǒu liǎng zhī māo.
+Example (EN): I have two cats at home.
+Notes: 只 (Traditional 隻) is the measure word for cats and most animals.
+
+id: seed-zh-cats-002
+Simplified: 小猫
+Traditional: 小貓
+Pinyin: xiǎomāo
+English: kitten
+Measure word: 只 (zhī)
+Example (Simplified): 这只小猫才两个月大。
+Example (Traditional): 這隻小貓才兩個月大。
+Example pinyin: Zhè zhī xiǎomāo cái liǎng gè yuè dà.
+Example (EN): This kitten is only two months old.
+links: same root [[seed-zh-cats-001]]
+
+id: seed-zh-cats-003
+Simplified: 猫咪
+Traditional: 貓咪
+Pinyin: māomī
+English: kitty, cat (affectionate)
+Measure word: 只 (zhī)
+Example (Simplified): 猫咪在沙发上睡觉。
+Example (Traditional): 貓咪在沙發上睡覺。
+Example pinyin: Māomī zài shāfā shang shuìjiào.
+Example (EN): The kitty is sleeping on the sofa.
+links: synonym [[seed-zh-cats-001]]
+
+id: seed-zh-cats-004
+Simplified: 胡须
+Traditional: 鬍鬚
+Pinyin: húxū
+English: whiskers
+Measure word: 根 (gēn)
+Example (Simplified): 猫的胡须非常敏感。
+Example (Traditional): 貓的鬍鬚非常敏感。
+Example pinyin: Māo de húxū fēicháng mǐngǎn.
+Example (EN): A cat's whiskers are very sensitive.
+Notes: Colloquially 胡子 (húzi).
+
+id: seed-zh-cats-005
+Simplified: 尾巴
+Traditional: 尾巴
+Pinyin: wěiba
+English: tail
+Measure word: 条 (tiáo)
+Example (Simplified): 猫生气时会甩尾巴。
+Example (Traditional): 貓生氣時會甩尾巴。
+Example pinyin: Māo shēngqì shí huì shuǎi wěiba.
+Example (EN): Cats swish their tails when they're annoyed.
+
+id: seed-zh-cats-006
+Simplified: 爪子
+Traditional: 爪子
+Pinyin: zhuǎzi
+English: paw; claw
+Example (Simplified): 小猫用爪子玩毛线。
+Example (Traditional): 小貓用爪子玩毛線。
+Example pinyin: Xiǎomāo yòng zhuǎzi wán máoxiàn.
+Example (EN): The kitten plays with yarn using its paws.
+Notes: 爪 is read zhuǎ here; zhǎo in more literary words.
+
+id: seed-zh-cats-007
+Simplified: 肉垫
+Traditional: 肉墊
+Pinyin: ròudiàn
+English: paw pad
+Example (Simplified): 我家猫的肉垫是粉色的。
+Example (Traditional): 我家貓的肉墊是粉色的。
+Example pinyin: Wǒ jiā māo de ròudiàn shì fěnsè de.
+Example (EN): My cat's paw pads are pink.
+Notes: Also called 肉球 (ròuqiú).
+
+id: seed-zh-cats-008
+Simplified: 耳朵
+Traditional: 耳朵
+Pinyin: ěrduo
+English: ear
+Measure word: 只 (zhī)
+Example (Simplified): 猫的耳朵竖起来了。
+Example (Traditional): 貓的耳朵豎起來了。
+Example pinyin: Māo de ěrduo shù qǐlai le.
+Example (EN): The cat's ears pricked up.
+links: same measure word [[seed-zh-cats-001]]
+
+id: seed-zh-cats-009
+Simplified: 眼睛
+Traditional: 眼睛
+Pinyin: yǎnjing
+English: eye
+Measure word: 只 (zhī)
+Example (Simplified): 这只猫的眼睛是蓝色的。
+Example (Traditional): 這隻貓的眼睛是藍色的。
+Example pinyin: Zhè zhī māo de yǎnjing shì lánsè de.
+Example (EN): This cat has blue eyes.
+Notes: A pair of eyes: 一双眼睛 (yī shuāng yǎnjing).
+
+id: seed-zh-cats-010
+Simplified: 毛
+Traditional: 毛
+Pinyin: máo
+English: fur, hair (of animals)
+Example (Simplified): 我的衣服上都是猫毛。
+Example (Traditional): 我的衣服上都是貓毛。
+Example pinyin: Wǒ de yīfu shang dōu shì māomáo.
+Example (EN): My clothes are covered in cat hair.
+
+id: seed-zh-cats-011
+Simplified: 舌头
+Traditional: 舌頭
+Pinyin: shétou
+English: tongue
+Example (Simplified): 猫的舌头很粗糙。
+Example (Traditional): 貓的舌頭很粗糙。
+Example pinyin: Māo de shétou hěn cūcāo.
+Example (EN): A cat's tongue is very rough.
+
+id: seed-zh-cats-012
+Simplified: 喵
+Traditional: 喵
+Pinyin: miāo
+English: meow
+Example (Simplified): 小猫喵喵叫。
+Example (Traditional): 小貓喵喵叫。
+Example pinyin: Xiǎomāo miāomiāo jiào.
+Example (EN): The kitten is meowing.
+
+id: seed-zh-cats-013
+Simplified: 叫
+Traditional: 叫
+Pinyin: jiào
+English: to meow, to cry (of animals); to call
+Example (Simplified): 猫饿了就会一直叫。
+Example (Traditional): 貓餓了就會一直叫。
+Example pinyin: Māo è le jiù huì yīzhí jiào.
+Example (EN): When the cat is hungry, it meows nonstop.
+links: collocation [[seed-zh-cats-012]]
+
+id: seed-zh-cats-014
+Simplified: 打呼噜
+Traditional: 打呼嚕
+Pinyin: dǎ hūlu
+English: to purr; to snore
+Example (Simplified): 猫舒服的时候会打呼噜。
+Example (Traditional): 貓舒服的時候會打呼嚕。
+Example pinyin: Māo shūfu de shíhou huì dǎ hūlu.
+Example (EN): Cats purr when they're comfortable.
+
+id: seed-zh-cats-015
+Simplified: 抓
+Traditional: 抓
+Pinyin: zhuā
+English: to scratch; to catch
+Example (Simplified): 别让猫抓沙发。
+Example (Traditional): 別讓貓抓沙發。
+Example pinyin: Bié ràng māo zhuā shāfā.
+Example (EN): Don't let the cat scratch the sofa.
+
+id: seed-zh-cats-016
+Simplified: 舔毛
+Traditional: 舔毛
+Pinyin: tiǎnmáo
+English: to groom (by licking fur)
+Example (Simplified): 猫每天花很多时间舔毛。
+Example (Traditional): 貓每天花很多時間舔毛。
+Example pinyin: Māo měitiān huā hěn duō shíjiān tiǎnmáo.
+Example (EN): Cats spend a lot of time grooming every day.
+links: same root [[seed-zh-cats-010]]
+
+id: seed-zh-cats-017
+Simplified: 咬
+Traditional: 咬
+Pinyin: yǎo
+English: to bite
+Example (Simplified): 小猫咬了我的手指。
+Example (Traditional): 小貓咬了我的手指。
+Example pinyin: Xiǎomāo yǎole wǒ de shǒuzhǐ.
+Example (EN): The kitten bit my finger.
+
+id: seed-zh-cats-018
+Simplified: 睡觉
+Traditional: 睡覺
+Pinyin: shuìjiào
+English: to sleep
+Example (Simplified): 我的猫喜欢在窗边睡觉。
+Example (Traditional): 我的貓喜歡在窗邊睡覺。
+Example pinyin: Wǒ de māo xǐhuan zài chuāng biān shuìjiào.
+Example (EN): My cat likes to sleep by the window.
+
+id: seed-zh-cats-019
+Simplified: 蹭
+Traditional: 蹭
+Pinyin: cèng
+English: to rub against
+Example (Simplified): 猫用头蹭我的腿。
+Example (Traditional): 貓用頭蹭我的腿。
+Example pinyin: Māo yòng tóu cèng wǒ de tuǐ.
+Example (EN): The cat rubs its head against my leg.
+
+id: seed-zh-cats-020
+Simplified: 踩奶
+Traditional: 踩奶
+Pinyin: cǎinǎi
+English: to knead ("make biscuits")
+Example (Simplified): 猫在毯子上踩奶。
+Example (Traditional): 貓在毯子上踩奶。
+Example pinyin: Māo zài tǎnzi shang cǎinǎi.
+Example (EN): The cat is kneading the blanket.
+Notes: Literally "treading milk", from how kittens knead while nursing.
+
+id: seed-zh-cats-021
+Simplified: 撒娇
+Traditional: 撒嬌
+Pinyin: sājiāo
+English: to act cute, to ask for attention
+Example (Simplified): 我的猫很会撒娇。
+Example (Traditional): 我的貓很會撒嬌。
+Example pinyin: Wǒ de māo hěn huì sājiāo.
+Example (EN): My cat really knows how to act cute for attention.
+
+id: seed-zh-cats-022
+Simplified: 老鼠
+Traditional: 老鼠
+Pinyin: lǎoshǔ
+English: mouse, rat
+Measure word: 只 (zhī)
+Example (Simplified): 猫抓到了一只老鼠。
+Example (Traditional): 貓抓到了一隻老鼠。
+Example pinyin: Māo zhuādàole yī zhī lǎoshǔ.
+Example (EN): The cat caught a mouse.
+links: same measure word [[seed-zh-cats-001]]
+
+id: seed-zh-cats-023
+Simplified: 猫砂
+Traditional: 貓砂
+Pinyin: māoshā
+English: cat litter
+Example (Simplified): 这种猫砂结团很快。
+Example (Traditional): 這種貓砂結團很快。
+Example pinyin: Zhè zhǒng māoshā jiétuán hěn kuài.
+Example (EN): This kind of litter clumps quickly.
+
+id: seed-zh-cats-024
+Simplified: 猫砂盆
+Traditional: 貓砂盆
+Pinyin: māoshāpén
+English: litter box
+Measure word: 个 (gè)
+Example (Simplified): 猫砂盆要每天清理。
+Example (Traditional): 貓砂盆要每天清理。
+Example pinyin: Māoshāpén yào měitiān qīnglǐ.
+Example (EN): The litter box should be cleaned every day.
+links: same root [[seed-zh-cats-023]]
+
+id: seed-zh-cats-025
+Simplified: 猫粮
+Traditional: 貓糧
+Pinyin: māoliáng
+English: cat food (dry)
+Example (Simplified): 猫粮快吃完了，得去买。
+Example (Traditional): 貓糧快吃完了，得去買。
+Example pinyin: Māoliáng kuài chīwán le, děi qù mǎi.
+Example (EN): The cat food is almost gone, so we need to buy more.
+
+id: seed-zh-cats-026
+Simplified: 罐头
+Traditional: 罐頭
+Pinyin: guàntou
+English: canned food, tin
+Measure word: 个 (gè)
+Example (Simplified): 周末给猫开一个罐头。
+Example (Traditional): 週末給貓開一個罐頭。
+Example pinyin: Zhōumò gěi māo kāi yī gè guàntou.
+Example (EN): At weekends I open a can of food for the cat.
+Notes: 猫罐头 (māo guàntou) = canned cat food.
+
+id: seed-zh-cats-027
+Simplified: 猫抓板
+Traditional: 貓抓板
+Pinyin: māozhuābǎn
+English: cat scratcher, scratching board
+Measure word: 个 (gè)
+Example (Simplified): 我们买了一个新的猫抓板。
+Example (Traditional): 我們買了一個新的貓抓板。
+Example pinyin: Wǒmen mǎile yī gè xīn de māozhuābǎn.
+Example (EN): We bought a new cat scratcher.
+links: same root [[seed-zh-cats-015]]
+
+id: seed-zh-cats-028
+Simplified: 猫爬架
+Traditional: 貓爬架
+Pinyin: māopájià
+English: cat tree
+Measure word: 个 (gè)
+Example (Simplified): 猫最喜欢待在猫爬架的最高层。
+Example (Traditional): 貓最喜歡待在貓爬架的最高層。
+Example pinyin: Māo zuì xǐhuan dāi zài māopájià de zuì gāo céng.
+Example (EN): Cats love to sit on the top level of the cat tree.
+
+id: seed-zh-cats-029
+Simplified: 逗猫棒
+Traditional: 逗貓棒
+Pinyin: dòumāobàng
+English: cat wand toy
+Measure word: 根 (gēn)
+Example (Simplified): 用逗猫棒陪猫玩一会儿。
+Example (Traditional): 用逗貓棒陪貓玩一會兒。
+Example pinyin: Yòng dòumāobàng péi māo wán yīhuìr.
+Example (EN): Play with the cat for a while using the wand toy.
+links: same measure word [[seed-zh-cats-004]]
+
+id: seed-zh-cats-030
+Simplified: 兽医
+Traditional: 獸醫
+Pinyin: shòuyī
+English: vet, veterinarian
+Measure word: 位 (wèi)
+Example (Simplified): 明天我要带猫去看兽医。
+Example (Traditional): 明天我要帶貓去看獸醫。
+Example pinyin: Míngtiān wǒ yào dài māo qù kàn shòuyī.
+Example (EN): Tomorrow I'm taking the cat to the vet.
+
+id: seed-zh-cats-031
+Simplified: 宠物医院
+Traditional: 寵物醫院
+Pinyin: chǒngwù yīyuàn
+English: vet clinic, animal hospital
+Measure word: 家 (jiā)
+Example (Simplified): 附近有一家宠物医院。
+Example (Traditional): 附近有一家寵物醫院。
+Example pinyin: Fùjìn yǒu yī jiā chǒngwù yīyuàn.
+Example (EN): There's a vet clinic nearby.
+links: same root [[seed-zh-cats-035]] [[seed-zh-travel-037]]; collocation [[seed-zh-cats-030]]
+
+id: seed-zh-cats-032
+Simplified: 疫苗
+Traditional: 疫苗
+Pinyin: yìmiáo
+English: vaccine
+Measure word: 针 (zhēn)
+Example (Simplified): 小猫要打三针疫苗。
+Example (Traditional): 小貓要打三針疫苗。
+Example pinyin: Xiǎomāo yào dǎ sān zhēn yìmiáo.
+Example (EN): Kittens need three vaccine shots.
+Notes: 打疫苗 (dǎ yìmiáo) = to get vaccinated.
+
+id: seed-zh-cats-033
+Simplified: 绝育
+Traditional: 絕育
+Pinyin: juéyù
+English: to spay, to neuter
+Example (Simplified): 我们的猫已经绝育了。
+Example (Traditional): 我們的貓已經絕育了。
+Example pinyin: Wǒmen de māo yǐjīng juéyù le.
+Example (EN): Our cat has already been spayed.
+
+id: seed-zh-cats-034
+Simplified: 驱虫
+Traditional: 驅蟲
+Pinyin: qūchóng
+English: to deworm, to treat for parasites
+Example (Simplified): 记得定期给猫驱虫。
+Example (Traditional): 記得定期給貓驅蟲。
+Example pinyin: Jìde dìngqī gěi māo qūchóng.
+Example (EN): Remember to treat the cat for parasites regularly.
+
+id: seed-zh-cats-035
+Simplified: 宠物
+Traditional: 寵物
+Pinyin: chǒngwù
+English: pet
+Measure word: 只 (zhī)
+Example (Simplified): 你养宠物吗？
+Example (Traditional): 你養寵物嗎？
+Example pinyin: Nǐ yǎng chǒngwù ma?
+Example (EN): Do you have any pets?
+
+id: seed-zh-cats-036
+Simplified: 养
+Traditional: 養
+Pinyin: yǎng
+English: to keep (a pet), to raise
+Example (Simplified): 我从小就想养猫。
+Example (Traditional): 我從小就想養貓。
+Example pinyin: Wǒ cóngxiǎo jiù xiǎng yǎng māo.
+Example (EN): I've wanted a cat ever since I was little.
+links: collocation [[seed-zh-cats-035]]
+
+id: seed-zh-cats-037
+Simplified: 喂
+Traditional: 餵
+Pinyin: wèi
+English: to feed
+Example (Simplified): 我每天早晚各喂一次猫。
+Example (Traditional): 我每天早晚各餵一次貓。
+Example pinyin: Wǒ měitiān zǎo wǎn gè wèi yī cì māo.
+Example (EN): I feed the cat once in the morning and once in the evening.
+Notes: Traditional uses 餵 for "to feed"; 喂 is "hello" on the phone.
+links: collocation [[seed-zh-cats-025]]
+
+id: seed-zh-cats-038
+Simplified: 梳毛
+Traditional: 梳毛
+Pinyin: shūmáo
+English: to brush (fur)
+Example (Simplified): 长毛猫需要每天梳毛。
+Example (Traditional): 長毛貓需要每天梳毛。
+Example pinyin: Chángmáo māo xūyào měitiān shūmáo.
+Example (EN): Long-haired cats need brushing every day.
+links: same root [[seed-zh-cats-010]]
+
+id: seed-zh-cats-039
+Simplified: 剪指甲
+Traditional: 剪指甲
+Pinyin: jiǎn zhǐjia
+English: to trim nails/claws
+Example (Simplified): 给猫剪指甲要小心。
+Example (Traditional): 給貓剪指甲要小心。
+Example pinyin: Gěi māo jiǎn zhǐjia yào xiǎoxīn.
+Example (EN): Be careful when trimming the cat's claws.
+
+id: seed-zh-cats-040
+Simplified: 可爱
+Traditional: 可愛
+Pinyin: kě'ài
+English: cute, lovely
+Example (Simplified): 这只小猫太可爱了！
+Example (Traditional): 這隻小貓太可愛了！
+Example pinyin: Zhè zhī xiǎomāo tài kě'ài le!
+Example (EN): This kitten is so cute!
+
+id: seed-zh-cats-041
+Simplified: 胖
+Traditional: 胖
+Pinyin: pàng
+English: fat, chubby
+Example (Simplified): 我的猫有点胖，要减肥了。
+Example (Traditional): 我的貓有點胖，要減肥了。
+Example pinyin: Wǒ de māo yǒudiǎn pàng, yào jiǎnféi le.
+Example (EN): My cat is a bit chubby and needs to lose weight.
+links: antonym [[seed-zh-cats-042]]
+
+id: seed-zh-cats-042
+Simplified: 瘦
+Traditional: 瘦
+Pinyin: shòu
+English: thin, skinny
+Example (Simplified): 这只流浪猫很瘦。
+Example (Traditional): 這隻流浪貓很瘦。
+Example pinyin: Zhè zhī liúlàngmāo hěn shòu.
+Example (EN): This stray cat is very thin.
+
+id: seed-zh-cats-043
+Simplified: 流浪猫
+Traditional: 流浪貓
+Pinyin: liúlàngmāo
+English: stray cat
+Measure word: 只 (zhī)
+Example (Simplified): 她收养了一只流浪猫。
+Example (Traditional): 她收養了一隻流浪貓。
+Example pinyin: Tā shōuyǎngle yī zhī liúlàngmāo.
+Example (EN): She adopted a stray cat.
+links: same root [[seed-zh-cats-001]]
+
+id: seed-zh-cats-044
+Simplified: 橘猫
+Traditional: 橘貓
+Pinyin: júmāo
+English: orange (ginger) cat
+Measure word: 只 (zhī)
+Example (Simplified): 都说橘猫特别能吃。
+Example (Traditional): 都說橘貓特別能吃。
+Example pinyin: Dōu shuō júmāo tèbié néng chī.
+Example (EN): They say orange cats eat a lot.
+Notes: A running joke online is that orange cats are always chubby.
+links: same root [[seed-zh-cats-001]]
+
+id: seed-zh-cats-045
+Simplified: 软
+Traditional: 軟
+Pinyin: ruǎn
+English: soft
+Example (Simplified): 小猫的毛很软。
+Example (Traditional): 小貓的毛很軟。
+Example pinyin: Xiǎomāo de máo hěn ruǎn.
+Example (EN): The kitten's fur is very soft.
+
+id: seed-zh-cats-046
+Simplified: 调皮
+Traditional: 調皮
+Pinyin: tiáopí
+English: naughty, mischievous
+Example (Simplified): 这只小猫特别调皮。
+Example (Traditional): 這隻小貓特別調皮。
+Example pinyin: Zhè zhī xiǎomāo tèbié tiáopí.
+Example (EN): This kitten is really mischievous.
+Notes: Also 顽皮 (wánpí).
+
+id: seed-zh-cats-047
+Simplified: 乖
+Traditional: 乖
+Pinyin: guāi
+English: well-behaved, good
+Example (Simplified): 我的猫很乖，从来不咬人。
+Example (Traditional): 我的貓很乖，從來不咬人。
+Example pinyin: Wǒ de māo hěn guāi, cónglái bù yǎo rén.
+Example (EN): My cat is very well-behaved and never bites.
+Notes: 真乖！(Zhēn guāi!) = Good boy/girl!
+links: antonym [[seed-zh-cats-046]]
+
+id: seed-zh-cats-048
+Simplified: 怕
+Traditional: 怕
+Pinyin: pà
+English: to be afraid of
+Example (Simplified): 很多猫怕水。
+Example (Traditional): 很多貓怕水。
+Example pinyin: Hěn duō māo pà shuǐ.
+Example (EN): Many cats are afraid of water.
+
+id: seed-zh-cats-049
+Simplified: 好奇
+Traditional: 好奇
+Pinyin: hàoqí
+English: curious
+Example (Simplified): 猫对什么都很好奇。
+Example (Traditional): 貓對什麼都很好奇。
+Example pinyin: Māo duì shénme dōu hěn hàoqí.
+Example (EN): Cats are curious about everything.
+
+id: seed-zh-cats-050
+Simplified: 铲屎官
+Traditional: 鏟屎官
+Pinyin: chǎnshǐguān
+English: cat owner (slang, lit. "poop-scooping officer")
+Measure word: 个 (gè)
+Example (Simplified): 我是两只猫的铲屎官。
+Example (Traditional): 我是兩隻貓的鏟屎官。
+Example pinyin: Wǒ shì liǎng zhī māo de chǎnshǐguān.
+Example (EN): I'm the official poop-scooper for two cats.
+Notes: Humorous internet slang for a pet owner.
+
+id: seed-zh-cats-051
+Simplified: 毛球
+Traditional: 毛球
+Pinyin: máoqiú
+English: hairball
+Example (Simplified): 猫有时候会吐毛球。
+Example (Traditional): 貓有時候會吐毛球。
+Example pinyin: Māo yǒu shíhou huì tù máoqiú.
+Example (EN): Cats sometimes throw up hairballs.
+links: same root [[seed-zh-cats-010]]

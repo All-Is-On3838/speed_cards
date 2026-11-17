@@ -1,0 +1,201 @@
+﻿deck,id,Spanish,English,Gender / POS,Example (ES),Example (EN),Notes,links
+Supervivencia / Viaje,seed-es-travel-001,el baño,"bathroom, restroom",m. noun,"Disculpe, ¿dónde está el {{c1::baño}}?","Excuse me, where is the bathroom?","Also ""el sanitario"". In Spain often ""el servicio"" or ""el aseo"". Doors may say ""Damas / Caballeros"".",
+Supervivencia / Viaje,seed-es-travel-002,hola,"hello, hi",interjection,"{{c1::Hola}}, ¿cómo estás?","Hi, how are you?",The h is silent.,
+Supervivencia / Viaje,seed-es-travel-003,buenos días,good morning,phrase,"{{c1::Buenos días}}, señor. ¿Cómo está?","Good morning, sir. How are you?","Used until about noon, then ""buenas tardes"". ""Buen día"" is also heard in Mexico.",
+Supervivencia / Viaje,seed-es-travel-004,buenas noches,"good evening, good night",phrase,"{{c1::Buenas noches}}, ¿tienen una mesa para dos?","Good evening, do you have a table for two?",Used both as a greeting after dark and when saying goodbye.,
+Supervivencia / Viaje,seed-es-travel-005,por favor,please,phrase,"Un café, {{c1::por favor}}.","A coffee, please.",,
+Supervivencia / Viaje,seed-es-travel-006,gracias,"thank you, thanks",interjection,Muchas {{c1::gracias}} por su ayuda.,Thank you very much for your help.,,collocation [[seed-es-travel-007]]
+Supervivencia / Viaje,seed-es-travel-007,de nada,you're welcome,phrase,—Gracias. —{{c1::De nada}}.,"""Thanks."" ""You're welcome.""","Also ""por nada"". Very common in Mexico: ""a sus órdenes"" or ""para servirle"".",
+Supervivencia / Viaje,seed-es-travel-008,disculpe,"excuse me, sorry (formal)",phrase,"{{c1::Disculpe}}, ¿habla inglés?","Excuse me, do you speak English?","Formal (usted). Informal: ""disculpa"". ""Perdón"" is also common.",
+Supervivencia / Viaje,seed-es-travel-009,con permiso,excuse me (to get past or to leave),phrase,"{{c1::Con permiso}}, aquí me bajo.","Excuse me, I'm getting off here.","Said when squeezing past people or leaving a table. Typical Mexican reply: ""Propio"" or ""Adelante"".",
+Supervivencia / Viaje,seed-es-travel-010,mucho gusto,nice to meet you,phrase,"{{c1::Mucho gusto}}, me llamo Ana.","Nice to meet you, my name is Ana.","Reply: ""Igualmente"" or ""El gusto es mío"".",
+Supervivencia / Viaje,seed-es-travel-011,¿Cuánto cuesta?,How much does it cost?,phrase,"Disculpe, ¿{{c1::cuánto cuesta}} esta playera?","Excuse me, how much is this T-shirt?","Plural: ""¿Cuánto cuestan?"". ""¿Cuánto es?"" for the total. ""La playera"" = T-shirt in Mexico (Spain: ""la camiseta"").",
+Supervivencia / Viaje,seed-es-travel-012,la cuenta,"check, bill",f. noun,"¿Nos trae la {{c1::cuenta}}, por favor?","Could you bring us the check, please?",Waiters usually won't bring it until you ask.,collocation [[seed-es-travel-013]]
+Supervivencia / Viaje,seed-es-travel-013,la propina,"tip, gratuity",f. noun,En México se deja de 10 a 15 % de {{c1::propina}}.,In Mexico you leave a 10 to 15% tip.,"Usually not included in the bill. ""¿Incluye el servicio?"" = Is service included?",
+Supervivencia / Viaje,seed-es-travel-014,el efectivo,cash,m. noun,¿Puedo pagar en {{c1::efectivo}}?,Can I pay in cash?,Many small shops and street stalls only take cash.,collocation [[seed-es-travel-016]]
+Supervivencia / Viaje,seed-es-travel-015,la tarjeta,card (credit/debit),f. noun,¿Aceptan {{c1::tarjeta}}?,Do you take cards?,"""Tarjeta de crédito / de débito"".",collocation [[seed-es-travel-016]]
+Supervivencia / Viaje,seed-es-travel-016,pagar,to pay,verb,¿Dónde {{c1::pago}}?,Where do I pay?,Preterite: yo pagué (spelling change g → gu).,
+Supervivencia / Viaje,seed-es-travel-017,el cambio,"change (money), exchange",m. noun,Quédese con el {{c1::cambio}}.,Keep the change.,"""La casa de cambio"" = currency exchange office. Mexican slang for small change: ""la feria"".",
+Supervivencia / Viaje,seed-es-travel-018,cien,one hundred,number,"Son {{c1::cien}} pesos, por favor.","That's one hundred pesos, please.","""Cien"" alone or before a noun; ""ciento"" in compounds: ciento veinte (120). 500 = quinientos, 1,000 = mil.",
+Supervivencia / Viaje,seed-es-travel-019,barato,"cheap, inexpensive",adj.,Este mercado es muy {{c1::barato}}.,This market is very cheap.,,antonym [[seed-es-travel-020]]
+Supervivencia / Viaje,seed-es-travel-020,caro,expensive,adj.,La comida en el aeropuerto es muy {{c1::cara}}.,The food at the airport is very expensive.,"Agrees in gender and number: caro, cara, caros, caras.",
+Supervivencia / Viaje,seed-es-travel-021,¿Dónde está…?,Where is…?,phrase,¿{{c1::Dónde está}} la estación del metro?,Where is the subway station?,"Plural: ""¿Dónde están…?"". ""¿Dónde queda…?"" is also very common in Mexico.",
+Supervivencia / Viaje,seed-es-travel-022,a la derecha,"to the right, on the right",phrase,El hotel está {{c1::a la derecha}}.,The hotel is on the right.,,antonym [[seed-es-travel-023]]
+Supervivencia / Viaje,seed-es-travel-023,a la izquierda,"to the left, on the left",phrase,Dé vuelta {{c1::a la izquierda}} en el semáforo.,Turn left at the traffic light.,"Mexico: ""dar vuelta"" or ""voltear""; Spain: ""girar"".",
+Supervivencia / Viaje,seed-es-travel-024,derecho,straight ahead,adv.,Siga todo {{c1::derecho}} dos cuadras.,Go straight ahead for two blocks.,"Spain prefers ""recto"". Don't confuse with ""a la derecha"" (to the right).",same root [[seed-es-travel-022]]
+Supervivencia / Viaje,seed-es-travel-025,la cuadra,block (city block),f. noun,La farmacia está a tres {{c1::cuadras}}.,The pharmacy is three blocks away.,"Spain: ""la manzana"".",collocation [[seed-es-travel-026]]
+Supervivencia / Viaje,seed-es-travel-026,la esquina,corner (street),f. noun,Nos vemos en la {{c1::esquina}}.,See you at the corner.,"An inside corner of a room is ""el rincón"".",
+Supervivencia / Viaje,seed-es-travel-027,el camión,bus,m. noun,Tomamos el {{c1::camión}} al centro.,We take the bus downtown.,"Everyday Mexican word for a city bus (also means truck). Spain: ""el autobús"". Plural: los camiones.",collocation [[seed-es-travel-030]]
+Supervivencia / Viaje,seed-es-travel-028,el metro,"subway, metro",m. noun,El {{c1::metro}} de la Ciudad de México es muy barato.,The Mexico City subway is very cheap.,,
+Supervivencia / Viaje,seed-es-travel-029,el boleto,ticket,m. noun,Necesito un {{c1::boleto}} para Oaxaca.,I need a ticket to Oaxaca.,"Spain: ""el billete"" (which in Mexico means a banknote).",
+Supervivencia / Viaje,seed-es-travel-030,la parada,stop (bus stop),f. noun,¿En qué {{c1::parada}} me bajo?,Which stop do I get off at?,"""Bajarse"" = to get off; ""subirse"" = to get on.",
+Supervivencia / Viaje,seed-es-travel-031,el aeropuerto,airport,m. noun,¿Cuánto cuesta un taxi al {{c1::aeropuerto}}?,How much is a taxi to the airport?,"""al"" = a + el.",
+Supervivencia / Viaje,seed-es-travel-032,la maleta,suitcase,f. noun,Perdí mi {{c1::maleta}}.,I lost my suitcase.,"""El equipaje"" = luggage. ""La valija"" is used in some other countries.",collocation [[seed-es-travel-031]]
+Supervivencia / Viaje,seed-es-travel-033,el carro,car,m. noun,Rentamos un {{c1::carro}} para ir a la playa.,We rented a car to go to the beach.,"Mexico: ""carro"" or ""coche""; Spain: ""coche"". ""Rentar"" is Mexican (Spain: ""alquilar"").",
+Supervivencia / Viaje,seed-es-travel-034,¿Me da…?,"Can I have…?, Could you give me…?",phrase,"¿{{c1::Me da}} dos tacos al pastor, por favor?","Can I have two al pastor tacos, please?","Polite standard way to order or buy (usted). Informal: ""¿Me das…?"".",synonym [[seed-es-travel-035]]
+Supervivencia / Viaje,seed-es-travel-035,¿Me regalas…?,"Could I have…? (lit. ""will you gift me…?"")",phrase,¿{{c1::Me regalas}} un vaso de agua?,Could I have a glass of water?,"Friendly, very common way to ask for something in Mexico; you still pay. Formal: ""¿Me regala…?"".",
+Supervivencia / Viaje,seed-es-travel-036,el agua,water,f. noun,"Una botella de {{c1::agua}}, por favor.","A bottle of water, please.","Feminine but takes ""el"" (stressed a): el agua fría, las aguas. Tap water: ""agua de la llave"" (Spain: ""del grifo""); drink ""agua purificada"". ""¡Aguas!"" = Watch out! (Mexican slang).",
+Supervivencia / Viaje,seed-es-travel-037,el menú,menu,m. noun,¿Me puede traer el {{c1::menú}}?,Can you bring me the menu?,"""La carta"" is also used. A cheap set lunch is ""la comida corrida"" or ""el menú del día"".",
+Supervivencia / Viaje,seed-es-travel-038,picante,"spicy, hot",adj.,¿Esta salsa es muy {{c1::picante}}?,Is this salsa very spicy?,"Common question: ""¿Pica?"" (Is it spicy?). Ask for ""sin chile"" if needed.",
+Supervivencia / Viaje,seed-es-travel-039,el desayuno,breakfast,m. noun,¿El {{c1::desayuno}} está incluido?,Is breakfast included?,"Verb: ""desayunar"". Dinner: ""la cena"".",
+Supervivencia / Viaje,seed-es-travel-040,la comida,"food, lunch (main midday meal)",f. noun,La {{c1::comida}} mexicana es deliciosa.,Mexican food is delicious.,"In Mexico also the main afternoon meal (about 2–4 p.m.); in Spain that meal is often ""el almuerzo"".",
+Supervivencia / Viaje,seed-es-travel-041,el hotel,hotel,m. noun,Nuestro {{c1::hotel}} está cerca del centro.,Our hotel is near downtown.,The h is silent.,
+Supervivencia / Viaje,seed-es-travel-042,la habitación,room (hotel room),f. noun,Quisiera una {{c1::habitación}} doble.,I'd like a double room.,"""El cuarto"" is very common in Mexico.",collocation [[seed-es-travel-041]]
+Supervivencia / Viaje,seed-es-travel-043,la reservación,"reservation, booking",f. noun,Tengo una {{c1::reservación}} a nombre de Smith.,I have a reservation under the name Smith.,"Mexico: ""reservación""; Spain: ""reserva"".",collocation [[seed-es-travel-042]]
+Supervivencia / Viaje,seed-es-travel-044,¡Ayuda!,Help!,interjection,¡{{c1::Ayuda}}! ¡Llamen a una ambulancia!,Help! Call an ambulance!,"Also ""¡Auxilio!"". Emergency number in Mexico: 911.",
+Supervivencia / Viaje,seed-es-travel-045,el hospital,hospital,m. noun,¿Dónde está el {{c1::hospital}} más cercano?,Where is the nearest hospital?,The h is silent.,
+Supervivencia / Viaje,seed-es-travel-046,la farmacia,"pharmacy, drugstore",f. noun,Hay una {{c1::farmacia}} en la esquina.,There's a pharmacy on the corner.,,
+Supervivencia / Viaje,seed-es-travel-047,la policía,police,f. noun,Hay que llamar a la {{c1::policía}}.,We need to call the police.,"""La policía"" = the police force; ""el/la policía"" = a police officer.",
+Supervivencia / Viaje,seed-es-travel-048,enfermo,"sick, ill",adj.,Mi amigo está {{c1::enfermo}}.,My friend is sick.,"Use with ""estar"": estoy enfermo / enferma. ""Me siento mal"" = I feel sick.",collocation [[seed-es-travel-045]]
+Supervivencia / Viaje,seed-es-travel-049,¿Qué hora es?,What time is it?,phrase,"Disculpe, ¿{{c1::qué hora es}}?","Excuse me, what time is it?","Answers: ""Es la una"", ""Son las tres"".",
+Supervivencia / Viaje,seed-es-travel-050,ahorita,"right now, in a little while",adv.,{{c1::Ahorita}} vengo.,I'll be right back.,"Very Mexican and flexible: can mean ""right now"" or ""later, eventually""; context and tone decide.",
+Tiro con arco,seed-es-archery-001,el tiro con arco,archery,m. noun,Practico {{c1::tiro con arco}} los sábados.,I practice archery on Saturdays.,"""La arquería"" is also heard in Mexico.",
+Tiro con arco,seed-es-archery-002,el arquero,archer (male),m. noun,El {{c1::arquero}} apunta al centro.,The archer aims at the center.,"In soccer ""arquero"" can mean goalkeeper (Mexico usually says ""portero"").",gender pair [[seed-es-archery-003]]; same root [[seed-es-archery-004]]
+Tiro con arco,seed-es-archery-003,la arquera,archer (female),f. noun,La {{c1::arquera}} ganó la medalla de oro.,The archer won the gold medal.,,
+Tiro con arco,seed-es-archery-004,el arco,bow,m. noun,Mi {{c1::arco}} es de 30 libras.,My bow is 30 pounds.,"Also means ""arch"".",
+Tiro con arco,seed-es-archery-005,la flecha,arrow,f. noun,Saqué la {{c1::flecha}} de la diana.,I pulled the arrow out of the target.,,collocation [[seed-es-archery-006]]
+Tiro con arco,seed-es-archery-006,el carcaj,quiver,m. noun,Guarda las flechas en el {{c1::carcaj}}.,Keep the arrows in the quiver.,"Plural: los carcajes. Also ""la aljaba"".",
+Tiro con arco,seed-es-archery-007,la cuerda,"bowstring, string, rope",f. noun,La {{c1::cuerda}} del arco está muy gastada.,The bowstring is very worn.,,
+Tiro con arco,seed-es-archery-008,el emplumado,fletching,m. noun,El {{c1::emplumado}} estabiliza la flecha en el aire.,The fletching stabilizes the arrow in flight.,"Individual vanes are ""las plumas"" (feathers) or ""las aletas"" (plastic vanes). Verb: ""emplumar"".",collocation [[seed-es-archery-005]]
+Tiro con arco,seed-es-archery-009,la punta,"point, arrowhead, tip",f. noun,La {{c1::punta}} de la flecha se dobló.,The arrow point bent.,,
+Tiro con arco,seed-es-archery-010,el culatín,nock,m. noun,Coloca el {{c1::culatín}} en la cuerda.,Put the nock on the string.,"Also just ""el nock"" in archery shops. Plural: los culatines.",collocation [[seed-es-archery-007]]
+Tiro con arco,seed-es-archery-011,la mira,sight,f. noun,Ajusta la {{c1::mira}} un poco hacia arriba.,Move the sight up a little.,,collocation [[seed-es-archery-033]]
+Tiro con arco,seed-es-archery-012,el estabilizador,stabilizer,m. noun,El {{c1::estabilizador}} reduce la vibración del arco.,The stabilizer reduces the bow's vibration.,,
+Tiro con arco,seed-es-archery-013,la dactilera,finger tab,f. noun,Uso una {{c1::dactilera}} de cuero.,I use a leather finger tab.,"Also ""el protector de dedos"".",
+Tiro con arco,seed-es-archery-014,el brazal,arm guard,m. noun,Ponte el {{c1::brazal}} para que la cuerda no te pegue.,Put on your arm guard so the string doesn't hit you.,"Also ""el protector de antebrazo"".",same root [[seed-es-gym-041]]
+Tiro con arco,seed-es-archery-015,la diana,"target face, target",f. noun,La {{c1::diana}} tiene diez anillos.,The target face has ten rings.,"In Mexico ""el blanco"" is also very common.",synonym [[seed-es-archery-016]]
+Tiro con arco,seed-es-archery-016,el blanco,"target, bullseye",m. noun,Le di al {{c1::blanco}}.,I hit the target.,"Also the adjective ""white"". ""Dar en el blanco"" = to hit the mark.",
+Tiro con arco,seed-es-archery-017,la paja,straw (target butt),f. noun,Las flechas se quedan clavadas en la {{c1::paja}}.,The arrows stick in the straw.,"The target butt is also called ""el parapeto"" or ""la paca""; many ranges use foam (""espuma"").",collocation [[seed-es-archery-015]]
+Tiro con arco,seed-es-archery-018,la distancia,distance,f. noun,Hoy tiramos a una {{c1::distancia}} de 18 metros.,Today we're shooting at a distance of 18 meters.,,
+Tiro con arco,seed-es-archery-019,la línea de tiro,shooting line,f. noun,Todos detrás de la {{c1::línea de tiro}}.,Everyone behind the shooting line.,"""Tirar"" = to shoot (in archery).",same root [[seed-es-archery-001]]
+Tiro con arco,seed-es-archery-020,el centro,"center, bullseye",m. noun,Mi flecha quedó en el {{c1::centro}}.,My arrow landed in the center.,"The ten ring is ""el diez"". In a city ""el centro"" means downtown.",
+Tiro con arco,seed-es-archery-021,la puntuación,score,f. noun,¿Cuál fue tu {{c1::puntuación}}?,What was your score?,"""El puntaje"" is also common in Latin America. ""Los puntos"" = points.",
+Tiro con arco,seed-es-archery-022,la ronda,round (of a competition),f. noun,Pasé a la segunda {{c1::ronda}}.,I advanced to the second round.,,collocation [[seed-es-archery-023]]
+Tiro con arco,seed-es-archery-023,la competencia,"competition, tournament",f. noun,Mañana tengo una {{c1::competencia}} de tiro con arco.,Tomorrow I have an archery competition.,"Mexico: ""competencia""; Spain: ""competición"". Also means ""the competitors / rivals"".",
+Tiro con arco,seed-es-archery-024,el campo de tiro,shooting range,m. noun,El {{c1::campo de tiro}} abre a las ocho.,The range opens at eight.,,same root [[seed-es-archery-019]]
+Tiro con arco,seed-es-archery-025,el arco recurvo,recurve bow,m. noun,El {{c1::arco recurvo}} es el que se usa en los Juegos Olímpicos.,The recurve bow is the one used in the Olympic Games.,,
+Tiro con arco,seed-es-archery-026,el arco compuesto,compound bow,m. noun,El {{c1::arco compuesto}} tiene poleas.,The compound bow has cams.,"""Las poleas"" = cams / pulleys.",
+Tiro con arco,seed-es-archery-027,el disparador,release aid,m. noun,Con el arco compuesto se usa un {{c1::disparador}}.,With a compound bow you use a release aid.,,collocation [[seed-es-archery-026]]; same root [[seed-es-archery-035]]
+Tiro con arco,seed-es-archery-028,el reposaflechas,arrow rest,m. noun,La flecha se apoya en el {{c1::reposaflechas}}.,The arrow sits on the arrow rest.,"Same form in the plural: los reposaflechas. Also ""el apoyaflechas"".",
+Tiro con arco,seed-es-archery-029,las palas,limbs (of a bow),f. pl. noun,Las {{c1::palas}} del arco se doblan al tensar.,The bow's limbs bend when you draw.,"Also ""las ramas"" or ""los brazos"". Singular ""la pala"" also means shovel.",
+Tiro con arco,seed-es-archery-030,la empuñadura,"grip, handle",f. noun,No aprietes la {{c1::empuñadura}}.,Don't squeeze the grip.,"The middle section of the bow is ""el cuerpo"" or ""el riser"".",
+Tiro con arco,seed-es-archery-031,tensar,"to draw (a bow), to tighten",verb,{{c1::Tensa}} el arco despacio.,Draw the bow slowly.,"Also ""abrir el arco"".",same root [[seed-es-archery-032]]; collocation [[seed-es-archery-007]]
+Tiro con arco,seed-es-archery-032,tenso,"tense, taut",adj.,Tus hombros están muy {{c1::tensos}}.,Your shoulders are very tense.,,
+Tiro con arco,seed-es-archery-033,apuntar,to aim,verb,{{c1::Apunta}} al centro de la diana.,Aim at the center of the target.,"Also means ""to write down"".",
+Tiro con arco,seed-es-archery-034,soltar,"to release, to let go",verb,{{c1::Suelta}} la cuerda suavemente.,Release the string smoothly.,"Stem-changing (o → ue): suelto, sueltas. Noun: ""la suelta"" = the release.",
+Tiro con arco,seed-es-archery-035,disparar,to shoot,verb,Esperen el silbato antes de {{c1::disparar}}.,Wait for the whistle before shooting.,"In archery ""tirar"" is also very common: ""¿A qué distancia tiras?"".",
+Tiro con arco,seed-es-archery-036,anclar,to anchor,verb,{{c1::Ancla}} la mano debajo de la barbilla.,Anchor your hand under your chin.,,same root [[seed-es-archery-037]]
+Tiro con arco,seed-es-archery-037,el anclaje,anchor point,m. noun,Busca siempre el mismo {{c1::anclaje}}.,Always find the same anchor point.,"Also ""el punto de anclaje"".",
+Tiro con arco,seed-es-archery-038,la postura,"stance, posture",f. noun,Una buena {{c1::postura}} mejora la precisión.,A good stance improves accuracy.,,
+Tiro con arco,seed-es-archery-039,recoger,"to collect, to pick up",verb,Vamos a {{c1::recoger}} las flechas.,Let's go collect the arrows.,"Spelling change: yo recojo. Also ""ir por las flechas"".",
+Tiro con arco,seed-es-archery-040,fallar,to miss,verb,{{c1::Fallé}} el último tiro.,I missed the last shot.,,antonym [[seed-es-archery-041]]
+Tiro con arco,seed-es-archery-041,acertar,"to hit (the target), to get right",verb,Hoy {{c1::acerté}} casi todas mis flechas.,Today almost all my arrows hit the target.,"Stem-changing (e → ie): acierto, aciertas.",
+Tiro con arco,seed-es-archery-042,el libraje,draw weight,m. noun,Empieza con un {{c1::libraje}} bajo.,Start with a low draw weight.,"Measured in pounds (""libras""). Also ""la potencia del arco"".",
+Tiro con arco,seed-es-archery-043,¡Alto!,"Stop!, Hold!",interjection,¡{{c1::Alto}}! Hay alguien en el campo.,Stop! There's someone on the range.,Safety call: everyone stops shooting immediately. Also the word on Mexican stop signs.,
+Tiro con arco,seed-es-archery-044,¡Cuidado!,"Careful!, Watch out!",interjection,¡{{c1::Cuidado}}! No camines frente a la línea.,Watch out! Don't walk in front of the line.,"Informal Mexican alternative: ""¡Aguas!"".",
+Tiro con arco,seed-es-archery-045,la seguridad,"safety, security",f. noun,La {{c1::seguridad}} es lo más importante en el campo de tiro.,Safety is the most important thing at the range.,,
+Tiro con arco,seed-es-archery-046,el silbato,whistle,m. noun,Tres toques de {{c1::silbato}}: pueden ir a recoger las flechas.,Three whistle blasts: you may go collect your arrows.,"Usual range signals: 2 = go to the line, 1 = start shooting, 3 = collect arrows, 4 or more = stop immediately.",
+Tiro con arco,seed-es-archery-047,la tanda,end (a set of arrows shot),f. noun,Cada {{c1::tanda}} es de seis flechas.,Each end is six arrows.,"Some ranges say ""la serie"".",
+Tiro con arco,seed-es-archery-048,el juez,"judge, referee",m. noun,El {{c1::juez}} revisa las flechas dudosas.,The judge checks the borderline arrows.,Plural: los jueces. Female: la jueza (or la juez).,
+Tiro con arco,seed-es-archery-049,el viento,wind,m. noun,Hoy hay mucho {{c1::viento}}; apunta un poco a la izquierda.,It's very windy today; aim a little to the left.,,
+Tiro con arco,seed-es-archery-050,el ojo dominante,dominant eye,m. noun,Mi {{c1::ojo dominante}} es el derecho.,My dominant eye is the right one.,,
+Gimnasio / Pesas,seed-es-gym-001,el gimnasio,gym,m. noun,Voy al {{c1::gimnasio}} cuatro veces por semana.,I go to the gym four times a week.,"Colloquial in Mexico: ""el gym"" (pronounced ""yim"").",
+Gimnasio / Pesas,seed-es-gym-002,las pesas,weights,f. pl. noun,Me gusta levantar {{c1::pesas}}.,I like lifting weights.,"""Hacer pesas"" = to lift weights. Singular: la pesa.",same root [[seed-es-gym-024]]
+Gimnasio / Pesas,seed-es-gym-003,la barra,"barbell, bar",f. noun,Pon más discos en la {{c1::barra}}.,Put more plates on the bar.,"""La barra olímpica"" = Olympic barbell. ""La barra fija"" = pull-up bar.",collocation [[seed-es-gym-005]]
+Gimnasio / Pesas,seed-es-gym-004,las mancuernas,dumbbells,f. pl. noun,Usa {{c1::mancuernas}} de diez kilos.,Use ten-kilo dumbbells.,"Singular: la mancuerna. Also simply called ""pesas"".",
+Gimnasio / Pesas,seed-es-gym-005,los discos,plates (weight plates),m. pl. noun,Guarda los {{c1::discos}} cuando termines.,Put the plates away when you're done.,Singular: el disco.,
+Gimnasio / Pesas,seed-es-gym-006,el banco,bench,m. noun,Ajusta el {{c1::banco}} a 30 grados.,Set the bench to 30 degrees.,"Also means ""bank"".",
+Gimnasio / Pesas,seed-es-gym-007,el rack,"squat rack, power rack",m. noun,¿Me prestas el {{c1::rack}} cuando termines?,Can I use the rack when you're done?,"English loanword used in Mexican gyms. A power cage is also ""la jaula"".",
+Gimnasio / Pesas,seed-es-gym-008,las rodilleras,"knee sleeves, knee pads",f. pl. noun,Me pongo las {{c1::rodilleras}} para hacer sentadillas.,I put on my knee sleeves to do squats.,,same root [[seed-es-gym-043]]
+Gimnasio / Pesas,seed-es-gym-009,el cinturón,"lifting belt, belt",m. noun,Usa el {{c1::cinturón}} en las series pesadas.,Use the belt on heavy sets.,"Plural: los cinturones. In Mexico a support belt is also ""la faja"".",
+Gimnasio / Pesas,seed-es-gym-010,la máquina,machine,f. noun,Esta {{c1::máquina}} es para las piernas.,This machine is for the legs.,,
+Gimnasio / Pesas,seed-es-gym-011,la sentadilla,squat,f. noun,Hoy hago cinco series de {{c1::sentadillas}}.,Today I'm doing five sets of squats.,"""Sentadilla frontal"" = front squat; ""sentadilla búlgara"" = Bulgarian split squat.",collocation [[seed-es-gym-008]]
+Gimnasio / Pesas,seed-es-gym-012,el peso muerto,deadlift,m. noun,El {{c1::peso muerto}} trabaja toda la espalda.,The deadlift works your whole back.,"Literally ""dead weight"". ""Peso muerto rumano"" = Romanian deadlift.",collocation [[seed-es-gym-003]]
+Gimnasio / Pesas,seed-es-gym-013,el press de banca,bench press,m. noun,Mi récord en {{c1::press de banca}} es de 80 kilos.,My bench press record is 80 kilos.,"Also ""press de pecho"" or ""press plano"".",collocation [[seed-es-gym-006]]
+Gimnasio / Pesas,seed-es-gym-014,el press militar,"overhead press, military press",m. noun,El {{c1::press militar}} fortalece los hombros.,The overhead press strengthens the shoulders.,,collocation [[seed-es-gym-040]]
+Gimnasio / Pesas,seed-es-gym-015,las dominadas,"pull-ups, chin-ups",f. pl. noun,Todavía no puedo hacer {{c1::dominadas}}.,I still can't do pull-ups.,"Related Mexican gym term: ""jalón al pecho"" = lat pulldown (from ""jalar"", to pull; Spain: ""tirar"").",
+Gimnasio / Pesas,seed-es-gym-016,el remo,row (exercise),m. noun,Haz el {{c1::remo}} con la espalda recta.,Do the row with a straight back.,"Also means ""oar"" or ""rowing"". ""Remo con barra"" = barbell row.",
+Gimnasio / Pesas,seed-es-gym-017,las zancadas,lunges,f. pl. noun,Hice tres series de {{c1::zancadas}}.,I did three sets of lunges.,"In Mexico also ""los desplantes"".",
+Gimnasio / Pesas,seed-es-gym-018,los abdominales,"abs, ab exercises, crunches",m. pl. noun,Termino cada rutina con {{c1::abdominales}}.,I finish every workout with ab exercises.,Refers to both the muscles and the exercises.,same root [[seed-es-gym-046]]
+Gimnasio / Pesas,seed-es-gym-019,las lagartijas,push-ups,f. pl. noun,Haz veinte {{c1::lagartijas}}.,Do twenty push-ups.,"Mexican usage (literally ""little lizards""). Spain: ""las flexiones"".",
+Gimnasio / Pesas,seed-es-gym-020,la serie,set,f. noun,Me falta una {{c1::serie}} más.,I have one more set left.,"Also means ""TV series"".",collocation [[seed-es-gym-021]]
+Gimnasio / Pesas,seed-es-gym-021,la repetición,"rep, repetition",f. noun,Haz diez {{c1::repeticiones}} por serie.,Do ten reps per set.,"Colloquial: ""las reps"".",
+Gimnasio / Pesas,seed-es-gym-022,el descanso,"rest, break",m. noun,Toma un {{c1::descanso}} de dos minutos entre series.,Take a two-minute rest between sets.,,same root [[seed-es-gym-023]]
+Gimnasio / Pesas,seed-es-gym-023,descansar,to rest,verb,Los músculos crecen cuando {{c1::descansas}}.,Your muscles grow when you rest.,,
+Gimnasio / Pesas,seed-es-gym-024,el peso,weight,m. noun,¿Cuánto {{c1::peso}} le pusiste a la barra?,How much weight did you put on the bar?,Also the Mexican currency (el peso mexicano).,same root [[seed-es-gym-025]]
+Gimnasio / Pesas,seed-es-gym-025,pesado,heavy,adj.,Esta barra está muy {{c1::pesada}}.,This bar is very heavy.,"Said of a person, it means ""annoying"": ""¡Qué pesado!"".",antonym [[seed-es-gym-026]]
+Gimnasio / Pesas,seed-es-gym-026,ligero,light (in weight),adj.,Empieza con un peso {{c1::ligero}}.,Start with a light weight.,"Also ""liviano"".",
+Gimnasio / Pesas,seed-es-gym-027,levantar,"to lift, to raise",verb,"{{c1::Levanto}} pesas los lunes, miércoles y viernes.","I lift weights on Mondays, Wednesdays, and Fridays.","""Levantarse"" = to get up.",collocation [[seed-es-gym-002]]
+Gimnasio / Pesas,seed-es-gym-028,entrenar,"to train, to work out",verb,¿A qué hora {{c1::entrenas}}?,What time do you work out?,"Also ""hacer ejercicio"".",same root [[seed-es-gym-029]]
+Gimnasio / Pesas,seed-es-gym-029,el entrenador,"trainer, coach (male)",m. noun,Mi {{c1::entrenador}} me corrige la técnica.,My trainer corrects my form.,"""Entrenador personal"" = personal trainer. Also ""el coach"".",gender pair [[seed-es-gym-030]]
+Gimnasio / Pesas,seed-es-gym-030,la entrenadora,"trainer, coach (female)",f. noun,La {{c1::entrenadora}} nos dio una rutina nueva.,The trainer gave us a new routine.,,
+Gimnasio / Pesas,seed-es-gym-031,calentar,to warm up,verb,Siempre {{c1::caliento}} antes de levantar.,I always warm up before lifting.,"Stem-changing (e → ie): caliento, calientas.",same root [[seed-es-gym-032]]
+Gimnasio / Pesas,seed-es-gym-032,el calentamiento,warm-up,m. noun,El {{c1::calentamiento}} dura diez minutos.,The warm-up lasts ten minutes.,,
+Gimnasio / Pesas,seed-es-gym-033,estirar,to stretch,verb,Hay que {{c1::estirar}} después de entrenar.,You should stretch after working out.,"Noun: ""el estiramiento"" (stretch).",
+Gimnasio / Pesas,seed-es-gym-034,la fuerza,"strength, force",f. noun,Quiero ganar {{c1::fuerza}}.,I want to get stronger.,,same root [[seed-es-gym-035]]
+Gimnasio / Pesas,seed-es-gym-035,fuerte,strong,adj.,Estás muy {{c1::fuerte}}.,You're very strong.,"Also ""loud"". Informal Mexican slang for very muscular: ""mamado"".",
+Gimnasio / Pesas,seed-es-gym-036,el músculo,muscle,m. noun,Me duele este {{c1::músculo}}.,This muscle hurts.,"""Ganar músculo"" = to build muscle.",
+Gimnasio / Pesas,seed-es-gym-037,la espalda,back,f. noun,Hoy toca {{c1::espalda}} y bíceps.,Today is back and biceps.,"""Hoy toca…"" = today it's time for…",
+Gimnasio / Pesas,seed-es-gym-038,el pecho,chest,m. noun,El press de banca trabaja el {{c1::pecho}}.,The bench press works the chest.,,
+Gimnasio / Pesas,seed-es-gym-039,la pierna,leg,f. noun,Nunca te saltes el día de {{c1::pierna}}.,Never skip leg day.,"Gym talk uses the singular: ""día de pierna"".",
+Gimnasio / Pesas,seed-es-gym-040,el hombro,shoulder,m. noun,Me duele el {{c1::hombro}} derecho.,My right shoulder hurts.,,
+Gimnasio / Pesas,seed-es-gym-041,el brazo,arm,m. noun,Estira bien los {{c1::brazos}}.,Fully extend your arms.,,
+Gimnasio / Pesas,seed-es-gym-042,los glúteos,glutes,m. pl. noun,Las sentadillas trabajan los {{c1::glúteos}}.,Squats work the glutes.,Singular: el glúteo.,
+Gimnasio / Pesas,seed-es-gym-043,la rodilla,knee,f. noun,No dejes que la {{c1::rodilla}} se vaya hacia adentro.,Don't let your knee cave in.,,
+Gimnasio / Pesas,seed-es-gym-044,la cadera,"hip, hips",f. noun,Empuja la {{c1::cadera}} hacia atrás.,Push your hips back.,,
+Gimnasio / Pesas,seed-es-gym-045,¡Espalda recta!,Keep your back straight!,phrase,¡{{c1::Espalda recta}}! No te encorves.,Keep your back straight! Don't hunch over.,,collocation [[seed-es-gym-037]]
+Gimnasio / Pesas,seed-es-gym-046,¡Aprieta el abdomen!,"Brace your core!, Tighten your abs!",phrase,"Antes de bajar, ¡{{c1::aprieta el abdomen}}!","Before you go down, brace your core!","""Apretar"" is stem-changing (e → ie); ""aprieta"" is the tú command. Also ""¡Activa el core!"".",
+Gimnasio / Pesas,seed-es-gym-047,el agarre,grip,m. noun,Usa un {{c1::agarre}} más abierto.,Use a wider grip.,"Verb: ""agarrar"" (to grab, to take), the everyday verb in Mexico. Avoid Spain's ""coger"": it is vulgar in Mexico.",
+Gimnasio / Pesas,seed-es-gym-048,adolorido,"sore, aching",adj.,Estoy {{c1::adolorido}} por el entrenamiento de ayer.,I'm sore from yesterday's workout.,"Spain: ""dolorido"", or ""tener agujetas"" for muscle soreness.",
+Gimnasio / Pesas,seed-es-gym-049,la proteína,protein,f. noun,Me tomo un licuado de {{c1::proteína}} después de entrenar.,I have a protein shake after working out.,"Mexico: ""el licuado"" = shake or smoothie (Spain: ""el batido"").",
+Gimnasio / Pesas,seed-es-gym-050,sudar,to sweat,verb,{{c1::Sudé}} muchísimo en la clase.,I sweated a ton in class.,"Noun: ""el sudor"".",
+Gatos,seed-es-cats-001,el gato,"cat, male cat",m. noun,Mi {{c1::gato}} duerme todo el día.,My cat sleeps all day.,"In Mexico ""el gato"" is also tic-tac-toe, the # sign, and a car jack.",gender pair [[seed-es-cats-002]]; same root [[seed-es-cats-003]]; synonym [[seed-es-cats-005]]
+Gatos,seed-es-cats-002,la gata,cat (female),f. noun,La {{c1::gata}} tuvo cuatro gatitos.,The cat had four kittens.,"Careful: in Mexico ""gata"" is also a derogatory slang word for a maid; with cats it's perfectly normal.",
+Gatos,seed-es-cats-003,el gatito,"kitten, kitty",m. noun,El {{c1::gatito}} juega con una pelota.,The kitten is playing with a ball.,"Diminutive of ""gato"" (-ito).",gender pair [[seed-es-cats-004]]
+Gatos,seed-es-cats-004,la gatita,"kitten (female), kitty",f. noun,Adoptamos una {{c1::gatita}} blanca.,We adopted a white kitten.,,
+Gatos,seed-es-cats-005,el michi,"kitty, cat (colloquial)",m. noun,¡Mira ese {{c1::michi}} tan bonito!,Look at that cute kitty!,"Very common in Mexico and online; also ""michito"". To call a cat people say ""mish, mish"" or ""michi, michi"".",
+Gatos,seed-es-cats-006,los bigotes,whiskers,m. pl. noun,Nunca le cortes los {{c1::bigotes}} a un gato.,Never cut a cat's whiskers.,"Singular ""el bigote"" also means mustache.",
+Gatos,seed-es-cats-007,la cola,tail,f. noun,El gato mueve la {{c1::cola}} cuando está molesto.,The cat swishes its tail when it's annoyed.,"In Spain ""la cola"" is also a line of people; Mexico usually says ""la fila"".",
+Gatos,seed-es-cats-008,las garras,claws,f. pl. noun,El gato sacó las {{c1::garras}}.,The cat put its claws out.,"""Las uñas"" (nails) is also common: ""cortarle las uñas al gato"".",
+Gatos,seed-es-cats-009,las almohadillas,"paw pads, toe beans",f. pl. noun,Mi gato tiene las {{c1::almohadillas}} rosadas.,My cat has pink paw pads.,"""La almohada"" = pillow. ""Las patitas"" = little paws.",
+Gatos,seed-es-cats-010,el pelaje,"fur, coat",m. noun,Tu gata tiene un {{c1::pelaje}} muy suave.,Your cat has very soft fur.,"Everyday word: ""el pelo"".",same root [[seed-es-cats-046]]
+Gatos,seed-es-cats-011,la oreja,ear,f. noun,El gato echó las {{c1::orejas}} hacia atrás.,The cat flattened its ears back.,"""La oreja"" = outer ear; ""el oído"" = inner ear, hearing.",
+Gatos,seed-es-cats-012,la lengua,tongue,f. noun,La {{c1::lengua}} del gato es muy áspera.,A cat's tongue is very rough.,"Also means ""language"".",
+Gatos,seed-es-cats-013,ronronear,to purr,verb,Mi gata {{c1::ronronea}} cuando la acaricio.,My cat purrs when I pet her.,,same root [[seed-es-cats-014]]
+Gatos,seed-es-cats-014,el ronroneo,"purr, purring",m. noun,Me encanta el {{c1::ronroneo}} de mi gato.,I love my cat's purring.,,
+Gatos,seed-es-cats-015,maullar,to meow,verb,El gato {{c1::maúlla}} en la puerta.,The cat is meowing at the door.,"Written accent on the stressed u: maúllo, maúllas, maúlla.",same root [[seed-es-cats-016]]
+Gatos,seed-es-cats-016,el maullido,meow,m. noun,Escuché un {{c1::maullido}} afuera.,I heard a meow outside.,"The sound itself is written ""miau"".",
+Gatos,seed-es-cats-017,arañar,to scratch (with claws),verb,El gato {{c1::arañó}} el sillón.,The cat scratched the armchair.,"Noun: ""el arañazo"".",synonym [[seed-es-cats-018]]; collocation [[seed-es-cats-032]]
+Gatos,seed-es-cats-018,rasguñar,to scratch,verb,"Cuidado, mi gato {{c1::rasguña}}.","Careful, my cat scratches.","Very common in Mexico; noun: ""el rasguño"". For scratching an itch use ""rascarse"".",
+Gatos,seed-es-cats-019,bufar,to hiss,verb,La gata {{c1::bufó}} cuando vio al perro.,The cat hissed when she saw the dog.,"Noun: ""el bufido"".",
+Gatos,seed-es-cats-020,acicalarse,to groom oneself,reflexive verb,Los gatos {{c1::se acicalan}} varias horas al día.,Cats groom themselves several hours a day.,"Also ""lamerse"" or ""asearse"".",
+Gatos,seed-es-cats-021,lamer,to lick,verb,Mi gato me {{c1::lame}} la mano.,My cat licks my hand.,,collocation [[seed-es-cats-012]]
+Gatos,seed-es-cats-022,dormir,to sleep,verb,Los gatos {{c1::duermen}} hasta 16 horas al día.,Cats sleep up to 16 hours a day.,"Stem-changing (o → ue). ""Tomar una siesta"" = to take a nap.",
+Gatos,seed-es-cats-023,saltar,to jump,verb,La gatita {{c1::saltó}} a la mesa.,The kitten jumped onto the table.,,
+Gatos,seed-es-cats-024,cazar,to hunt,verb,A mi gato le gusta {{c1::cazar}} moscas.,My cat likes to hunt flies.,Spelling change: yo cacé.,collocation [[seed-es-cats-049]]
+Gatos,seed-es-cats-025,esconderse,to hide,reflexive verb,El gato {{c1::se esconde}} debajo de la cama.,The cat hides under the bed.,,
+Gatos,seed-es-cats-026,estirarse,to stretch (oneself),reflexive verb,Mi gata {{c1::se estira}} al despertar.,My cat stretches when she wakes up.,,same root [[seed-es-gym-033]]
+Gatos,seed-es-cats-027,amasar,to knead,verb,Mi gato {{c1::amasa}} la cobija antes de dormir.,My cat kneads the blanket before sleeping.,"Literally ""to knead dough""; people also say the cat is ""haciendo pan"". ""La cobija"" = blanket (Mexico; Spain: ""la manta"").",
+Gatos,seed-es-cats-028,el arenero,litter box,m. noun,Hay que limpiar el {{c1::arenero}} todos los días.,You have to clean the litter box every day.,"Also ""la caja de arena"".",same root [[seed-es-cats-029]]
+Gatos,seed-es-cats-029,la arena,"cat litter, sand",f. noun,Compré {{c1::arena}} para gato.,I bought cat litter.,"""Arena aglomerante"" = clumping litter.",
+Gatos,seed-es-cats-030,las croquetas,"dry cat food, kibble",f. pl. noun,Le doy {{c1::croquetas}} en la mañana.,I give him kibble in the morning.,"Mexico: ""croquetas""; Spain: ""pienso"". Wet food: ""comida húmeda"" or ""latas"" / ""sobres"".",
+Gatos,seed-es-cats-031,el bebedero,"water bowl, water fountain",m. noun,Cambia el agua del {{c1::bebedero}} todos los días.,Change the water in the water bowl every day.,"The food bowl is ""el plato"" or ""el comedero"".",collocation [[seed-es-travel-036]]
+Gatos,seed-es-cats-032,el rascador,scratching post,m. noun,Le compramos un {{c1::rascador}} para que no arañe los muebles.,We bought him a scratching post so he won't scratch the furniture.,"From ""rascar"" (to scratch an itch).",
+Gatos,seed-es-cats-033,el veterinario,"vet, veterinarian",m. noun,Llevé a mi gata al {{c1::veterinario}}.,I took my cat to the vet.,"Female: ""la veterinaria"", which also means the vet clinic. Colloquial: ""el vete"".",collocation [[seed-es-cats-034]]
+Gatos,seed-es-cats-034,la vacuna,"vaccine, shot",f. noun,Ya le toca su {{c1::vacuna}} contra la rabia.,He's due for his rabies shot.,,
+Gatos,seed-es-cats-035,esterilizar,"to spay, to neuter",verb,Es importante {{c1::esterilizar}} a los gatos.,It's important to spay and neuter cats.,"""Castrar"" is also used for males. Many Mexican cities run low-cost ""campañas de esterilización"".",collocation [[seed-es-cats-033]]
+Gatos,seed-es-cats-036,desparasitar,to deworm,verb,Hay que {{c1::desparasitar}} al gatito cada tres meses.,You need to deworm the kitten every three months.,"""Los parásitos"" = parasites.",
+Gatos,seed-es-cats-037,la pulga,flea,f. noun,Mi gato tiene {{c1::pulgas}}.,My cat has fleas.,"""La pipeta"" = spot-on flea treatment.",
+Gatos,seed-es-cats-038,el collar,collar,m. noun,El {{c1::collar}} tiene una placa con su nombre.,The collar has a tag with his name.,"Also means ""necklace"".",
+Gatos,seed-es-cats-039,el juguete,toy,m. noun,Su {{c1::juguete}} favorito es una pluma.,His favorite toy is a feather.,,same root [[seed-es-cats-044]]
+Gatos,seed-es-cats-040,la bola de pelo,hairball,f. noun,El gato vomitó una {{c1::bola de pelo}}.,The cat threw up a hairball.,,
+Gatos,seed-es-cats-041,la transportadora,pet carrier,f. noun,Mete al gato en la {{c1::transportadora}}.,Put the cat in the carrier.,"Mexico: ""la transportadora""; Spain: ""el transportín"".",
+Gatos,seed-es-cats-042,adoptar,to adopt,verb,{{c1::Adoptamos}} a nuestro gato en un refugio.,We adopted our cat from a shelter.,"Popular slogan: ""Adopta, no compres"" (Adopt, don't shop).",
+Gatos,seed-es-cats-043,atigrado,"tabby, striped",adj.,Tengo un gato {{c1::atigrado}} gris.,I have a gray tabby cat.,"From ""el tigre"". Other coats: ""carey"" (tortoiseshell), ""tricolor"" (calico), ""naranja"" (orange).",
+Gatos,seed-es-cats-044,juguetón,playful,adj.,La gatita es muy {{c1::juguetona}}.,The kitten is very playful.,"Forms: juguetón, juguetona, juguetones, juguetonas.",
+Gatos,seed-es-cats-045,cariñoso,"affectionate, cuddly",adj.,Mi gato es muy {{c1::cariñoso}}.,My cat is very affectionate.,,antonym [[seed-es-cats-047]]
+Gatos,seed-es-cats-046,peludo,"furry, hairy, fluffy",adj.,Los gatos {{c1::peludos}} sueltan mucho pelo.,Fluffy cats shed a lot of hair.,,
+Gatos,seed-es-cats-047,arisco,"skittish, standoffish",adj.,El gato de la calle es un poco {{c1::arisco}}.,The street cat is a little skittish.,Not aggressive; it just keeps its distance and doesn't like being touched.,
+Gatos,seed-es-cats-048,callejero,stray (cat or dog),adj.,Le doy de comer a un gato {{c1::callejero}}.,I feed a stray cat.,"From ""la calle"" (street).",
+Gatos,seed-es-cats-049,el ratón,mouse,m. noun,El gato trajo un {{c1::ratón}} a la casa.,The cat brought a mouse into the house.,Plural: los ratones. Also a computer mouse.,
+Gatos,seed-es-cats-050,la hierba gatera,catnip,f. noun,A mi gata le encanta la {{c1::hierba gatera}}.,My cat loves catnip.,"Many people in Mexico just say ""catnip"".",same root [[seed-es-cats-001]]

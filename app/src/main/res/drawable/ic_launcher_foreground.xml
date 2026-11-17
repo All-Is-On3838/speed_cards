@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Back card -->
+    <path android:fillColor="#93C5FD"
+        android:pathData="M40,30 L72,30 Q76,30 76,34 L76,70 Q76,74 72,74 L40,74 Q36,74 36,70 L36,34 Q36,30 40,30 Z" />
+    <!-- Front card, offset -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M34,36 L66,36 Q70,36 70,40 L70,76 Q70,80 66,80 L34,80 Q30,80 30,76 L30,40 Q30,36 34,36 Z" />
+    <!-- Lightning bolt -->
+    <path android:fillColor="#F59E0B"
+        android:pathData="M53,42 L41,60 L49,60 L45,74 L59,54 L51,54 Z" />
+</vector>

@@ -1,0 +1,204 @@
+﻿deck,id,Simplified,Traditional,Pinyin,English,Measure word,Example (Simplified),Example (Traditional),Example pinyin,Example (EN),Notes,links
+旅行 Travel survival,seed-zh-travel-001,厕所,廁所,cèsuǒ,"toilet, restroom",个 (gè),请问，厕所在哪儿？,請問，廁所在哪兒？,"Qǐngwèn, cèsuǒ zài nǎr?","Excuse me, where is the restroom?",洗手间 (xǐshǒujiān) is more polite.,synonym [[seed-zh-travel-002]]
+旅行 Travel survival,seed-zh-travel-002,洗手间,洗手間,xǐshǒujiān,"restroom, washroom",个 (gè),洗手间在二楼。,洗手間在二樓。,Xǐshǒujiān zài èr lóu.,The restroom is on the second floor.,,
+旅行 Travel survival,seed-zh-travel-003,你好,你好,nǐ hǎo,hello,,你好，我叫安娜。,你好，我叫安娜。,"Nǐ hǎo, wǒ jiào Ānnà.","Hello, my name is Anna.",Pronounced ní hǎo in speech (third-tone sandhi). 您好 (nín hǎo) is more polite.,
+旅行 Travel survival,seed-zh-travel-004,谢谢,謝謝,xièxie,thank you,,谢谢你的帮助。,謝謝你的幫助。,Xièxie nǐ de bāngzhù.,Thank you for your help.,,
+旅行 Travel survival,seed-zh-travel-005,不客气,不客氣,bù kèqi,you're welcome,,不客气，这是我应该做的。,不客氣，這是我應該做的。,"Bù kèqi, zhè shì wǒ yīnggāi zuò de.","You're welcome, it was the least I could do.",不 is pronounced bú before a fourth tone.,collocation [[seed-zh-travel-004]]
+旅行 Travel survival,seed-zh-travel-006,对不起,對不起,duìbuqǐ,"sorry, excuse me",,对不起，我来晚了。,對不起，我來晚了。,"Duìbuqǐ, wǒ lái wǎn le.","Sorry, I'm late.",,
+旅行 Travel survival,seed-zh-travel-007,没关系,沒關係,méi guānxi,"it doesn't matter, no problem",,没关系，别担心。,沒關係，別擔心。,"Méi guānxi, bié dānxīn.","It's fine, don't worry.",The usual reply to 对不起.,collocation [[seed-zh-travel-006]]
+旅行 Travel survival,seed-zh-travel-008,请问,請問,qǐngwèn,"excuse me, may I ask",,请问，地铁站怎么走？,請問，地鐵站怎麼走？,"Qǐngwèn, dìtiězhàn zěnme zǒu?","Excuse me, how do I get to the subway station?",Polite way to start a question to a stranger.,
+旅行 Travel survival,seed-zh-travel-009,多少钱,多少錢,duōshao qián,how much (does it cost)?,,这个多少钱？,這個多少錢？,Zhège duōshao qián?,How much is this?,,
+旅行 Travel survival,seed-zh-travel-010,太贵了,太貴了,tài guì le,too expensive,,太贵了，便宜一点吧。,太貴了，便宜一點吧。,"Tài guì le, piányi yīdiǎn ba.","That's too expensive, can you make it a bit cheaper?",Useful for bargaining at markets.,antonym [[seed-zh-travel-011]]
+旅行 Travel survival,seed-zh-travel-011,便宜,便宜,piányi,"cheap, inexpensive",,这家饭馆很便宜。,這家飯館很便宜。,Zhè jiā fànguǎn hěn piányi.,This restaurant is cheap.,,
+旅行 Travel survival,seed-zh-travel-012,块,塊,kuài,yuan (colloquial unit of money),,一瓶水三块钱。,一瓶水三塊錢。,Yī píng shuǐ sān kuài qián.,A bottle of water costs three yuan.,元 (yuán) is the written/formal form; 块 is also a measure word for pieces.,collocation [[seed-zh-travel-009]]
+旅行 Travel survival,seed-zh-travel-013,我听不懂,我聽不懂,wǒ tīng bu dǒng,I don't understand (what I hear),,对不起，我听不懂中文。,對不起，我聽不懂中文。,"Duìbuqǐ, wǒ tīng bu dǒng Zhōngwén.","Sorry, I don't understand spoken Chinese.",看不懂 (kàn bu dǒng) = can't understand something written.,
+旅行 Travel survival,seed-zh-travel-014,请说慢一点,請說慢一點,qǐng shuō màn yīdiǎn,please speak more slowly,,请说慢一点，我是外国人。,請說慢一點，我是外國人。,"Qǐng shuō màn yīdiǎn, wǒ shì wàiguórén.","Please speak more slowly, I'm a foreigner.",,collocation [[seed-zh-travel-013]]
+旅行 Travel survival,seed-zh-travel-015,救命,救命,jiùmìng,help! (emergency),,救命！有人掉进水里了！,救命！有人掉進水裡了！,Jiùmìng! Yǒu rén diào jìn shuǐ li le!,Help! Someone has fallen into the water!,Only for real emergencies.,
+旅行 Travel survival,seed-zh-travel-016,哪儿,哪兒,nǎr,where,,你住在哪儿？,你住在哪兒？,Nǐ zhù zài nǎr?,Where are you staying?,Northern usage; 哪里 (nǎlǐ) is common in the south and Taiwan.,
+旅行 Travel survival,seed-zh-travel-017,左,左,zuǒ,left,,前面路口往左拐。,前面路口往左拐。,Qiánmiàn lùkǒu wǎng zuǒ guǎi.,Turn left at the intersection ahead.,,
+旅行 Travel survival,seed-zh-travel-018,右,右,yòu,right,,银行在右边。,銀行在右邊。,Yínháng zài yòubian.,The bank is on the right.,,antonym [[seed-zh-travel-017]]
+旅行 Travel survival,seed-zh-travel-019,一直走,一直走,yīzhí zǒu,go straight ahead,,一直走，然后往右拐。,一直走，然後往右拐。,"Yīzhí zǒu, ránhòu wǎng yòu guǎi.","Go straight, then turn right.",,
+旅行 Travel survival,seed-zh-travel-020,地铁,地鐵,dìtiě,"subway, metro",,我们坐地铁去吧。,我們坐地鐵去吧。,Wǒmen zuò dìtiě qù ba.,Let's take the subway.,In Taiwan the metro is called 捷运 (jiéyùn).,
+旅行 Travel survival,seed-zh-travel-021,出租车,出租車,chūzūchē,taxi,辆 (liàng),请帮我叫一辆出租车。,請幫我叫一輛出租車。,Qǐng bāng wǒ jiào yī liàng chūzūchē.,Please call a taxi for me.,打车 (dǎchē) = to take a taxi. Taiwan: 计程车 (jìchéngchē).,
+旅行 Travel survival,seed-zh-travel-022,火车站,火車站,huǒchēzhàn,train station,个 (gè),火车站离这儿远吗？,火車站離這兒遠嗎？,Huǒchēzhàn lí zhèr yuǎn ma?,Is the train station far from here?,,
+旅行 Travel survival,seed-zh-travel-023,机场,機場,jīchǎng,airport,个 (gè),我要去机场。,我要去機場。,Wǒ yào qù jīchǎng.,I need to go to the airport.,,
+旅行 Travel survival,seed-zh-travel-024,票,票,piào,ticket,张 (zhāng),我想买两张票。,我想買兩張票。,Wǒ xiǎng mǎi liǎng zhāng piào.,I'd like to buy two tickets.,,collocation [[seed-zh-travel-022]]
+旅行 Travel survival,seed-zh-travel-025,公交车,公交車,gōngjiāochē,bus,辆 (liàng),这辆公交车去火车站吗？,這輛公交車去火車站嗎？,Zhè liàng gōngjiāochē qù huǒchēzhàn ma?,Does this bus go to the train station?,Taiwan: 公车 (gōngchē).,same measure word [[seed-zh-travel-021]]
+旅行 Travel survival,seed-zh-travel-026,菜单,菜單,càidān,menu,份 (fèn),服务员，请给我菜单。,服務員，請給我菜單。,"Fúwùyuán, qǐng gěi wǒ càidān.","Waiter, could I have the menu, please?",,
+旅行 Travel survival,seed-zh-travel-027,买单,買單,mǎidān,"the bill, please; to pay the bill",,服务员，买单！,服務員，買單！,"Fúwùyuán, mǎidān!","Waiter, the bill please!",结账 (jiézhàng) is also common.,same root [[seed-zh-travel-026]]
+旅行 Travel survival,seed-zh-travel-028,不要辣,不要辣,bùyào là,"not spicy, please (no chili)",,这个菜不要辣，谢谢。,這個菜不要辣，謝謝。,"Zhège cài bùyào là, xièxie.","No chili in this dish, please.",微辣 (wēilà) = mildly spicy.,
+旅行 Travel survival,seed-zh-travel-029,水,水,shuǐ,water,,请给我一杯水。,請給我一杯水。,Qǐng gěi wǒ yī bēi shuǐ.,Please give me a glass of water.,热水 (rèshuǐ) = hot water; 冰水 (bīngshuǐ) = iced water.,
+旅行 Travel survival,seed-zh-travel-030,好吃,好吃,hǎochī,"delicious, tasty",,这个饺子很好吃。,這個餃子很好吃。,Zhège jiǎozi hěn hǎochī.,These dumplings are delicious.,,
+旅行 Travel survival,seed-zh-travel-031,我要这个,我要這個,wǒ yào zhège,I'll have this one,,我要这个，再要一碗米饭。,我要這個，再要一碗米飯。,"Wǒ yào zhège, zài yào yī wǎn mǐfàn.","I'll have this, and a bowl of rice as well.",Handy when pointing at a menu picture.,
+旅行 Travel survival,seed-zh-travel-032,酒店,酒店,jiǔdiàn,hotel,家 (jiā),这家酒店很干净。,這家酒店很乾淨。,Zhè jiā jiǔdiàn hěn gānjìng.,This hotel is very clean.,Also 宾馆 (bīnguǎn); in Taiwan often 饭店 (fàndiàn).,
+旅行 Travel survival,seed-zh-travel-033,房间,房間,fángjiān,room,个 (gè),我订了一个房间。,我訂了一個房間。,Wǒ dìngle yī gè fángjiān.,I booked a room.,,
+旅行 Travel survival,seed-zh-travel-034,护照,護照,hùzhào,passport,本 (běn),请出示您的护照。,請出示您的護照。,Qǐng chūshì nín de hùzhào.,Please show your passport.,,
+旅行 Travel survival,seed-zh-travel-035,预订,預訂,yùdìng,"to book, to reserve; booking",,我在网上预订了房间。,我在網上預訂了房間。,Wǒ zài wǎngshang yùdìngle fángjiān.,I booked the room online.,,collocation [[seed-zh-travel-033]]
+旅行 Travel survival,seed-zh-travel-036,钥匙,鑰匙,yàoshi,key,把 (bǎ),我的房间钥匙丢了。,我的房間鑰匙丟了。,Wǒ de fángjiān yàoshi diū le.,I've lost my room key.,Hotels often use a key card: 房卡 (fángkǎ).,collocation [[seed-zh-travel-033]]
+旅行 Travel survival,seed-zh-travel-037,医院,醫院,yīyuàn,hospital,家 (jiā),最近的医院在哪儿？,最近的醫院在哪兒？,Zuìjìn de yīyuàn zài nǎr?,Where is the nearest hospital?,Mainland emergency ambulance number: 120.,
+旅行 Travel survival,seed-zh-travel-038,药,藥,yào,"medicine, drug",,这个药一天吃三次。,這個藥一天吃三次。,Zhège yào yī tiān chī sān cì.,Take this medicine three times a day.,"药店 (yàodiàn) = pharmacy. Chinese ""eats"" medicine (吃药).",
+旅行 Travel survival,seed-zh-travel-039,警察,警察,jǐngchá,"police, police officer",个 (gè),快叫警察！,快叫警察！,Kuài jiào jǐngchá!,"Call the police, quick!",Mainland police number: 110.,
+旅行 Travel survival,seed-zh-travel-040,生病,生病,shēngbìng,"to get sick, to be ill",,我生病了，要去医院。,我生病了，要去醫院。,"Wǒ shēngbìng le, yào qù yīyuàn.",I'm sick and need to go to the hospital.,,collocation [[seed-zh-travel-037]]
+旅行 Travel survival,seed-zh-travel-041,疼,疼,téng,"to hurt, painful",,我肚子很疼。,我肚子很疼。,Wǒ dùzi hěn téng.,My stomach really hurts.,痛 (tòng) is a common alternative.,
+旅行 Travel survival,seed-zh-travel-042,帮忙,幫忙,bāngmáng,"to help, to do a favour",,谢谢你帮忙！,謝謝你幫忙！,Xièxie nǐ bāngmáng!,Thanks for helping!,Separable verb: 帮个忙 (bāng gè máng) = do me a favour.,
+旅行 Travel survival,seed-zh-travel-043,现在,現在,xiànzài,now,,现在几点？,現在幾點？,Xiànzài jǐ diǎn?,What time is it now?,,
+旅行 Travel survival,seed-zh-travel-044,点,點,diǎn,o'clock,,火车早上八点开。,火車早上八點開。,Huǒchē zǎoshang bā diǎn kāi.,The train leaves at eight in the morning.,8:30 = 八点半 (bā diǎn bàn).,collocation [[seed-zh-travel-043]]
+旅行 Travel survival,seed-zh-travel-045,今天,今天,jīntiān,today,,今天我们去长城。,今天我們去長城。,Jīntiān wǒmen qù Chángchéng.,Today we're going to the Great Wall.,,
+旅行 Travel survival,seed-zh-travel-046,明天,明天,míngtiān,tomorrow,,明天见！,明天見！,Míngtiān jiàn!,See you tomorrow!,,same root [[seed-zh-travel-045]]
+旅行 Travel survival,seed-zh-travel-047,两,兩,liǎng,two (before measure words),,我要两瓶啤酒。,我要兩瓶啤酒。,Wǒ yào liǎng píng píjiǔ.,I'd like two bottles of beer.,Use 两 before a measure word; use 二 (èr) when counting or in numbers like 十二.,
+旅行 Travel survival,seed-zh-travel-048,百,百,bǎi,hundred,,这件衣服两百块。,這件衣服兩百塊。,Zhè jiàn yīfu liǎng bǎi kuài.,This item of clothing is 200 yuan.,,collocation [[seed-zh-travel-012]]
+旅行 Travel survival,seed-zh-travel-049,刷卡,刷卡,shuākǎ,"to pay by card, swipe a card",,可以刷卡吗？,可以刷卡嗎？,Kěyǐ shuākǎ ma?,Can I pay by card?,"In mainland China mobile payment (扫码 sǎomǎ, scanning a QR code) is far more common.",
+旅行 Travel survival,seed-zh-travel-050,再见,再見,zàijiàn,goodbye,,再见，路上小心！,再見，路上小心！,"Zàijiàn, lùshang xiǎoxīn!","Goodbye, take care on the way!",,antonym [[seed-zh-travel-003]]
+旅行 Travel survival,seed-zh-travel-051,迷路,迷路,mílù,to get lost,,我迷路了，你能帮我吗？,我迷路了，你能幫我嗎？,"Wǒ mílù le, nǐ néng bāng wǒ ma?","I'm lost, can you help me?",,
+射箭 Archery,seed-zh-archery-001,射箭,射箭,shèjiàn,archery; to shoot arrows,,我每个周末都去射箭。,我每個週末都去射箭。,Wǒ měi gè zhōumò dōu qù shèjiàn.,I go to archery every weekend.,,
+射箭 Archery,seed-zh-archery-002,弓,弓,gōng,bow,张 (zhāng),这张弓很轻。,這張弓很輕。,Zhè zhāng gōng hěn qīng.,This bow is very light.,把 (bǎ) is also used as the measure word.,
+射箭 Archery,seed-zh-archery-003,箭,箭,jiàn,arrow,支 (zhī),他射了六支箭。,他射了六支箭。,Tā shèle liù zhī jiàn.,He shot six arrows.,,
+射箭 Archery,seed-zh-archery-004,弓箭,弓箭,gōngjiàn,bow and arrow,,古代人用弓箭打猎。,古代人用弓箭打獵。,Gǔdài rén yòng gōngjiàn dǎliè.,In ancient times people hunted with bows and arrows.,,same root [[seed-zh-archery-002]] [[seed-zh-archery-003]]
+射箭 Archery,seed-zh-archery-005,箭袋,箭袋,jiàndài,quiver,个 (gè),把箭放回箭袋里。,把箭放回箭袋裡。,Bǎ jiàn fàng huí jiàndài li.,Put the arrows back in the quiver.,,same root [[seed-zh-archery-003]]
+射箭 Archery,seed-zh-archery-006,弓弦,弓弦,gōngxián,bowstring,根 (gēn),弓弦断了，要换一根新的。,弓弦斷了，要換一根新的。,"Gōngxián duàn le, yào huàn yī gēn xīn de.","The bowstring broke, so I need a new one.",,
+射箭 Archery,seed-zh-archery-007,箭靶,箭靶,jiànbǎ,archery target,个 (gè),箭靶离我们七十米。,箭靶離我們七十米。,Jiànbǎ lí wǒmen qīshí mǐ.,The target is 70 metres away from us.,Colloquially 靶子 (bǎzi).,
+射箭 Archery,seed-zh-archery-008,靶心,靶心,bǎxīn,"bullseye, centre of the target",,他第一箭就射中了靶心。,他第一箭就射中了靶心。,Tā dì yī jiàn jiù shèzhòngle bǎxīn.,He hit the bullseye with his very first arrow.,,same root [[seed-zh-archery-007]]
+射箭 Archery,seed-zh-archery-009,瞄准器,瞄準器,miáozhǔnqì,bow sight,个 (gè),我调了一下瞄准器。,我調了一下瞄準器。,Wǒ tiáole yīxià miáozhǔnqì.,I adjusted the sight a little.,,
+射箭 Archery,seed-zh-archery-010,护臂,護臂,hùbì,arm guard,个 (gè),射箭时要戴护臂。,射箭時要戴護臂。,Shèjiàn shí yào dài hùbì.,Wear an arm guard when you shoot.,,
+射箭 Archery,seed-zh-archery-011,护指,護指,hùzhǐ,finger tab,个 (gè),护指可以保护你的手指。,護指可以保護你的手指。,Hùzhǐ kěyǐ bǎohù nǐ de shǒuzhǐ.,A finger tab protects your fingers.,Also called 指护 (zhǐhù). A thumb ring for traditional archery is 扳指 (bānzhǐ).,same root [[seed-zh-archery-010]]
+射箭 Archery,seed-zh-archery-012,箭头,箭頭,jiàntóu,"arrowhead, arrow point; arrow sign",,箭头插在靶子上。,箭頭插在靶子上。,Jiàntóu chā zài bǎzi shang.,The arrowhead is stuck in the target.,,
+射箭 Archery,seed-zh-archery-013,箭羽,箭羽,jiànyǔ,fletching (arrow feathers or vanes),,这支箭的箭羽坏了。,這支箭的箭羽壞了。,Zhè zhī jiàn de jiànyǔ huài le.,The fletching on this arrow is damaged.,,
+射箭 Archery,seed-zh-archery-014,箭杆,箭桿,jiàngǎn,arrow shaft,根 (gēn),碳素箭杆又轻又直。,碳素箭桿又輕又直。,Tànsù jiàngǎn yòu qīng yòu zhí.,Carbon arrow shafts are light and straight.,,
+射箭 Archery,seed-zh-archery-015,反曲弓,反曲弓,fǎnqūgōng,recurve bow,张 (zhāng),奥运会比赛用的是反曲弓。,奧運會比賽用的是反曲弓。,Àoyùnhuì bǐsài yòng de shì fǎnqūgōng.,The recurve bow is used in Olympic competition.,,same root [[seed-zh-archery-002]]
+射箭 Archery,seed-zh-archery-016,复合弓,複合弓,fùhégōng,compound bow,张 (zhāng),复合弓有滑轮，拉起来比较省力。,複合弓有滑輪，拉起來比較省力。,"Fùhégōng yǒu huálún, lā qǐlai bǐjiào shěnglì.","A compound bow has cams, so it takes less effort to draw.",,same root [[seed-zh-archery-002]]
+射箭 Archery,seed-zh-archery-017,传统弓,傳統弓,chuántǒnggōng,traditional bow,张 (zhāng),我更喜欢传统弓。,我更喜歡傳統弓。,Wǒ gèng xǐhuan chuántǒnggōng.,I prefer traditional bows.,Usually shot without a sight.,
+射箭 Archery,seed-zh-archery-018,拉弓,拉弓,lāgōng,to draw the bow,,拉弓的时候背要用力。,拉弓的時候背要用力。,Lāgōng de shíhou bèi yào yònglì.,Use your back muscles when you draw the bow.,,collocation [[seed-zh-archery-002]]
+射箭 Archery,seed-zh-archery-019,瞄准,瞄準,miáozhǔn,to aim,,瞄准靶心，别着急。,瞄準靶心，別著急。,"Miáozhǔn bǎxīn, bié zháojí.",Aim at the bullseye and don't rush.,,same root [[seed-zh-archery-009]]
+射箭 Archery,seed-zh-archery-020,撒放,撒放,sāfàng,release (technical term),,撒放要干净，手指放松。,撒放要乾淨，手指放鬆。,"Sāfàng yào gānjìng, shǒuzhǐ fàngsōng.",Make a clean release; relax your fingers.,Coaching term; in everyday speech people say 放箭.,synonym [[seed-zh-archery-021]]
+射箭 Archery,seed-zh-archery-021,放箭,放箭,fàngjiàn,"to loose an arrow, to shoot",,听到口令再放箭。,聽到口令再放箭。,Tīngdào kǒulìng zài fàngjiàn.,Don't shoot until you hear the command.,,
+射箭 Archery,seed-zh-archery-022,射,射,shè,to shoot,,你射得真准！,你射得真準！,Nǐ shè de zhēn zhǔn!,You shoot really accurately!,,
+射箭 Archery,seed-zh-archery-023,射中,射中,shèzhòng,to hit (the target),,这一箭没射中。,這一箭沒射中。,Zhè yī jiàn méi shèzhòng.,This arrow missed.,"中 is read zhòng (fourth tone) here, meaning ""to hit"".",same root [[seed-zh-archery-022]]
+射箭 Archery,seed-zh-archery-024,脱靶,脫靶,tuōbǎ,to miss the target,,风太大，我脱靶了两次。,風太大，我脫靶了兩次。,"Fēng tài dà, wǒ tuōbǎle liǎng cì.","It was too windy, and I missed the target twice.",,antonym [[seed-zh-archery-023]]
+射箭 Archery,seed-zh-archery-025,拔箭,拔箭,bájiàn,to pull arrows (from the target),,大家一起去拔箭吧。,大家一起去拔箭吧。,Dàjiā yīqǐ qù bájiàn ba.,Let's all go and pull our arrows.,,
+射箭 Archery,seed-zh-archery-026,搭箭,搭箭,dājiàn,to nock an arrow,,先搭箭，再拉弓。,先搭箭，再拉弓。,"Xiān dājiàn, zài lāgōng.","Nock the arrow first, then draw the bow.",,
+射箭 Archery,seed-zh-archery-027,站姿,站姿,zhànzī,"stance, standing posture",,你的站姿很稳。,你的站姿很穩。,Nǐ de zhànzī hěn wěn.,Your stance is very stable.,,
+射箭 Archery,seed-zh-archery-028,靠位,靠位,kàowèi,anchor (point),,每次靠位都要在同一个地方。,每次靠位都要在同一個地方。,Měi cì kàowèi dōu yào zài tóng yī gè dìfang.,Your anchor should be in the same place every time.,Coaching term for where the drawing hand rests on the face.,
+射箭 Archery,seed-zh-archery-029,射箭场,射箭場,shèjiànchǎng,archery range,个 (gè),这个射箭场有十个靶位。,這個射箭場有十個靶位。,Zhège shèjiànchǎng yǒu shí gè bǎwèi.,This archery range has ten target lanes.,,same root [[seed-zh-archery-001]]
+射箭 Archery,seed-zh-archery-030,射箭馆,射箭館,shèjiànguǎn,"archery club, indoor range",家 (jiā),我家附近开了一家射箭馆。,我家附近開了一家射箭館。,Wǒ jiā fùjìn kāile yī jiā shèjiànguǎn.,An archery club has opened near my home.,,same root [[seed-zh-archery-001]]
+射箭 Archery,seed-zh-archery-031,环,環,huán,ring (scoring zone); point,,这一箭是十环！,這一箭是十環！,Zhè yī jiàn shì shí huán!,That arrow is a ten!,"In archery and shooting, scores are counted in rings: 十环 = a ten.",
+射箭 Archery,seed-zh-archery-032,分,分,fēn,"point, score",,他比我多三分。,他比我多三分。,Tā bǐ wǒ duō sān fēn.,He has three points more than me.,,
+射箭 Archery,seed-zh-archery-033,比赛,比賽,bǐsài,"competition, match",场 (chǎng),下个月我要参加射箭比赛。,下個月我要參加射箭比賽。,Xià gè yuè wǒ yào cānjiā shèjiàn bǐsài.,Next month I'm taking part in an archery competition.,,
+射箭 Archery,seed-zh-archery-034,距离,距離,jùlí,distance,,室内比赛的距离是十八米。,室內比賽的距離是十八米。,Shìnèi bǐsài de jùlí shì shíbā mǐ.,The distance for indoor competitions is 18 metres.,,
+射箭 Archery,seed-zh-archery-035,米,米,mǐ,metre,,我现在能射三十米了。,我現在能射三十米了。,Wǒ xiànzài néng shè sānshí mǐ le.,I can shoot at 30 metres now.,"Also means ""rice (uncooked)"".",collocation [[seed-zh-archery-034]]
+射箭 Archery,seed-zh-archery-036,射手,射手,shèshǒu,"archer, shooter",名 (míng),她是一名优秀的射手。,她是一名優秀的射手。,Tā shì yī míng yōuxiù de shèshǒu.,She is an excellent archer.,弓箭手 (gōngjiànshǒu) is used for archers in history and games.,same root [[seed-zh-archery-022]]
+射箭 Archery,seed-zh-archery-037,教练,教練,jiàoliàn,"coach, instructor",位 (wèi),教练帮我纠正了动作。,教練幫我糾正了動作。,Jiàoliàn bāng wǒ jiūzhèngle dòngzuò.,The coach helped me correct my technique.,,
+射箭 Archery,seed-zh-archery-038,安全,安全,ānquán,safety; safe,,射箭时安全第一。,射箭時安全第一。,Shèjiàn shí ānquán dì yī.,"In archery, safety comes first.",,
+射箭 Archery,seed-zh-archery-039,起射线,起射線,qǐshèxiàn,shooting line,条 (tiáo),请站在起射线后面。,請站在起射線後面。,Qǐng zhàn zài qǐshèxiàn hòumiàn.,Please stand behind the shooting line.,Also called 射击线 (shèjīxiàn) or 发射线 (fāshèxiàn).,
+射箭 Archery,seed-zh-archery-040,等候线,等候線,děnghòuxiàn,waiting line,条 (tiáo),不射箭的人留在等候线后。,不射箭的人留在等候線後。,Bù shèjiàn de rén liú zài děnghòuxiàn hòu.,People who aren't shooting stay behind the waiting line.,,same measure word [[seed-zh-archery-039]]
+射箭 Archery,seed-zh-archery-041,空放,空放,kōngfàng,to dry-fire (release without an arrow),,千万不要空放，会弄坏弓。,千萬不要空放，會弄壞弓。,"Qiānwàn bùyào kōngfàng, huì nònghuài gōng.",Never dry-fire: it can break the bow.,,
+射箭 Archery,seed-zh-archery-042,停止,停止,tíngzhǐ,to stop,,听到哨声，马上停止射箭。,聽到哨聲，馬上停止射箭。,"Tīngdào shàoshēng, mǎshàng tíngzhǐ shèjiàn.","When you hear the whistle, stop shooting immediately.",,
+射箭 Archery,seed-zh-archery-043,裁判,裁判,cáipàn,"judge, referee",名 (míng),裁判正在计分。,裁判正在計分。,Cáipàn zhèngzài jìfēn.,The judge is recording the scores.,,collocation [[seed-zh-archery-033]]
+射箭 Archery,seed-zh-archery-044,拉力,拉力,lālì,draw weight,,新手应该用拉力小的弓。,新手應該用拉力小的弓。,Xīnshǒu yīnggāi yòng lālì xiǎo de gōng.,Beginners should use a bow with a light draw weight.,"Usually measured in 磅 (bàng, pounds).",
+射箭 Archery,seed-zh-archery-045,磅,磅,bàng,pound (unit of weight),,我的弓是二十八磅的。,我的弓是二十八磅的。,Wǒ de gōng shì èrshíbā bàng de.,My bow is 28 pounds.,,collocation [[seed-zh-archery-044]]
+射箭 Archery,seed-zh-archery-046,准,準,zhǔn,"accurate, precise",,他的箭越来越准了。,他的箭越來越準了。,Tā de jiàn yuè lái yuè zhǔn le.,His shooting is getting more and more accurate.,,same root [[seed-zh-archery-019]]
+射箭 Archery,seed-zh-archery-047,新手,新手,xīnshǒu,"beginner, novice",个 (gè),我是新手，请多指教。,我是新手，請多指教。,"Wǒ shì xīnshǒu, qǐng duō zhǐjiào.","I'm a beginner, so please give me lots of advice.",,
+射箭 Archery,seed-zh-archery-048,弓臂,弓臂,gōngbì,bow limb,,反曲弓的弓臂可以拆下来。,反曲弓的弓臂可以拆下來。,Fǎnqūgōng de gōngbì kěyǐ chāi xiàlai.,The limbs of a recurve bow can be taken off.,,same root [[seed-zh-archery-002]]
+射箭 Archery,seed-zh-archery-049,弓把,弓把,gōngbǎ,"bow grip, handle (riser)",,握弓把的时候不要太紧。,握弓把的時候不要太緊。,Wò gōngbǎ de shíhou bùyào tài jǐn.,Don't grip the bow handle too tightly.,The riser is also called 弓身 (gōngshēn).,
+射箭 Archery,seed-zh-archery-050,稳定,穩定,wěndìng,"stable, steady; consistency",,射箭最重要的是稳定。,射箭最重要的是穩定。,Shèjiàn zuì zhòngyào de shì wěndìng.,The most important thing in archery is consistency.,,
+健身 Gym & weightlifting,seed-zh-gym-001,健身,健身,jiànshēn,to work out; fitness,,我一周健身三次。,我一週健身三次。,Wǒ yī zhōu jiànshēn sān cì.,I work out three times a week.,,
+健身 Gym & weightlifting,seed-zh-gym-002,健身房,健身房,jiànshēnfáng,gym,家 (jiā),这家健身房二十四小时开门。,這家健身房二十四小時開門。,Zhè jiā jiànshēnfáng èrshísì xiǎoshí kāimén.,This gym is open 24 hours.,,same root [[seed-zh-gym-001]]
+健身 Gym & weightlifting,seed-zh-gym-003,杠铃,槓鈴,gànglíng,barbell,根 (gēn),他把杠铃放回架子上。,他把槓鈴放回架子上。,Tā bǎ gànglíng fàng huí jiàzi shang.,He put the barbell back on the rack.,The bar by itself is 杠铃杆 (gànglínggǎn) or just 杠 (gàng).,
+健身 Gym & weightlifting,seed-zh-gym-004,哑铃,啞鈴,yǎlíng,dumbbell,个 (gè),我需要一对十公斤的哑铃。,我需要一對十公斤的啞鈴。,Wǒ xūyào yī duì shí gōngjīn de yǎlíng.,I need a pair of 10 kg dumbbells.,一对 (yī duì) = a pair.,same root [[seed-zh-gym-003]]
+健身 Gym & weightlifting,seed-zh-gym-005,杠铃片,槓鈴片,gànglíngpiàn,weight plate,片 (piàn),两边各加一片二十公斤的杠铃片。,兩邊各加一片二十公斤的槓鈴片。,Liǎngbiān gè jiā yī piàn èrshí gōngjīn de gànglíngpiàn.,Add a 20 kg plate to each side.,,same root [[seed-zh-gym-003]]
+健身 Gym & weightlifting,seed-zh-gym-006,卧推凳,臥推凳,wòtuīdèng,weight bench,张 (zhāng),卧推凳上没人，你用吧。,臥推凳上沒人，你用吧。,"Wòtuīdèng shang méi rén, nǐ yòng ba.","Nobody's on the bench, go ahead and use it.",,same root [[seed-zh-gym-013]]
+健身 Gym & weightlifting,seed-zh-gym-007,深蹲架,深蹲架,shēndūnjià,squat rack,个 (gè),深蹲架都有人在用。,深蹲架都有人在用。,Shēndūnjià dōu yǒu rén zài yòng.,All the squat racks are in use.,,same root [[seed-zh-gym-011]]
+健身 Gym & weightlifting,seed-zh-gym-008,壶铃,壺鈴,húlíng,kettlebell,个 (gè),壶铃摆动练的是臀部。,壺鈴擺動練的是臀部。,Húlíng bǎidòng liàn de shì túnbù.,Kettlebell swings work the glutes.,,
+健身 Gym & weightlifting,seed-zh-gym-009,跑步机,跑步機,pǎobùjī,treadmill,台 (tái),我先在跑步机上跑十分钟。,我先在跑步機上跑十分鐘。,Wǒ xiān zài pǎobùjī shang pǎo shí fēnzhōng.,First I'll run on the treadmill for ten minutes.,,
+健身 Gym & weightlifting,seed-zh-gym-010,器械,器械,qìxiè,"equipment, machines",,用完器械请放回原处。,用完器械請放回原處。,Yòngwán qìxiè qǐng fàng huí yuánchù.,Please put equipment back where it belongs after use.,,
+健身 Gym & weightlifting,seed-zh-gym-011,深蹲,深蹲,shēndūn,squat,,今天练腿，先做深蹲。,今天練腿，先做深蹲。,"Jīntiān liàn tuǐ, xiān zuò shēndūn.","Today is leg day, so squats first.",,
+健身 Gym & weightlifting,seed-zh-gym-012,硬拉,硬拉,yìnglā,deadlift,,他硬拉能拉两百公斤。,他硬拉能拉兩百公斤。,Tā yìnglā néng lā liǎng bǎi gōngjīn.,He can deadlift 200 kg.,,
+健身 Gym & weightlifting,seed-zh-gym-013,卧推,臥推,wòtuī,bench press,,卧推的时候，脚要踩稳地面。,臥推的時候，腳要踩穩地面。,"Wòtuī de shíhou, jiǎo yào cǎi wěn dìmiàn.","When you bench press, keep your feet planted on the floor.",,collocation [[seed-zh-gym-003]]
+健身 Gym & weightlifting,seed-zh-gym-014,推举,推舉,tuījǔ,"overhead press, shoulder press",,推举可以练肩膀。,推舉可以練肩膀。,Tuījǔ kěyǐ liàn jiānbǎng.,The overhead press works your shoulders.,Also called 肩推 (jiāntuī).,collocation [[seed-zh-gym-033]]
+健身 Gym & weightlifting,seed-zh-gym-015,引体向上,引體向上,yǐntǐ xiàngshàng,"pull-up, chin-up",,我现在能做五个引体向上。,我現在能做五個引體向上。,Wǒ xiànzài néng zuò wǔ gè yǐntǐ xiàngshàng.,I can now do five pull-ups.,,
+健身 Gym & weightlifting,seed-zh-gym-016,划船,划船,huáchuán,row (exercise); to row a boat,,杠铃划船练的是背。,槓鈴划船練的是背。,Gànglíng huáchuán liàn de shì bèi.,Barbell rows work the back.,,collocation [[seed-zh-gym-032]]
+健身 Gym & weightlifting,seed-zh-gym-017,弓步,弓步,gōngbù,lunge,,我们做三组弓步。,我們做三組弓步。,Wǒmen zuò sān zǔ gōngbù.,Let's do three sets of lunges.,"Literally ""bow step"", from the martial-arts bow stance.",same root [[seed-zh-archery-002]]
+健身 Gym & weightlifting,seed-zh-gym-018,卷腹,捲腹,juǎnfù,crunch,,卷腹比仰卧起坐对腰更友好。,捲腹比仰臥起坐對腰更友好。,Juǎnfù bǐ yǎngwò qǐzuò duì yāo gèng yǒuhǎo.,Crunches are easier on your lower back than sit-ups.,,
+健身 Gym & weightlifting,seed-zh-gym-019,仰卧起坐,仰臥起坐,yǎngwò qǐzuò,sit-up,,他每天早上做五十个仰卧起坐。,他每天早上做五十個仰臥起坐。,Tā měitiān zǎoshang zuò wǔshí gè yǎngwò qǐzuò.,He does 50 sit-ups every morning.,,
+健身 Gym & weightlifting,seed-zh-gym-020,俯卧撑,俯臥撐,fǔwòchēng,push-up,,我做了三十个俯卧撑。,我做了三十個俯臥撐。,Wǒ zuòle sānshí gè fǔwòchēng.,I did 30 push-ups.,Taiwan: 伏地挺身 (fúdì tǐngshēn).,
+健身 Gym & weightlifting,seed-zh-gym-021,平板支撑,平板支撐,píngbǎn zhīchēng,plank,,平板支撑坚持一分钟。,平板支撐堅持一分鐘。,Píngbǎn zhīchēng jiānchí yī fēnzhōng.,Hold the plank for one minute.,,
+健身 Gym & weightlifting,seed-zh-gym-022,组,組,zǔ,set (of an exercise),,每个动作做四组。,每個動作做四組。,Měi gè dòngzuò zuò sì zǔ.,Do four sets of each exercise.,,
+健身 Gym & weightlifting,seed-zh-gym-023,次,次,cì,"rep; time, occurrence",,每组做十次。,每組做十次。,Měi zǔ zuò shí cì.,Do ten reps per set.,个 (gè) is also used to count reps.,collocation [[seed-zh-gym-022]]
+健身 Gym & weightlifting,seed-zh-gym-024,休息,休息,xiūxi,to rest; rest,,组间休息两分钟。,組間休息兩分鐘。,Zǔ jiān xiūxi liǎng fēnzhōng.,Rest for two minutes between sets.,,
+健身 Gym & weightlifting,seed-zh-gym-025,热身,熱身,rèshēn,to warm up; warm-up,,训练前一定要热身。,訓練前一定要熱身。,Xùnliàn qián yīdìng yào rèshēn.,Always warm up before training.,,
+健身 Gym & weightlifting,seed-zh-gym-026,拉伸,拉伸,lāshēn,to stretch; stretching,,练完以后记得拉伸。,練完以後記得拉伸。,Liànwán yǐhòu jìde lāshēn.,Remember to stretch after your workout.,Taiwan often says 伸展 (shēnzhǎn).,
+健身 Gym & weightlifting,seed-zh-gym-027,训练,訓練,xùnliàn,to train; training,,他每天训练一个小时。,他每天訓練一個小時。,Tā měitiān xùnliàn yī gè xiǎoshí.,He trains for an hour every day.,,
+健身 Gym & weightlifting,seed-zh-gym-028,重量,重量,zhòngliàng,"weight, load",,下一组加点重量。,下一組加點重量。,Xià yī zǔ jiā diǎn zhòngliàng.,Add a bit more weight for the next set.,,
+健身 Gym & weightlifting,seed-zh-gym-029,公斤,公斤,gōngjīn,kilogram,,我卧推六十公斤。,我臥推六十公斤。,Wǒ wòtuī liùshí gōngjīn.,I bench 60 kg.,"斤 (jīn) = half a kilogram, used when shopping for food.",collocation [[seed-zh-gym-028]]
+健身 Gym & weightlifting,seed-zh-gym-030,肌肉,肌肉,jīròu,muscle,块 (kuài),他的肌肉很发达。,他的肌肉很發達。,Tā de jīròu hěn fādá.,He's very muscular.,,
+健身 Gym & weightlifting,seed-zh-gym-031,腿,腿,tuǐ,leg,条 (tiáo),昨天练腿，今天腿很酸。,昨天練腿，今天腿很痠。,"Zuótiān liàn tuǐ, jīntiān tuǐ hěn suān.","I trained legs yesterday, and today they're sore.",练腿 (liàn tuǐ) = leg day.,same measure word [[seed-zh-cats-005]]
+健身 Gym & weightlifting,seed-zh-gym-032,背,背,bèi,back (of the body),,硬拉的时候背要挺直。,硬拉的時候背要挺直。,Yìnglā de shíhou bèi yào tǐngzhí.,Keep your back straight when you deadlift.,,collocation [[seed-zh-gym-012]]
+健身 Gym & weightlifting,seed-zh-gym-033,肩膀,肩膀,jiānbǎng,shoulder,,我的肩膀有点疼。,我的肩膀有點疼。,Wǒ de jiānbǎng yǒudiǎn téng.,My shoulder hurts a bit.,,
+健身 Gym & weightlifting,seed-zh-gym-034,胸,胸,xiōng,chest,,卧推主要练胸。,臥推主要練胸。,Wòtuī zhǔyào liàn xiōng.,The bench press mainly works the chest.,,collocation [[seed-zh-gym-013]]
+健身 Gym & weightlifting,seed-zh-gym-035,手臂,手臂,shǒubì,arm,,他的手臂很粗。,他的手臂很粗。,Tā de shǒubì hěn cū.,His arms are really big.,胳膊 (gēbo) is the everyday word.,
+健身 Gym & weightlifting,seed-zh-gym-036,腹肌,腹肌,fùjī,"abs, abdominal muscles",,练腹肌也要控制饮食。,練腹肌也要控制飲食。,Liàn fùjī yě yào kòngzhì yǐnshí.,"To get abs, you also need to watch your diet.",,
+健身 Gym & weightlifting,seed-zh-gym-037,臀部,臀部,túnbù,"glutes, buttocks",,深蹲能练臀部和大腿。,深蹲能練臀部和大腿。,Shēndūn néng liàn túnbù hé dàtuǐ.,Squats work your glutes and thighs.,,
+健身 Gym & weightlifting,seed-zh-gym-038,膝盖,膝蓋,xīgài,knee,,深蹲时膝盖朝着脚尖的方向。,深蹲時膝蓋朝著腳尖的方向。,Shēndūn shí xīgài cháozhe jiǎojiān de fāngxiàng.,"When squatting, keep your knees pointing the same way as your toes.",,collocation [[seed-zh-gym-011]]
+健身 Gym & weightlifting,seed-zh-gym-039,核心,核心,héxīn,core (muscles),,收紧核心，不要塌腰。,收緊核心，不要塌腰。,"Shōujǐn héxīn, bùyào tā yāo.",Brace your core and don't let your lower back sag.,,
+健身 Gym & weightlifting,seed-zh-gym-040,挺胸,挺胸,tǐngxiōng,chest up (form cue),,挺胸，肩膀向后收。,挺胸，肩膀向後收。,"Tǐngxiōng, jiānbǎng xiàng hòu shōu.","Chest up, pull your shoulders back.",,same root [[seed-zh-gym-034]]
+健身 Gym & weightlifting,seed-zh-gym-041,动作,動作,dòngzuò,"movement; form, technique",个 (gè),动作要标准，别贪重量。,動作要標準，別貪重量。,"Dòngzuò yào biāozhǔn, bié tān zhòngliàng.",Keep your form strict; don't chase heavy weights.,,
+健身 Gym & weightlifting,seed-zh-gym-042,慢慢来,慢慢來,mànmàn lái,"take your time, take it slow",,别着急，慢慢来。,別著急，慢慢來。,"Bié zháojí, mànmàn lái.","Don't rush, take it slow.",,
+健身 Gym & weightlifting,seed-zh-gym-043,保护,保護,bǎohù,to spot (someone); to protect,,你能帮我保护一下吗？,你能幫我保護一下嗎？,Nǐ néng bāng wǒ bǎohù yīxià ma?,Could you spot me?,"In the gym 保护 means ""to spot"".",
+健身 Gym & weightlifting,seed-zh-gym-044,力量,力量,lìliang,"strength, power",,我想提高力量。,我想提高力量。,Wǒ xiǎng tígāo lìliang.,I want to get stronger.,力量训练 (lìliang xùnliàn) = strength training.,
+健身 Gym & weightlifting,seed-zh-gym-045,有氧,有氧,yǒuyǎng,"cardio, aerobic exercise",,练完力量再做二十分钟有氧。,練完力量再做二十分鐘有氧。,Liànwán lìliang zài zuò èrshí fēnzhōng yǒuyǎng.,"After strength training, do 20 minutes of cardio.",,collocation [[seed-zh-gym-044]]
+健身 Gym & weightlifting,seed-zh-gym-046,蛋白粉,蛋白粉,dànbáifěn,protein powder,,训练后我喝一杯蛋白粉。,訓練後我喝一杯蛋白粉。,Xùnliàn hòu wǒ hē yī bēi dànbáifěn.,I have a protein shake after training.,,
+健身 Gym & weightlifting,seed-zh-gym-047,增肌,增肌,zēngjī,"to build muscle, to bulk",,增肌要多吃蛋白质。,增肌要多吃蛋白質。,Zēngjī yào duō chī dànbáizhì.,"To build muscle, eat plenty of protein.",,
+健身 Gym & weightlifting,seed-zh-gym-048,减脂,減脂,jiǎnzhī,"to cut, to lose fat",,我这个月在减脂。,我這個月在減脂。,Wǒ zhège yuè zài jiǎnzhī.,I'm cutting this month.,,antonym [[seed-zh-gym-047]]
+健身 Gym & weightlifting,seed-zh-gym-049,酸痛,痠痛,suāntòng,"sore, aching (muscles)",,第一次练完，全身酸痛。,第一次練完，全身痠痛。,"Dì yī cì liànwán, quánshēn suāntòng.","After my first workout, my whole body ached.",Traditional often writes 痠 for muscle soreness.,
+健身 Gym & weightlifting,seed-zh-gym-050,握,握,wò,"to grip, to hold",,双手握杠比肩宽一点。,雙手握槓比肩寬一點。,Shuāngshǒu wò gàng bǐ jiān kuān yīdiǎn.,Grip the bar a little wider than shoulder width.,,
+健身 Gym & weightlifting,seed-zh-gym-051,私教,私教,sījiào,personal trainer,个 (gè),我请了一个私教。,我請了一個私教。,Wǒ qǐngle yī gè sījiào.,I've hired a personal trainer.,Short for 私人教练 (sīrén jiàoliàn).,same root [[seed-zh-archery-037]]
+猫 Cats,seed-zh-cats-001,猫,貓,māo,cat,只 (zhī),我家有两只猫。,我家有兩隻貓。,Wǒ jiā yǒu liǎng zhī māo.,I have two cats at home.,只 (Traditional 隻) is the measure word for cats and most animals.,
+猫 Cats,seed-zh-cats-002,小猫,小貓,xiǎomāo,kitten,只 (zhī),这只小猫才两个月大。,這隻小貓才兩個月大。,Zhè zhī xiǎomāo cái liǎng gè yuè dà.,This kitten is only two months old.,,same root [[seed-zh-cats-001]]
+猫 Cats,seed-zh-cats-003,猫咪,貓咪,māomī,"kitty, cat (affectionate)",只 (zhī),猫咪在沙发上睡觉。,貓咪在沙發上睡覺。,Māomī zài shāfā shang shuìjiào.,The kitty is sleeping on the sofa.,,synonym [[seed-zh-cats-001]]
+猫 Cats,seed-zh-cats-004,胡须,鬍鬚,húxū,whiskers,根 (gēn),猫的胡须非常敏感。,貓的鬍鬚非常敏感。,Māo de húxū fēicháng mǐngǎn.,A cat's whiskers are very sensitive.,Colloquially 胡子 (húzi).,
+猫 Cats,seed-zh-cats-005,尾巴,尾巴,wěiba,tail,条 (tiáo),猫生气时会甩尾巴。,貓生氣時會甩尾巴。,Māo shēngqì shí huì shuǎi wěiba.,Cats swish their tails when they're annoyed.,,
+猫 Cats,seed-zh-cats-006,爪子,爪子,zhuǎzi,paw; claw,,小猫用爪子玩毛线。,小貓用爪子玩毛線。,Xiǎomāo yòng zhuǎzi wán máoxiàn.,The kitten plays with yarn using its paws.,爪 is read zhuǎ here; zhǎo in more literary words.,
+猫 Cats,seed-zh-cats-007,肉垫,肉墊,ròudiàn,paw pad,,我家猫的肉垫是粉色的。,我家貓的肉墊是粉色的。,Wǒ jiā māo de ròudiàn shì fěnsè de.,My cat's paw pads are pink.,Also called 肉球 (ròuqiú).,
+猫 Cats,seed-zh-cats-008,耳朵,耳朵,ěrduo,ear,只 (zhī),猫的耳朵竖起来了。,貓的耳朵豎起來了。,Māo de ěrduo shù qǐlai le.,The cat's ears pricked up.,,same measure word [[seed-zh-cats-001]]
+猫 Cats,seed-zh-cats-009,眼睛,眼睛,yǎnjing,eye,只 (zhī),这只猫的眼睛是蓝色的。,這隻貓的眼睛是藍色的。,Zhè zhī māo de yǎnjing shì lánsè de.,This cat has blue eyes.,A pair of eyes: 一双眼睛 (yī shuāng yǎnjing).,
+猫 Cats,seed-zh-cats-010,毛,毛,máo,"fur, hair (of animals)",,我的衣服上都是猫毛。,我的衣服上都是貓毛。,Wǒ de yīfu shang dōu shì māomáo.,My clothes are covered in cat hair.,,
+猫 Cats,seed-zh-cats-011,舌头,舌頭,shétou,tongue,,猫的舌头很粗糙。,貓的舌頭很粗糙。,Māo de shétou hěn cūcāo.,A cat's tongue is very rough.,,
+猫 Cats,seed-zh-cats-012,喵,喵,miāo,meow,,小猫喵喵叫。,小貓喵喵叫。,Xiǎomāo miāomiāo jiào.,The kitten is meowing.,,
+猫 Cats,seed-zh-cats-013,叫,叫,jiào,"to meow, to cry (of animals); to call",,猫饿了就会一直叫。,貓餓了就會一直叫。,Māo è le jiù huì yīzhí jiào.,"When the cat is hungry, it meows nonstop.",,collocation [[seed-zh-cats-012]]
+猫 Cats,seed-zh-cats-014,打呼噜,打呼嚕,dǎ hūlu,to purr; to snore,,猫舒服的时候会打呼噜。,貓舒服的時候會打呼嚕。,Māo shūfu de shíhou huì dǎ hūlu.,Cats purr when they're comfortable.,,
+猫 Cats,seed-zh-cats-015,抓,抓,zhuā,to scratch; to catch,,别让猫抓沙发。,別讓貓抓沙發。,Bié ràng māo zhuā shāfā.,Don't let the cat scratch the sofa.,,
+猫 Cats,seed-zh-cats-016,舔毛,舔毛,tiǎnmáo,to groom (by licking fur),,猫每天花很多时间舔毛。,貓每天花很多時間舔毛。,Māo měitiān huā hěn duō shíjiān tiǎnmáo.,Cats spend a lot of time grooming every day.,,same root [[seed-zh-cats-010]]
+猫 Cats,seed-zh-cats-017,咬,咬,yǎo,to bite,,小猫咬了我的手指。,小貓咬了我的手指。,Xiǎomāo yǎole wǒ de shǒuzhǐ.,The kitten bit my finger.,,
+猫 Cats,seed-zh-cats-018,睡觉,睡覺,shuìjiào,to sleep,,我的猫喜欢在窗边睡觉。,我的貓喜歡在窗邊睡覺。,Wǒ de māo xǐhuan zài chuāng biān shuìjiào.,My cat likes to sleep by the window.,,
+猫 Cats,seed-zh-cats-019,蹭,蹭,cèng,to rub against,,猫用头蹭我的腿。,貓用頭蹭我的腿。,Māo yòng tóu cèng wǒ de tuǐ.,The cat rubs its head against my leg.,,
+猫 Cats,seed-zh-cats-020,踩奶,踩奶,cǎinǎi,"to knead (""make biscuits"")",,猫在毯子上踩奶。,貓在毯子上踩奶。,Māo zài tǎnzi shang cǎinǎi.,The cat is kneading the blanket.,"Literally ""treading milk"", from how kittens knead while nursing.",
+猫 Cats,seed-zh-cats-021,撒娇,撒嬌,sājiāo,"to act cute, to ask for attention",,我的猫很会撒娇。,我的貓很會撒嬌。,Wǒ de māo hěn huì sājiāo.,My cat really knows how to act cute for attention.,,
+猫 Cats,seed-zh-cats-022,老鼠,老鼠,lǎoshǔ,"mouse, rat",只 (zhī),猫抓到了一只老鼠。,貓抓到了一隻老鼠。,Māo zhuādàole yī zhī lǎoshǔ.,The cat caught a mouse.,,same measure word [[seed-zh-cats-001]]
+猫 Cats,seed-zh-cats-023,猫砂,貓砂,māoshā,cat litter,,这种猫砂结团很快。,這種貓砂結團很快。,Zhè zhǒng māoshā jiétuán hěn kuài.,This kind of litter clumps quickly.,,
+猫 Cats,seed-zh-cats-024,猫砂盆,貓砂盆,māoshāpén,litter box,个 (gè),猫砂盆要每天清理。,貓砂盆要每天清理。,Māoshāpén yào měitiān qīnglǐ.,The litter box should be cleaned every day.,,same root [[seed-zh-cats-023]]
+猫 Cats,seed-zh-cats-025,猫粮,貓糧,māoliáng,cat food (dry),,猫粮快吃完了，得去买。,貓糧快吃完了，得去買。,"Māoliáng kuài chīwán le, děi qù mǎi.","The cat food is almost gone, so we need to buy more.",,
+猫 Cats,seed-zh-cats-026,罐头,罐頭,guàntou,"canned food, tin",个 (gè),周末给猫开一个罐头。,週末給貓開一個罐頭。,Zhōumò gěi māo kāi yī gè guàntou.,At weekends I open a can of food for the cat.,猫罐头 (māo guàntou) = canned cat food.,
+猫 Cats,seed-zh-cats-027,猫抓板,貓抓板,māozhuābǎn,"cat scratcher, scratching board",个 (gè),我们买了一个新的猫抓板。,我們買了一個新的貓抓板。,Wǒmen mǎile yī gè xīn de māozhuābǎn.,We bought a new cat scratcher.,,same root [[seed-zh-cats-015]]
+猫 Cats,seed-zh-cats-028,猫爬架,貓爬架,māopájià,cat tree,个 (gè),猫最喜欢待在猫爬架的最高层。,貓最喜歡待在貓爬架的最高層。,Māo zuì xǐhuan dāi zài māopájià de zuì gāo céng.,Cats love to sit on the top level of the cat tree.,,
+猫 Cats,seed-zh-cats-029,逗猫棒,逗貓棒,dòumāobàng,cat wand toy,根 (gēn),用逗猫棒陪猫玩一会儿。,用逗貓棒陪貓玩一會兒。,Yòng dòumāobàng péi māo wán yīhuìr.,Play with the cat for a while using the wand toy.,,same measure word [[seed-zh-cats-004]]
+猫 Cats,seed-zh-cats-030,兽医,獸醫,shòuyī,"vet, veterinarian",位 (wèi),明天我要带猫去看兽医。,明天我要帶貓去看獸醫。,Míngtiān wǒ yào dài māo qù kàn shòuyī.,Tomorrow I'm taking the cat to the vet.,,
+猫 Cats,seed-zh-cats-031,宠物医院,寵物醫院,chǒngwù yīyuàn,"vet clinic, animal hospital",家 (jiā),附近有一家宠物医院。,附近有一家寵物醫院。,Fùjìn yǒu yī jiā chǒngwù yīyuàn.,There's a vet clinic nearby.,,same root [[seed-zh-cats-035]] [[seed-zh-travel-037]]; collocation [[seed-zh-cats-030]]
+猫 Cats,seed-zh-cats-032,疫苗,疫苗,yìmiáo,vaccine,针 (zhēn),小猫要打三针疫苗。,小貓要打三針疫苗。,Xiǎomāo yào dǎ sān zhēn yìmiáo.,Kittens need three vaccine shots.,打疫苗 (dǎ yìmiáo) = to get vaccinated.,
+猫 Cats,seed-zh-cats-033,绝育,絕育,juéyù,"to spay, to neuter",,我们的猫已经绝育了。,我們的貓已經絕育了。,Wǒmen de māo yǐjīng juéyù le.,Our cat has already been spayed.,,
+猫 Cats,seed-zh-cats-034,驱虫,驅蟲,qūchóng,"to deworm, to treat for parasites",,记得定期给猫驱虫。,記得定期給貓驅蟲。,Jìde dìngqī gěi māo qūchóng.,Remember to treat the cat for parasites regularly.,,
+猫 Cats,seed-zh-cats-035,宠物,寵物,chǒngwù,pet,只 (zhī),你养宠物吗？,你養寵物嗎？,Nǐ yǎng chǒngwù ma?,Do you have any pets?,,
+猫 Cats,seed-zh-cats-036,养,養,yǎng,"to keep (a pet), to raise",,我从小就想养猫。,我從小就想養貓。,Wǒ cóngxiǎo jiù xiǎng yǎng māo.,I've wanted a cat ever since I was little.,,collocation [[seed-zh-cats-035]]
+猫 Cats,seed-zh-cats-037,喂,餵,wèi,to feed,,我每天早晚各喂一次猫。,我每天早晚各餵一次貓。,Wǒ měitiān zǎo wǎn gè wèi yī cì māo.,I feed the cat once in the morning and once in the evening.,"Traditional uses 餵 for ""to feed""; 喂 is ""hello"" on the phone.",collocation [[seed-zh-cats-025]]
+猫 Cats,seed-zh-cats-038,梳毛,梳毛,shūmáo,to brush (fur),,长毛猫需要每天梳毛。,長毛貓需要每天梳毛。,Chángmáo māo xūyào měitiān shūmáo.,Long-haired cats need brushing every day.,,same root [[seed-zh-cats-010]]
+猫 Cats,seed-zh-cats-039,剪指甲,剪指甲,jiǎn zhǐjia,to trim nails/claws,,给猫剪指甲要小心。,給貓剪指甲要小心。,Gěi māo jiǎn zhǐjia yào xiǎoxīn.,Be careful when trimming the cat's claws.,,
+猫 Cats,seed-zh-cats-040,可爱,可愛,kě'ài,"cute, lovely",,这只小猫太可爱了！,這隻小貓太可愛了！,Zhè zhī xiǎomāo tài kě'ài le!,This kitten is so cute!,,
+猫 Cats,seed-zh-cats-041,胖,胖,pàng,"fat, chubby",,我的猫有点胖，要减肥了。,我的貓有點胖，要減肥了。,"Wǒ de māo yǒudiǎn pàng, yào jiǎnféi le.",My cat is a bit chubby and needs to lose weight.,,antonym [[seed-zh-cats-042]]
+猫 Cats,seed-zh-cats-042,瘦,瘦,shòu,"thin, skinny",,这只流浪猫很瘦。,這隻流浪貓很瘦。,Zhè zhī liúlàngmāo hěn shòu.,This stray cat is very thin.,,
+猫 Cats,seed-zh-cats-043,流浪猫,流浪貓,liúlàngmāo,stray cat,只 (zhī),她收养了一只流浪猫。,她收養了一隻流浪貓。,Tā shōuyǎngle yī zhī liúlàngmāo.,She adopted a stray cat.,,same root [[seed-zh-cats-001]]
+猫 Cats,seed-zh-cats-044,橘猫,橘貓,júmāo,orange (ginger) cat,只 (zhī),都说橘猫特别能吃。,都說橘貓特別能吃。,Dōu shuō júmāo tèbié néng chī.,They say orange cats eat a lot.,A running joke online is that orange cats are always chubby.,same root [[seed-zh-cats-001]]
+猫 Cats,seed-zh-cats-045,软,軟,ruǎn,soft,,小猫的毛很软。,小貓的毛很軟。,Xiǎomāo de máo hěn ruǎn.,The kitten's fur is very soft.,,
+猫 Cats,seed-zh-cats-046,调皮,調皮,tiáopí,"naughty, mischievous",,这只小猫特别调皮。,這隻小貓特別調皮。,Zhè zhī xiǎomāo tèbié tiáopí.,This kitten is really mischievous.,Also 顽皮 (wánpí).,
+猫 Cats,seed-zh-cats-047,乖,乖,guāi,"well-behaved, good",,我的猫很乖，从来不咬人。,我的貓很乖，從來不咬人。,"Wǒ de māo hěn guāi, cónglái bù yǎo rén.",My cat is very well-behaved and never bites.,真乖！(Zhēn guāi!) = Good boy/girl!,antonym [[seed-zh-cats-046]]
+猫 Cats,seed-zh-cats-048,怕,怕,pà,to be afraid of,,很多猫怕水。,很多貓怕水。,Hěn duō māo pà shuǐ.,Many cats are afraid of water.,,
+猫 Cats,seed-zh-cats-049,好奇,好奇,hàoqí,curious,,猫对什么都很好奇。,貓對什麼都很好奇。,Māo duì shénme dōu hěn hàoqí.,Cats are curious about everything.,,
+猫 Cats,seed-zh-cats-050,铲屎官,鏟屎官,chǎnshǐguān,"cat owner (slang, lit. ""poop-scooping officer"")",个 (gè),我是两只猫的铲屎官。,我是兩隻貓的鏟屎官。,Wǒ shì liǎng zhī māo de chǎnshǐguān.,I'm the official poop-scooper for two cats.,Humorous internet slang for a pet owner.,
+猫 Cats,seed-zh-cats-051,毛球,毛球,máoqiú,hairball,,猫有时候会吐毛球。,貓有時候會吐毛球。,Māo yǒu shíhou huì tù máoqiú.,Cats sometimes throw up hairballs.,,same root [[seed-zh-cats-010]]

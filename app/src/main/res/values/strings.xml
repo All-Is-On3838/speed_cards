@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Speed Cards</string>
+    <string name="quick_add_label">Add to Speed Cards</string>
+    <string name="process_text_label">Speed Cards</string>
+    <string name="shortcut_quick_add">Quick add</string>
+    <string name="tile_label">Add card</string>
+    <string name="widget_description">Cards due today and your recent reviews</string>
+</resources>
