@@ -26,6 +26,7 @@ import androidx.compose.material.icons.filled.ExpandMore
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
+import androidx.compose.material3.Checkbox
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
@@ -66,6 +67,9 @@ import com.speedcards.data.db.Folder
 import com.speedcards.data.db.SchedulingPreset
 import com.speedcards.data.repo.DueCounts
 
+/** What "Reset progress" applies to: a deck (with its sub-decks) or a folder scope, and its name for the dialog. */
+private data class ResetTarget(val deckId: Long, val name: String, val isFolder: Boolean)
+
 /** Sentinel for "create a new top-level deck" vs. editing an existing one. */
 private data class DeckDialogTarget(val existing: Deck?, val parentId: Long?)
 
@@ -96,6 +100,7 @@ fun HomeScreen(
     var confirmDelete by remember { mutableStateOf<Deck?>(null) }
     var customStudy by remember { mutableStateOf<Deck?>(null) }
     var renaming by remember { mutableStateOf(false) }
+    var resetTarget by remember { mutableStateOf<ResetTarget?>(null) }
 
     LifecycleResumeEffect(Unit) { vm.refresh(); onPauseOrDispose {} }
     val muted by vm.muted.collectAsStateWithLifecycle()
@@ -121,6 +126,15 @@ fun HomeScreen(
                             DropdownMenuItem(text = { Text("New deck") }, onClick = { menuOpen = false; dialog = DeckDialogTarget(null, null) })
                             if (state.folder != null) {
                                 DropdownMenuItem(text = { Text("Rename folder") }, onClick = { menuOpen = false; renaming = true })
+                            }
+                            if (state.rows.isNotEmpty()) {
+                                DropdownMenuItem(
+                                    text = { Text("Reset progress of all decks…") },
+                                    onClick = {
+                                        menuOpen = false
+                                        resetTarget = ResetTarget(vm.studyScope, state.folder?.name ?: "Unfiled decks", isFolder = true)
+                                    },
+                                )
                             }
                             DropdownMenuItem(text = { Text("Import") }, onClick = { menuOpen = false; onImport() })
                             DropdownMenuItem(text = { Text("Backup & restore") }, onClick = { menuOpen = false; onBackup() })
@@ -196,6 +210,7 @@ fun HomeScreen(
                     onEdit = { dialog = DeckDialogTarget(row.deck, row.deck.parentId) },
                     onAddSubDeck = { dialog = DeckDialogTarget(null, row.deck.id) },
                     onCustomStudy = { customStudy = row.deck },
+                    onReset = { resetTarget = ResetTarget(row.deck.id, row.deck.name, isFolder = false) },
                     onDelete = { confirmDelete = row.deck },
                 )
                 HorizontalDivider()
@@ -234,6 +249,13 @@ fun HomeScreen(
             FolderNameDialog(existing = folder, onDismiss = { renaming = false }, onSave = { vm.renameFolder(it); renaming = false })
         }
     }
+    resetTarget?.let { target ->
+        ResetProgressDialog(
+            target = target,
+            onDismiss = { resetTarget = null },
+            onReset = { clearHistory -> vm.resetProgress(target.deckId, target.name, clearHistory); resetTarget = null },
+        )
+    }
     confirmDelete?.let { deck ->
         AlertDialog(
             onDismissRequest = { confirmDelete = null },
@@ -256,6 +278,7 @@ private fun DeckRowItem(
     onEdit: () -> Unit,
     onAddSubDeck: () -> Unit,
     onCustomStudy: () -> Unit,
+    onReset: () -> Unit,
     onDelete: () -> Unit,
 ) {
     var menu by remember { mutableStateOf(false) }
@@ -289,10 +312,38 @@ private fun DeckRowItem(
                 DropdownMenuItem(text = { Text("Browse") }, onClick = { menu = false; onBrowse() })
                 DropdownMenuItem(text = { Text("Deck options") }, onClick = { menu = false; onEdit() })
                 DropdownMenuItem(text = { Text("Add sub-deck") }, onClick = { menu = false; onAddSubDeck() })
+                DropdownMenuItem(text = { Text("Reset progress…") }, onClick = { menu = false; onReset() })
                 if (!row.deck.builtIn) DropdownMenuItem(text = { Text("Delete") }, onClick = { menu = false; onDelete() })
             }
         }
     }
+}
+
+/** Confirms starting a deck (or every deck in a folder) over from scratch. */
+@Composable
+private fun ResetProgressDialog(target: ResetTarget, onDismiss: () -> Unit, onReset: (clearHistory: Boolean) -> Unit) {
+    var clearHistory by remember { mutableStateOf(false) }
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Reset \"${target.name}\"?") },
+        text = {
+            Column {
+                Text(
+                    if (target.isFolder) "Every card in every deck in this folder becomes new again, in its original order. Your notes, links and recordings stay."
+                    else "Every card in this deck and its sub-decks becomes new again, in its original order. Your notes, links and recordings stay.",
+                )
+                Row(
+                    Modifier.fillMaxWidth().clickable { clearHistory = !clearHistory }.padding(top = 12.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Checkbox(checked = clearHistory, onCheckedChange = { clearHistory = it })
+                    Text("Also delete review history (stats for these cards start over)", style = MaterialTheme.typography.bodyMedium)
+                }
+            }
+        },
+        confirmButton = { TextButton(onClick = { onReset(clearHistory) }) { Text("Reset") } },
+        dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
+    )
 }
 
 @Composable

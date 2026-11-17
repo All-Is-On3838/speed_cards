@@ -155,6 +155,13 @@ class HomeViewModel @Inject constructor(
         }
     }
 
+    /** Puts every card in [deckId] (a deck with its sub-decks, or a folder scope) back to new. */
+    fun resetProgress(deckId: Long, name: String, clearHistory: Boolean) = viewModelScope.launch {
+        val count = study.resetDeck(deckId, clearHistory)
+        _state.update { it.copy(message = "Reset $count cards in \"$name\". They're new again.") }
+        rebuild(deckRepo.all(), presetRepo.all(), folderRepo.all())
+    }
+
     fun renameFolder(name: String) = viewModelScope.launch {
         _state.value.folder?.let { folderRepo.rename(it, name) }
     }
